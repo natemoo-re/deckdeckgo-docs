@@ -1,0 +1,55 @@
+ion-split-pane {
+
+  &:not(.split-pane-visible) {
+    ion-menu {
+      --background: var(--ion-color-primary);
+      --ion-background-color: var(--ion-color-primary);
+
+      ion-header {
+        ion-toolbar {
+          --color: white;
+        }
+      }
+
+      ion-content {
+        ion-list {
+          ion-item {
+            --color: white;
+          }
+        }
+      }
+    }
+  }
+
+  &.split-pane-visible {
+    ion-menu {
+      ion-content {
+        --padding-top: 40px;
+      }
+    }
+
+    ion-content {
+      --padding-top: 40px;
+    }
+  }
+
+  ion-menu {
+    --border: 0px;
+
+    ion-header {
+      ion-title {
+        --deckgo-logo-vertical-align: bottom;
+        --deckgo-logo-margin-end: 6px;
+      }
+    }
+
+    ion-content {
+      ion-list {
+        ion-item {
+          --inner-border-width: 0px;
+          --border-color: transparent;
+        }
+      }
+    }
+  }
+}

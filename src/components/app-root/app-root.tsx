@@ -1,8 +1,8 @@
-import { Component } from '@stencil/core';
+import {Component} from '@stencil/core';
 
 @Component({
   tag: 'app-root',
-  styleUrl: 'app-root.css'
+  styleUrl: 'app-root.scss'
 })
 export class AppRoot {
 
@@ -11,15 +11,20 @@ export class AppRoot {
       <ion-app>
 
         <ion-router useHash={false}>
-          <ion-route url="/" component="app-home" />
-          <ion-route url="/profile/:name" component="app-profile" />
+          <ion-route url="/" component="app-home"/>
+          <ion-route url="/profile/:name" component="app-profile"/>
         </ion-router>
 
         <ion-split-pane when="lg">
           <ion-menu side="start" swipeGesture={false}>
             <ion-header>
-              <ion-toolbar color="primary">
-                <ion-title>Start Menu</ion-title>
+              <ion-toolbar>
+                <ion-title>
+                  <div>
+                    <app-logo></app-logo>
+                    <ion-label>DeckDeckGo</ion-label>
+                  </div>
+                </ion-title>
               </ion-toolbar>
             </ion-header>
             <ion-content>
