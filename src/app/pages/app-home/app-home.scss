@@ -56,6 +56,49 @@ app-home {
         padding: 80px 0;
       }
     }
+
+    section.section {
+      padding: 68px 0;
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+          flex: 1;
+          padding-right: 32px;
+
+          ion-icon {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    main {
+      section.section {
+        ul {
+          flex-direction: column;
+          padding-top: 40px;
+          padding-bottom: 40px;
+
+          li {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    main {
+      section.section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+      }
+    }
   }
 
   @media screen and (max-width: 1024px) {

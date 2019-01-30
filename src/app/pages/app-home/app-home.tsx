@@ -51,6 +51,26 @@ export class AppHome {
               Dive deeper with the <a href="/doc">Getting Started</a> chapter
             </p>
           </section>
+
+          <section class="section">
+            <ul>
+              <li>
+                <ion-icon name="create"></ion-icon>
+                <h3>Simple</h3>
+                <p>HTML or Markdown, templates based, extra components and features, all you need to easily create, showcase and ship your presentation.</p>
+              </li>
+              <li>
+                <ion-icon name="flash" padding-end></ion-icon>
+                <h3>Performant</h3>
+                <p>Build for performance and to be SEO friendly, have a look to the Lighthouse score of the DeckDeckGo <a href="https://deckdeckgo.com">demo</a>.</p>
+              </li>
+              <li>
+                <ion-icon name="code" padding-end></ion-icon>
+                <h3>Future proof</h3>
+                <p>Presentations are bundled and shipped as Progressive Web Apps and based on Web Components.</p>
+              </li>
+            </ul>
+          </section>
         </main>
       </ion-content>
     ];
