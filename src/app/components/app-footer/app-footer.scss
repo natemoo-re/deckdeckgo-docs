@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  width: 100%;
+  flex: 0 0 8em;
+  padding: 40px 0;
+
+  div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    flex: 1 0 auto;
+    box-sizing: border-box;
+
+    div.end {
+      a {
+        padding-right: 8px;
+
+        ion-icon {
+          color: initial;
+        }
+      }
+    }
+  }
+}

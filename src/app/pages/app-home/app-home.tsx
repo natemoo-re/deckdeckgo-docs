@@ -20,8 +20,8 @@ export class AppHome {
     return [
       <app-navigation logo={true}></app-navigation>,
 
-      <ion-content padding>
-        <main>
+      <ion-content>
+        <main padding>
           <section class="hero">
             <app-logo></app-logo>
             <h1>The <strong>Progressive Web App</strong> alternative for simple presentations</h1>
@@ -72,6 +72,8 @@ export class AppHome {
             </ul>
           </section>
         </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

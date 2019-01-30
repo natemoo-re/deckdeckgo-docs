@@ -16,8 +16,14 @@ export namespace Components {
   interface AppRoot {}
   interface AppRootAttributes extends StencilHTMLAttributes {}
 
+  interface AppFooter {}
+  interface AppFooterAttributes extends StencilHTMLAttributes {}
+
   interface AppLogo {}
   interface AppLogoAttributes extends StencilHTMLAttributes {}
+
+  interface AppMenuFooter {}
+  interface AppMenuFooterAttributes extends StencilHTMLAttributes {}
 
   interface AppNavigation {
     'logo': boolean;
@@ -47,7 +53,9 @@ export namespace Components {
 declare global {
   interface StencilElementInterfaces {
     'AppRoot': Components.AppRoot;
+    'AppFooter': Components.AppFooter;
     'AppLogo': Components.AppLogo;
+    'AppMenuFooter': Components.AppMenuFooter;
     'AppNavigation': Components.AppNavigation;
     'AppDoc': Components.AppDoc;
     'AppHome': Components.AppHome;
@@ -56,7 +64,9 @@ declare global {
 
   interface StencilIntrinsicElements {
     'app-root': Components.AppRootAttributes;
+    'app-footer': Components.AppFooterAttributes;
     'app-logo': Components.AppLogoAttributes;
+    'app-menu-footer': Components.AppMenuFooterAttributes;
     'app-navigation': Components.AppNavigationAttributes;
     'app-doc': Components.AppDocAttributes;
     'app-home': Components.AppHomeAttributes;
@@ -70,10 +80,22 @@ declare global {
     new (): HTMLAppRootElement;
   };
 
+  interface HTMLAppFooterElement extends Components.AppFooter, HTMLStencilElement {}
+  var HTMLAppFooterElement: {
+    prototype: HTMLAppFooterElement;
+    new (): HTMLAppFooterElement;
+  };
+
   interface HTMLAppLogoElement extends Components.AppLogo, HTMLStencilElement {}
   var HTMLAppLogoElement: {
     prototype: HTMLAppLogoElement;
     new (): HTMLAppLogoElement;
+  };
+
+  interface HTMLAppMenuFooterElement extends Components.AppMenuFooter, HTMLStencilElement {}
+  var HTMLAppMenuFooterElement: {
+    prototype: HTMLAppMenuFooterElement;
+    new (): HTMLAppMenuFooterElement;
   };
 
   interface HTMLAppNavigationElement extends Components.AppNavigation, HTMLStencilElement {}
@@ -102,7 +124,9 @@ declare global {
 
   interface HTMLElementTagNameMap {
     'app-root': HTMLAppRootElement
+    'app-footer': HTMLAppFooterElement
     'app-logo': HTMLAppLogoElement
+    'app-menu-footer': HTMLAppMenuFooterElement
     'app-navigation': HTMLAppNavigationElement
     'app-doc': HTMLAppDocElement
     'app-home': HTMLAppHomeElement
@@ -111,7 +135,9 @@ declare global {
 
   interface ElementTagNameMap {
     'app-root': HTMLAppRootElement;
+    'app-footer': HTMLAppFooterElement;
     'app-logo': HTMLAppLogoElement;
+    'app-menu-footer': HTMLAppMenuFooterElement;
     'app-navigation': HTMLAppNavigationElement;
     'app-doc': HTMLAppDocElement;
     'app-home': HTMLAppHomeElement;

@@ -8,6 +8,6 @@ import {Component} from '@stencil/core';
 export class AppLogo {
 
   render() {
-    return <ion-icon src="/assets/img/deckdeckgo-logo.svg" aria-label="DeckDeckGo Logo"></ion-icon >;
+    return <ion-icon src="/assets/img/deckdeckgo-logo-invert.svg" aria-label="DeckDeckGo Logo"></ion-icon >;
   }
 }

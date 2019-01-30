@@ -17,6 +17,10 @@ ion-split-pane {
             --color: white;
           }
         }
+
+        app-menu-footer {
+          --deckgo-menu-footer-color: white;
+        }
       }
     }
   }
@@ -43,6 +47,12 @@ ion-split-pane {
           --border-color: transparent;
         }
       }
+    }
+
+    app-menu-footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
     }
   }
 

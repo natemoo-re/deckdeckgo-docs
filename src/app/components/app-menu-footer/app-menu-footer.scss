@@ -1,0 +1,15 @@
+footer {
+  --deckgo-logo-vertical-align: bottom;
+  --deckgo-logo-margin-end: 6px;
+
+  a {
+    text-decoration: none;
+  }
+
+  a, p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--deckgo-menu-footer-color, inherit);
+    font-size: var(--font-size-small);
+  }
+}

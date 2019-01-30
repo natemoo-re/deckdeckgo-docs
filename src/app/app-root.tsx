@@ -75,11 +75,12 @@ export class AppRoot {
                   <ion-item href="/profile/hello" routerDirection="forward">Profile</ion-item>
                 </ion-list>
               </ion-menu-toggle>
+
+              <app-menu-footer padding></app-menu-footer>
             </ion-content>
           </ion-menu>
 
           <ion-nav main/>
-
         </ion-split-pane>
 
       </ion-app>,
