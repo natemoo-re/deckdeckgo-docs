@@ -24,7 +24,22 @@ export class AppHome {
         <main>
           <section class="hero">
             <app-logo></app-logo>
-            <h1>Create a lightweight presentation using Web Components</h1>
+            <h1>The <strong>Progressive Web App</strong> alternative for simple presentations</h1>
+          </section>
+
+          <section class="overview" padding-top margin-top>
+            <p no-margin>
+              <p no-margin>Create a lightweight PWA presentation using Web Components, HTML or Markdown and <a href="https://ionicframework.com">Ionic</a> components 🚀Cherry on the cake, DeckDeckGo comes with a <a href="https://deckdeckgo.app">remote control</a> for your presentation 📱</p>
+            </p>
+
+            <ul>
+              <li><ion-icon name="checkmark" padding-end></ion-icon>Progressive Web App</li>
+              <li><ion-icon name="checkmark" padding-end></ion-icon>Predefined templates</li>
+              <li><ion-icon name="checkmark" padding-end></ion-icon>Web Components</li>
+              <li><ion-icon name="checkmark" padding-end></ion-icon>Lazy loaded content</li>
+              <li><ion-icon name="checkmark" padding-end></ion-icon>HTML or Markdown</li>
+              <li><ion-icon name="checkmark" padding-end></ion-icon>Free and open source</li>
+            </ul>
           </section>
         </main>
       </ion-content>

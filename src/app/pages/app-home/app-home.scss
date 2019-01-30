@@ -3,14 +3,67 @@ app-home {
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
+
+    section.hero {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 120px;
+
+      --deckgo-logo-font-size: 4rem;
+    }
+
+    section.overview {
+      display: flex;
+      flex-wrap: wrap;
+
+      > p, ul, li {
+        flex: 0 0 50%;
+        box-sizing: border-box;
+      }
+
+      > p {
+        padding-right: 40px;
+      }
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: flex-start;
+
+        li {
+          position: relative;
+          padding-left: 28px;
+
+          ion-icon {
+            color: var(--ion-color-success);
+          }
+        }
+      }
+    }
   }
 
-  section.hero {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 120px;
+  @media screen and (max-width: 1024px) {
+    main {
+      section.overview {
+        flex-direction: column;
 
-    --deckgo-logo-font-size: 4rem;
+        > p {
+          text-align: center;
+          padding: 0;
+        }
+
+        > p, ul {
+          flex: 1;
+          max-width: 568px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        ul {
+          padding-top: 24px;
+        }
+      }
+    }
   }
-
 }
