@@ -61,35 +61,26 @@ export class AppRoot {
 
         <ion-router useHash={false}>
           <ion-route url="/" component="app-home"/>
+          <ion-route url="/doc" component="app-doc"/>
           <ion-route url="/profile/:name" component="app-profile"/>
         </ion-router>
 
         <ion-split-pane when="lg">
           <ion-menu side="start" swipeGesture={false} disabled={true} onIonDidClose={() => this.enableMenuOnClose()}>
-          <ion-header>
-            <ion-toolbar>
-              <ion-title>
-                <div>
-                  <app-logo></app-logo>
-                  <ion-label>DeckDeckGo</ion-label>
-                </div>
-              </ion-title>
-            </ion-toolbar>
-          </ion-header>
-          <ion-content>
-            <ion-menu-toggle autoHide={false}>
-              <ion-list>
-                <ion-item href="/" routerDirection="root">Home</ion-item>
-                <ion-item href="/" routerDirection="root">Home again</ion-item>
-                <ion-item href="/profile/hello" routerDirection="root">Profile</ion-item>
-              </ion-list>
-            </ion-menu-toggle>
-          </ion-content>
-        </ion-menu>
+            <app-navigation logo={true} menuToggle={false} navigation={false}></app-navigation>
+            <ion-content>
+              <ion-menu-toggle autoHide={false}>
+                <ion-list>
+                  <ion-item href="/doc" routerDirection="forward">Doc</ion-item>
+                  <ion-item href="/profile/hello" routerDirection="forward">Profile</ion-item>
+                </ion-list>
+              </ion-menu-toggle>
+            </ion-content>
+          </ion-menu>
 
-        <ion-nav main/>
+          <ion-nav main/>
 
-      </ion-split-pane>
+        </ion-split-pane>
 
       </ion-app>,
       <ion-menu-controller></ion-menu-controller>

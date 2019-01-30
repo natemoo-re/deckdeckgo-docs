@@ -36,13 +36,6 @@ ion-split-pane {
   ion-menu {
     --border: 0px;
 
-    ion-header {
-      ion-title {
-        --deckgo-logo-vertical-align: bottom;
-        --deckgo-logo-margin-end: 6px;
-      }
-    }
-
     ion-content {
       ion-list {
         ion-item {
@@ -50,6 +43,13 @@ ion-split-pane {
           --border-color: transparent;
         }
       }
+    }
+  }
+
+  ion-header {
+    ion-title {
+      --deckgo-logo-vertical-align: bottom;
+      --deckgo-logo-margin-end: 6px;
     }
   }
 }
