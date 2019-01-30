@@ -41,6 +41,16 @@ export class AppHome {
               <li><ion-icon name="checkmark" padding-end></ion-icon>Free and open source</li>
             </ul>
           </section>
+
+          <section class="cta" text-center padding>
+            <div class="cta__primary">
+              <h2>Get started now 🔥</h2>
+              <code>$ npm init deckdeckgo</code>
+            </div>
+            <p class="cta__secondary">
+              Dive deeper with the <a href="/doc">Getting Started</a> chapter
+            </p>
+          </section>
         </main>
       </ion-content>
     ];

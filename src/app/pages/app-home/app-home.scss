@@ -15,6 +15,7 @@ app-home {
     section.overview {
       display: flex;
       flex-wrap: wrap;
+      margin-bottom: 38px;
 
       > p, ul, li {
         flex: 0 0 50%;
@@ -39,6 +40,20 @@ app-home {
             color: var(--ion-color-success);
           }
         }
+      }
+    }
+
+    section.cta {
+      background: var(--ion-color-dark);
+      color: var(--ion-color-light);
+
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.19);
+      border-radius: 8px;
+
+      margin-top: 64px;
+
+      .cta__primary {
+        padding: 80px 0;
       }
     }
   }
