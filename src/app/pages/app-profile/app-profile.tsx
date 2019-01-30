@@ -1,5 +1,6 @@
 import { Component, Prop, State } from '@stencil/core';
 import { sayHello } from '../../../helpers/utils';
+import {MenuService} from '../../services/menu/menu.service';
 
 @Component({
   tag: 'app-profile',
@@ -9,6 +10,14 @@ export class AppProfile {
 
   @State() state = false;
   @Prop() name: string;
+
+  constructor(private menuService: MenuService) {
+    this.menuService = MenuService.getInstance();
+  }
+
+  async componentWillLoad() {
+    this.menuService.disable();
+  }
 
   formattedName(): string {
     if (this.name) {
@@ -21,9 +30,11 @@ export class AppProfile {
     return [
       <ion-header>
         <ion-toolbar color="primary">
-          <ion-buttons slot="start">
-            <ion-back-button defaultHref="/" />
-          </ion-buttons>
+          <ion-menu-toggle>
+            <ion-button>
+              <ion-icon slot="icon-only" name="menu"></ion-icon>
+            </ion-button>
+          </ion-menu-toggle>
           <ion-title>Profile: {this.name}</ion-title>
         </ion-toolbar>
       </ion-header>,
