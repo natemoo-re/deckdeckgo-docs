@@ -8,10 +8,10 @@
   ],
   "scripts": {
     "docs": "tsc --p ./scripts && node ./.deckgo/markdown-to-html",
-    "build": "stencil build",
-    "start": "stencil build --dev --watch --serve",
-    "test": "stencil test --spec --e2e",
-    "test.watch": "stencil test --spec --e2e --watch"
+    "build": "npm run docs && stencil build",
+    "start": "npm run docs && stencil build --dev --watch --serve",
+    "test": "npm run docs && stencil test --spec --e2e",
+    "test.watch": "npm run docs && stencil test --spec --e2e --watch"
   },
   "dependencies": {
     "@ionic/core": "4.0.0",

@@ -11,18 +11,18 @@ const readFile = promisify(fs.readFile);
 const globAsync = promisify(glob);
 
 (async function () {
-  console.log('Running markdown to Html 🐶');
+  console.log('> Running markdown to Html 🐶');
 
   const tsxFiles: string[] = await globAsync('./src/**/*.tsx', {});
   const markdownFiles: string[] = await globAsync('./docs/**/*.md', {});
 
   if (!tsxFiles && tsxFiles.length <= 0) {
-    console.log('No components found 🙈');
+    console.log('> No components found 🙈');
     return;
   }
 
   if (!markdownFiles && markdownFiles.length <= 0) {
-    console.log('No markdown files found 🙈');
+    console.log('> No markdown files found 🙈');
     return;
   }
 
@@ -54,5 +54,5 @@ const globAsync = promisify(glob);
 
   await Promise.all(filePromises);
 
-  console.log(`Documentation successfully converted 🚀 ${filePromises.length} files converted.`);
+  console.log(`> Documentation successfully converted, ${filePromises.length} files converted 🚀\n`);
 })();
