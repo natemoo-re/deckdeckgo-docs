@@ -7,6 +7,7 @@
     "dist/"
   ],
   "scripts": {
+    "docs": "tsc --p ./scripts && node ./.deckgo/markdown-to-html",
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
@@ -20,7 +21,10 @@
     "@stencil/core": "0.17.0",
     "@stencil/postcss": "^0.1.0",
     "@stencil/sass": "^0.1.1",
+    "@types/glob": "^7.1.1",
+    "@types/node": "^10.12.20",
     "autoprefixer": "^9.4.6",
+    "glob": "^7.1.3",
     "workbox-build": "3.4.1"
   },
   "repository": {

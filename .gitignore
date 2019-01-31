@@ -13,6 +13,7 @@ log.txt
 *.sublime-workspace
 
 .stencil/
+.deckgo/
 .idea/
 .vscode/
 .sass-cache/
