@@ -1,20 +1,23 @@
-import {promisify} from 'util';
-import fs from 'fs';
+import marked from 'marked';
 
-const readFile = promisify(fs.readFile);
+export function changeCodeCreation(renderer: marked.Renderer) {
+  renderer.code = function (code, lang, escaped) {
+    const hcl = [];
+    code = code
+      .split('\n')
+      .map((line, index) => {
+        if (line.charAt(0) === '|') {
+          hcl.push(index + 1);
+          return line.substring(1);
+        }
+        return line;
+      })
+      .join('\n');
 
-export class MarkdownRenderer {
+    console.log(lang);
 
-  parse(file: string): Promise<string> {
-    return new Promise<string>(async (resolve, reject) => {
-      try {
-        const markdownContents: string = await readFile(file, {encoding: 'utf8'});
-
-        resolve(markdownContents);
-      } catch (err) {
-        reject(err);
-      }
-    });
-  }
-
+    return `<deckgo-highlight-code language="${escape(lang)}">
+      <code slot="code">${(escaped ? code : escape(code))}</code>
+    </deckgo-highlight-code>`;
+  };
 }

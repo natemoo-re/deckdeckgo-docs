@@ -1,8 +1,11 @@
 import glob from 'glob';
 import {promisify} from 'util';
+import fs from 'fs';
 
-import {MarkdownRenderer} from './markdown-renderer';
+import marked from 'marked';
+import {changeCodeCreation} from './markdown-renderer';
 
+const readFile = promisify(fs.readFile);
 // const writeFile = promisify(fs.writeFile);
 const globAsync = promisify(glob);
 
@@ -29,10 +32,22 @@ const globAsync = promisify(glob);
       return Promise.resolve();
     }
 
-    const renderer: MarkdownRenderer = new MarkdownRenderer();
-    const markdownHtmlContents: string = await renderer.parse(file);
+    try {
+      const markdownContents: string = await readFile(file, {encoding: 'utf8'});
 
-    console.log(markdownHtmlContents);
+      const renderer = new marked.Renderer();
+      changeCodeCreation(renderer);
+
+      const htmlContents = marked(markdownContents, {
+        renderer,
+        headerIds: true
+      });
+
+      console.log(htmlContents);
+    } catch (err) {
+      console.error(file);
+      throw err;
+    }
 
   });
 
