@@ -37,8 +37,6 @@ npm run start
 
 ## License
 
-This [DeckDeckGo] application is released under the GNU Affero General Public License. Copyright Fluster GmbH, Zürich, Switzerland. See COPYING for more details.
-
-[DeckDeckGo] is developed by David Dal Busco.
+MIT © [David Dal Busco](mailto:david.dalbusco@outlook.com)
 
 [DeckDeckGo]: https://deckdeckgo.com
