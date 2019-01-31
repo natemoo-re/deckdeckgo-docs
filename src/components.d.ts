@@ -36,9 +36,6 @@ export namespace Components {
     'navigation'?: boolean;
   }
 
-  interface AppDoc {}
-  interface AppDocAttributes extends StencilHTMLAttributes {}
-
   interface AppHome {}
   interface AppHomeAttributes extends StencilHTMLAttributes {}
 
@@ -48,6 +45,9 @@ export namespace Components {
   interface AppProfileAttributes extends StencilHTMLAttributes {
     'name'?: string;
   }
+
+  interface AppIntroduction {}
+  interface AppIntroductionAttributes extends StencilHTMLAttributes {}
 }
 
 declare global {
@@ -57,9 +57,9 @@ declare global {
     'AppLogo': Components.AppLogo;
     'AppMenuFooter': Components.AppMenuFooter;
     'AppNavigation': Components.AppNavigation;
-    'AppDoc': Components.AppDoc;
     'AppHome': Components.AppHome;
     'AppProfile': Components.AppProfile;
+    'AppIntroduction': Components.AppIntroduction;
   }
 
   interface StencilIntrinsicElements {
@@ -68,9 +68,9 @@ declare global {
     'app-logo': Components.AppLogoAttributes;
     'app-menu-footer': Components.AppMenuFooterAttributes;
     'app-navigation': Components.AppNavigationAttributes;
-    'app-doc': Components.AppDocAttributes;
     'app-home': Components.AppHomeAttributes;
     'app-profile': Components.AppProfileAttributes;
+    'app-introduction': Components.AppIntroductionAttributes;
   }
 
 
@@ -104,12 +104,6 @@ declare global {
     new (): HTMLAppNavigationElement;
   };
 
-  interface HTMLAppDocElement extends Components.AppDoc, HTMLStencilElement {}
-  var HTMLAppDocElement: {
-    prototype: HTMLAppDocElement;
-    new (): HTMLAppDocElement;
-  };
-
   interface HTMLAppHomeElement extends Components.AppHome, HTMLStencilElement {}
   var HTMLAppHomeElement: {
     prototype: HTMLAppHomeElement;
@@ -122,15 +116,21 @@ declare global {
     new (): HTMLAppProfileElement;
   };
 
+  interface HTMLAppIntroductionElement extends Components.AppIntroduction, HTMLStencilElement {}
+  var HTMLAppIntroductionElement: {
+    prototype: HTMLAppIntroductionElement;
+    new (): HTMLAppIntroductionElement;
+  };
+
   interface HTMLElementTagNameMap {
     'app-root': HTMLAppRootElement
     'app-footer': HTMLAppFooterElement
     'app-logo': HTMLAppLogoElement
     'app-menu-footer': HTMLAppMenuFooterElement
     'app-navigation': HTMLAppNavigationElement
-    'app-doc': HTMLAppDocElement
     'app-home': HTMLAppHomeElement
     'app-profile': HTMLAppProfileElement
+    'app-introduction': HTMLAppIntroductionElement
   }
 
   interface ElementTagNameMap {
@@ -139,9 +139,9 @@ declare global {
     'app-logo': HTMLAppLogoElement;
     'app-menu-footer': HTMLAppMenuFooterElement;
     'app-navigation': HTMLAppNavigationElement;
-    'app-doc': HTMLAppDocElement;
     'app-home': HTMLAppHomeElement;
     'app-profile': HTMLAppProfileElement;
+    'app-introduction': HTMLAppIntroductionElement;
   }
 
 

@@ -1,12 +1,12 @@
 import {Component} from '@stencil/core';
 
-import {MenuService} from '../../services/menu/menu.service';
+import {MenuService} from '../../../../services/menu/menu.service';
 
 @Component({
-  tag: 'app-doc',
-  styleUrl: 'app-doc.scss'
+  tag: 'app-introduction',
+  styleUrl: 'app-introduction.scss'
 })
-export class AppDoc {
+export class AppIntroduction {
 
   constructor(private menuService: MenuService) {
     this.menuService = MenuService.getInstance();
@@ -22,8 +22,8 @@ export class AppDoc {
 
       <ion-content padding>
         <main>
-          <section class="hero">
-            Docs
+          <section>
+            <app-deckdeckgo-docs-markdown></app-deckdeckgo-docs-markdown>
           </section>
         </main>
       </ion-content>

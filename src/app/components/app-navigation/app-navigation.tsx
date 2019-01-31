@@ -52,7 +52,7 @@ export class AppNavigation {
   private renderNavigation() {
     if (this.navigation) {
       return <div slot="end">
-        <a href="/doc" padding-start padding-end>Docs</a>
+        <a href="/docs" padding-start padding-end>Docs</a>
         <a href="https://deckdeckgo.com" padding-start padding-end>Demo</a>
         <a href="https://github.com/deckgo" padding-start padding-end>Github</a>
       </div>;

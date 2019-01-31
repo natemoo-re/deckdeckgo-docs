@@ -61,7 +61,10 @@ export class AppRoot {
 
         <ion-router useHash={false}>
           <ion-route url="/" component="app-home"/>
-          <ion-route url="/doc" component="app-doc"/>
+
+          <ion-route url="/docs" component="app-introduction"/>
+          <ion-route url="/docs/introduction" component="app-introduction"/>
+
           <ion-route url="/profile/:name" component="app-profile"/>
         </ion-router>
 
@@ -71,7 +74,15 @@ export class AppRoot {
             <ion-content>
               <ion-menu-toggle autoHide={false}>
                 <ion-list>
-                  <ion-item href="/doc" routerDirection="forward">Doc</ion-item>
+                  <ion-item-group>
+                    <ion-item-divider>
+                      <ion-label>Introduction</ion-label>
+                    </ion-item-divider>
+                    <ion-item href="/docs/introduction" routerDirection="forward"><ion-label>Getting started</ion-label></ion-item>
+                    <ion-item href="/doc" routerDirection="forward"><ion-label>Installation</ion-label></ion-item>
+                  </ion-item-group>
+
+
                   <ion-item href="/profile/hello" routerDirection="forward">Profile</ion-item>
                 </ion-list>
               </ion-menu-toggle>
