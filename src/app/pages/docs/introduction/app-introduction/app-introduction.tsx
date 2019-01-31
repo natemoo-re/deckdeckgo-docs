@@ -21,11 +21,13 @@ export class AppIntroduction {
       <app-navigation></app-navigation>,
 
       <ion-content padding>
-        <main>
-          <section>
-            <app-deckdeckgo-docs-markdown></app-deckdeckgo-docs-markdown>
-          </section>
-        </main>
+        <main><h1 id="getting-started">Getting Started</h1>
+<p><a href="https://deckdeckgo.com">DeckDeckGo</a> provides a <a href="https://github.com/deckgo/create-deckdeckgo">CLI</a> and a <a href="https://github.com/deckgo/deckdeckgo-starter">starter kit</a>.</p>
+<p>To get started and <strong>to create your presentation</strong>, run the following command and follow the prompt:</p>
+<deckgo-highlight-code language="bash">
+      <code slot="code">npm%20init%20deckdeckgo</code>
+    </deckgo-highlight-code><p>Once your presentation created, go to your new project&#39;s folder and start editing your slides and content for your talk 😉</p>
+</main>
       </ion-content>
     ];
   }

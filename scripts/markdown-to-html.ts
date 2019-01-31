@@ -4,24 +4,25 @@ import fs from 'fs';
 
 import marked from 'marked';
 import {changeCodeCreation} from './markdown-renderer';
+import {updateFile} from './markdown-writer';
 
 const readFile = promisify(fs.readFile);
 // const writeFile = promisify(fs.writeFile);
 const globAsync = promisify(glob);
 
 (async function () {
-  console.log('running glob: ./src/**/*.tsx');
+  console.log('Running markdown to Html 🐶');
 
   const tsxFiles: string[] = await globAsync('./src/**/*.tsx', {});
   const markdownFiles: string[] = await globAsync('./docs/**/*.md', {});
 
   if (!tsxFiles && tsxFiles.length <= 0) {
-    console.log('no components found');
+    console.log('No components found 🙈');
     return;
   }
 
   if (!markdownFiles && markdownFiles.length <= 0) {
-    console.log('no markdown files found');
+    console.log('No markdown files found 🙈');
     return;
   }
 
@@ -38,12 +39,12 @@ const globAsync = promisify(glob);
       const renderer = new marked.Renderer();
       changeCodeCreation(renderer);
 
-      const htmlContents = marked(markdownContents, {
+      const markdownHtmlContents: string = marked(markdownContents, {
         renderer,
         headerIds: true
       });
 
-      console.log(htmlContents);
+      await updateFile(markdownHtmlContents, dest);
     } catch (err) {
       console.error(file);
       throw err;
@@ -53,5 +54,5 @@ const globAsync = promisify(glob);
 
   await Promise.all(filePromises);
 
-  console.log(`successfully converted ${filePromises.length} files`);
+  console.log(`Documentation successfully converted 🚀 ${filePromises.length} files converted.`);
 })();

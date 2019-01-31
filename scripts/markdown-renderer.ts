@@ -14,8 +14,6 @@ export function changeCodeCreation(renderer: marked.Renderer) {
       })
       .join('\n');
 
-    console.log(lang);
-
     return `<deckgo-highlight-code language="${escape(lang)}">
       <code slot="code">${(escaped ? code : escape(code))}</code>
     </deckgo-highlight-code>`;
