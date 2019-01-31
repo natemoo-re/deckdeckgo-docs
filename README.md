@@ -1,6 +1,6 @@
 # DeckDeckGo - Docs
 
-Create a lightweight presentation using Web Components.
+Create a lightweight PWA presentation using Web Components and HTML or Markdown.
 
 [DeckDeckGo] let you create without effort your slides and allows you to add some extra interactive features with the help of the [Ionic](https://ionicframework.com) components.
 
