@@ -51,6 +51,15 @@ app-home {
       .cta__primary {
         padding: 80px 0;
       }
+
+      .cta__secondary {
+        font-size: var(--font-size-small);
+      }
+
+      deckgo-highlight-code {
+        --deckgo-highlight-code-text-align: center;
+        --deckgo-highlight-code-font-size: var(--font-size-h1);
+      }
     }
 
     section.section {

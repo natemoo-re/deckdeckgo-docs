@@ -45,7 +45,9 @@ export class AppHome {
           <section class="cta" text-center padding>
             <div class="cta__primary">
               <h2>Get started now 🔥</h2>
-              <code>$ npm init deckdeckgo</code>
+              <deckgo-highlight-code padding>
+                <code slot="code">npm init deckdeckgo</code>
+              </deckgo-highlight-code>
             </div>
             <p class="cta__secondary">
               Dive deeper with the <a href="/doc">Getting Started</a> chapter
