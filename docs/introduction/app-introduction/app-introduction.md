@@ -8,7 +8,7 @@ To get started and **to create a new presentation**, run the following command:
 npm init deckdeckgo
 ```
 
-After running init you will be provided with a prompt so that you can set the base information for your new deck and choose if you rather like to edit it in `HTML` or `markdown`:
+After running init you will be provided with a prompt so that you can set the base information for your new deck and choose if you rather like to edit it in **HTML** or **markdown**:
 
 ```bash
 Cool, let's kick start a new DeckDeckGo presentation

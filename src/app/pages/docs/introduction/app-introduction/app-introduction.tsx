@@ -26,17 +26,9 @@ export class AppIntroduction {
 <p>To get started and <strong>to create a new presentation</strong>, run the following command:</p>
 <deckgo-highlight-code language="bash">
       <code slot="code">npm init deckdeckgo</code>
-    </deckgo-highlight-code><p>After running init you will be provided with a prompt so that you can set the base information for your new deck and choose if you rather like to edit it in <code>HTML</code> or <code>markdown</code>:</p>
+    </deckgo-highlight-code><p>After running init you will be provided with a prompt so that you can set the base information for your new deck and choose if you rather like to edit it in <strong>HTML</strong> or <strong>markdown</strong>:</p>
 <deckgo-highlight-code language="bash">
-      <code slot="code">Cool, let's kick start a new DeckDeckGo presentation
-
-? What's your project name (will be use to create a new folder)? (deckdeckgo)
-? What's your presentation name (max. 45 characters, will be use for meta tags and manifest information)? (DeckDeckGo)
-? What's your presentation about (its description)? (Create a lightweight presentation using Web Components 🚀)
-? What's your name (will be use for the author meta information)? (David)
-? What method do you want to use to edit your presentation? (Use arrow keys)
-  ❯ HTML 
-    Markdown</code>
+      <code slot="code">Cool, let's kick start a new DeckDeckGo presentation<br/><br/>? What's your project name (will be use to create a new folder)? (deckdeckgo)<br/>? What's your presentation name (max. 45 characters, will be use for meta tags and manifest information)? (DeckDeckGo)<br/>? What's your presentation about (its description)? (Create a lightweight presentation using Web Components 🚀)<br/>? What's your name (will be use for the author meta information)? (David)<br/>? What method do you want to use to edit your presentation? (Use arrow keys)<br/>  ❯ HTML <br/>    Markdown</code>
     </deckgo-highlight-code><p>Once your presentation created, go to your new project&#39;s folder and start editing your slides and content for your talk 😉</p>
 </main>
       </ion-content>
