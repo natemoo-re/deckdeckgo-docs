@@ -1,4 +1,6 @@
-import {Component} from '@stencil/core';
+import {Component, Element} from '@stencil/core';
+
+import {DeckdeckgoDocsUtils} from '../../../../utils/deckdeckgo-docs-utils';
 
 import {MenuService} from '../../../../services/menu/menu.service';
 
@@ -8,12 +10,18 @@ import {MenuService} from '../../../../services/menu/menu.service';
 })
 export class AppIntroduction {
 
+  @Element() el: HTMLElement;
+
   constructor(private menuService: MenuService) {
     this.menuService = MenuService.getInstance();
   }
 
   async componentWillLoad() {
     this.menuService.enable();
+  }
+
+  async componentDidLoad() {
+    await DeckdeckgoDocsUtils.reloadCode(this.el);
   }
 
   render() {

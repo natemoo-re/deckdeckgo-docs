@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@ionic/core": "4.0.0",
-    "deckdeckgo-highlight-code": "^1.0.0-alpha.9",
+    "deckdeckgo-highlight-code": "^1.0.0-alpha.10",
     "rxjs": "^6.4.0"
   },
   "devDependencies": {
