@@ -47,6 +47,9 @@ export namespace Components {
     'name'?: string;
   }
 
+  interface AppInstallation {}
+  interface AppInstallationAttributes extends StencilHTMLAttributes {}
+
   interface AppIntroduction {}
   interface AppIntroductionAttributes extends StencilHTMLAttributes {}
 }
@@ -60,6 +63,7 @@ declare global {
     'AppNavigation': Components.AppNavigation;
     'AppHome': Components.AppHome;
     'AppProfile': Components.AppProfile;
+    'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
   }
 
@@ -71,6 +75,7 @@ declare global {
     'app-navigation': Components.AppNavigationAttributes;
     'app-home': Components.AppHomeAttributes;
     'app-profile': Components.AppProfileAttributes;
+    'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
   }
 
@@ -117,6 +122,12 @@ declare global {
     new (): HTMLAppProfileElement;
   };
 
+  interface HTMLAppInstallationElement extends Components.AppInstallation, HTMLStencilElement {}
+  var HTMLAppInstallationElement: {
+    prototype: HTMLAppInstallationElement;
+    new (): HTMLAppInstallationElement;
+  };
+
   interface HTMLAppIntroductionElement extends Components.AppIntroduction, HTMLStencilElement {}
   var HTMLAppIntroductionElement: {
     prototype: HTMLAppIntroductionElement;
@@ -131,6 +142,7 @@ declare global {
     'app-navigation': HTMLAppNavigationElement
     'app-home': HTMLAppHomeElement
     'app-profile': HTMLAppProfileElement
+    'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
   }
 
@@ -142,6 +154,7 @@ declare global {
     'app-navigation': HTMLAppNavigationElement;
     'app-home': HTMLAppHomeElement;
     'app-profile': HTMLAppProfileElement;
+    'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
   }
 
