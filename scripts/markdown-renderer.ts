@@ -6,8 +6,6 @@ export function changeCodeCreation(renderer: marked.Renderer) {
     code = code
       .split('\n')
       .map((line, index) => {
-        console.log('here', line);
-
         if (line.charAt(0) === '|') {
           hcl.push(index + 1);
           return line.substring(1);
