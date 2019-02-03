@@ -47,17 +47,44 @@ export namespace Components {
     'name'?: string;
   }
 
-  interface AppConcept {}
-  interface AppConceptAttributes extends StencilHTMLAttributes {}
-
-  interface AppTemplates {}
-  interface AppTemplatesAttributes extends StencilHTMLAttributes {}
-
   interface AppInstallation {}
   interface AppInstallationAttributes extends StencilHTMLAttributes {}
 
   interface AppIntroduction {}
   interface AppIntroductionAttributes extends StencilHTMLAttributes {}
+
+  interface AppSlideAuthor {}
+  interface AppSlideAuthorAttributes extends StencilHTMLAttributes {}
+
+  interface AppSlideChart {}
+  interface AppSlideChartAttributes extends StencilHTMLAttributes {}
+
+  interface AppSlideCode {}
+  interface AppSlideCodeAttributes extends StencilHTMLAttributes {}
+
+  interface AppSlideContent {}
+  interface AppSlideContentAttributes extends StencilHTMLAttributes {}
+
+  interface AppSlideGif {}
+  interface AppSlideGifAttributes extends StencilHTMLAttributes {}
+
+  interface AppSlideQrcode {}
+  interface AppSlideQrcodeAttributes extends StencilHTMLAttributes {}
+
+  interface AppSlideSplit {}
+  interface AppSlideSplitAttributes extends StencilHTMLAttributes {}
+
+  interface AppSlideTitle {}
+  interface AppSlideTitleAttributes extends StencilHTMLAttributes {}
+
+  interface AppSlideYoutube {}
+  interface AppSlideYoutubeAttributes extends StencilHTMLAttributes {}
+
+  interface AppSlidesBackground {}
+  interface AppSlidesBackgroundAttributes extends StencilHTMLAttributes {}
+
+  interface AppSlidesConcept {}
+  interface AppSlidesConceptAttributes extends StencilHTMLAttributes {}
 }
 
 declare global {
@@ -69,10 +96,19 @@ declare global {
     'AppNavigation': Components.AppNavigation;
     'AppHome': Components.AppHome;
     'AppProfile': Components.AppProfile;
-    'AppConcept': Components.AppConcept;
-    'AppTemplates': Components.AppTemplates;
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
+    'AppSlideAuthor': Components.AppSlideAuthor;
+    'AppSlideChart': Components.AppSlideChart;
+    'AppSlideCode': Components.AppSlideCode;
+    'AppSlideContent': Components.AppSlideContent;
+    'AppSlideGif': Components.AppSlideGif;
+    'AppSlideQrcode': Components.AppSlideQrcode;
+    'AppSlideSplit': Components.AppSlideSplit;
+    'AppSlideTitle': Components.AppSlideTitle;
+    'AppSlideYoutube': Components.AppSlideYoutube;
+    'AppSlidesBackground': Components.AppSlidesBackground;
+    'AppSlidesConcept': Components.AppSlidesConcept;
   }
 
   interface StencilIntrinsicElements {
@@ -83,10 +119,19 @@ declare global {
     'app-navigation': Components.AppNavigationAttributes;
     'app-home': Components.AppHomeAttributes;
     'app-profile': Components.AppProfileAttributes;
-    'app-concept': Components.AppConceptAttributes;
-    'app-templates': Components.AppTemplatesAttributes;
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
+    'app-slide-author': Components.AppSlideAuthorAttributes;
+    'app-slide-chart': Components.AppSlideChartAttributes;
+    'app-slide-code': Components.AppSlideCodeAttributes;
+    'app-slide-content': Components.AppSlideContentAttributes;
+    'app-slide-gif': Components.AppSlideGifAttributes;
+    'app-slide-qrcode': Components.AppSlideQrcodeAttributes;
+    'app-slide-split': Components.AppSlideSplitAttributes;
+    'app-slide-title': Components.AppSlideTitleAttributes;
+    'app-slide-youtube': Components.AppSlideYoutubeAttributes;
+    'app-slides-background': Components.AppSlidesBackgroundAttributes;
+    'app-slides-concept': Components.AppSlidesConceptAttributes;
   }
 
 
@@ -132,18 +177,6 @@ declare global {
     new (): HTMLAppProfileElement;
   };
 
-  interface HTMLAppConceptElement extends Components.AppConcept, HTMLStencilElement {}
-  var HTMLAppConceptElement: {
-    prototype: HTMLAppConceptElement;
-    new (): HTMLAppConceptElement;
-  };
-
-  interface HTMLAppTemplatesElement extends Components.AppTemplates, HTMLStencilElement {}
-  var HTMLAppTemplatesElement: {
-    prototype: HTMLAppTemplatesElement;
-    new (): HTMLAppTemplatesElement;
-  };
-
   interface HTMLAppInstallationElement extends Components.AppInstallation, HTMLStencilElement {}
   var HTMLAppInstallationElement: {
     prototype: HTMLAppInstallationElement;
@@ -156,6 +189,72 @@ declare global {
     new (): HTMLAppIntroductionElement;
   };
 
+  interface HTMLAppSlideAuthorElement extends Components.AppSlideAuthor, HTMLStencilElement {}
+  var HTMLAppSlideAuthorElement: {
+    prototype: HTMLAppSlideAuthorElement;
+    new (): HTMLAppSlideAuthorElement;
+  };
+
+  interface HTMLAppSlideChartElement extends Components.AppSlideChart, HTMLStencilElement {}
+  var HTMLAppSlideChartElement: {
+    prototype: HTMLAppSlideChartElement;
+    new (): HTMLAppSlideChartElement;
+  };
+
+  interface HTMLAppSlideCodeElement extends Components.AppSlideCode, HTMLStencilElement {}
+  var HTMLAppSlideCodeElement: {
+    prototype: HTMLAppSlideCodeElement;
+    new (): HTMLAppSlideCodeElement;
+  };
+
+  interface HTMLAppSlideContentElement extends Components.AppSlideContent, HTMLStencilElement {}
+  var HTMLAppSlideContentElement: {
+    prototype: HTMLAppSlideContentElement;
+    new (): HTMLAppSlideContentElement;
+  };
+
+  interface HTMLAppSlideGifElement extends Components.AppSlideGif, HTMLStencilElement {}
+  var HTMLAppSlideGifElement: {
+    prototype: HTMLAppSlideGifElement;
+    new (): HTMLAppSlideGifElement;
+  };
+
+  interface HTMLAppSlideQrcodeElement extends Components.AppSlideQrcode, HTMLStencilElement {}
+  var HTMLAppSlideQrcodeElement: {
+    prototype: HTMLAppSlideQrcodeElement;
+    new (): HTMLAppSlideQrcodeElement;
+  };
+
+  interface HTMLAppSlideSplitElement extends Components.AppSlideSplit, HTMLStencilElement {}
+  var HTMLAppSlideSplitElement: {
+    prototype: HTMLAppSlideSplitElement;
+    new (): HTMLAppSlideSplitElement;
+  };
+
+  interface HTMLAppSlideTitleElement extends Components.AppSlideTitle, HTMLStencilElement {}
+  var HTMLAppSlideTitleElement: {
+    prototype: HTMLAppSlideTitleElement;
+    new (): HTMLAppSlideTitleElement;
+  };
+
+  interface HTMLAppSlideYoutubeElement extends Components.AppSlideYoutube, HTMLStencilElement {}
+  var HTMLAppSlideYoutubeElement: {
+    prototype: HTMLAppSlideYoutubeElement;
+    new (): HTMLAppSlideYoutubeElement;
+  };
+
+  interface HTMLAppSlidesBackgroundElement extends Components.AppSlidesBackground, HTMLStencilElement {}
+  var HTMLAppSlidesBackgroundElement: {
+    prototype: HTMLAppSlidesBackgroundElement;
+    new (): HTMLAppSlidesBackgroundElement;
+  };
+
+  interface HTMLAppSlidesConceptElement extends Components.AppSlidesConcept, HTMLStencilElement {}
+  var HTMLAppSlidesConceptElement: {
+    prototype: HTMLAppSlidesConceptElement;
+    new (): HTMLAppSlidesConceptElement;
+  };
+
   interface HTMLElementTagNameMap {
     'app-root': HTMLAppRootElement
     'app-footer': HTMLAppFooterElement
@@ -164,10 +263,19 @@ declare global {
     'app-navigation': HTMLAppNavigationElement
     'app-home': HTMLAppHomeElement
     'app-profile': HTMLAppProfileElement
-    'app-concept': HTMLAppConceptElement
-    'app-templates': HTMLAppTemplatesElement
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
+    'app-slide-author': HTMLAppSlideAuthorElement
+    'app-slide-chart': HTMLAppSlideChartElement
+    'app-slide-code': HTMLAppSlideCodeElement
+    'app-slide-content': HTMLAppSlideContentElement
+    'app-slide-gif': HTMLAppSlideGifElement
+    'app-slide-qrcode': HTMLAppSlideQrcodeElement
+    'app-slide-split': HTMLAppSlideSplitElement
+    'app-slide-title': HTMLAppSlideTitleElement
+    'app-slide-youtube': HTMLAppSlideYoutubeElement
+    'app-slides-background': HTMLAppSlidesBackgroundElement
+    'app-slides-concept': HTMLAppSlidesConceptElement
   }
 
   interface ElementTagNameMap {
@@ -178,10 +286,19 @@ declare global {
     'app-navigation': HTMLAppNavigationElement;
     'app-home': HTMLAppHomeElement;
     'app-profile': HTMLAppProfileElement;
-    'app-concept': HTMLAppConceptElement;
-    'app-templates': HTMLAppTemplatesElement;
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
+    'app-slide-author': HTMLAppSlideAuthorElement;
+    'app-slide-chart': HTMLAppSlideChartElement;
+    'app-slide-code': HTMLAppSlideCodeElement;
+    'app-slide-content': HTMLAppSlideContentElement;
+    'app-slide-gif': HTMLAppSlideGifElement;
+    'app-slide-qrcode': HTMLAppSlideQrcodeElement;
+    'app-slide-split': HTMLAppSlideSplitElement;
+    'app-slide-title': HTMLAppSlideTitleElement;
+    'app-slide-youtube': HTMLAppSlideYoutubeElement;
+    'app-slides-background': HTMLAppSlidesBackgroundElement;
+    'app-slides-concept': HTMLAppSlidesConceptElement;
   }
 
 
