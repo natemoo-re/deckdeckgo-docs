@@ -41,7 +41,8 @@ const globAsync = promisify(glob);
 
       const markdownHtmlContents: string = marked(markdownContents, {
         renderer,
-        headerIds: true
+        headerIds: true,
+        xhtml: true
       });
 
       await updateFile(markdownHtmlContents, dest);

@@ -28,5 +28,7 @@ function escapeUnsafe(unsafe: string): string {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;")
     .replace(/\//g, "&#47;")
-    .replace(/\\/g, "&#092;");
+    .replace(/\\/g, "&#092;")
+    .replace(/{/g, "&#123;")
+    .replace(/}/g, "&#125;");
 }
