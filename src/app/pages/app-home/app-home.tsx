@@ -71,6 +71,11 @@ export class AppHome {
                 <h3>Modern</h3>
                 <p>Presentations are bundled and shipped as Progressive Web Apps and based on Web Components.</p>
               </li>
+              <li>
+                <ion-icon name="phone-portrait" padding-end></ion-icon>
+                <h3>Interact</h3>
+                <p>Control you slides or track your talk's time using the DeckDeckGo <a href="https://deckdeckgo.app">remote control PWA</a>.</p>
+              </li>
             </ul>
           </section>
         </main>
