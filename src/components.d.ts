@@ -50,6 +50,9 @@ export namespace Components {
   interface AppConcept {}
   interface AppConceptAttributes extends StencilHTMLAttributes {}
 
+  interface AppTemplates {}
+  interface AppTemplatesAttributes extends StencilHTMLAttributes {}
+
   interface AppInstallation {}
   interface AppInstallationAttributes extends StencilHTMLAttributes {}
 
@@ -67,6 +70,7 @@ declare global {
     'AppHome': Components.AppHome;
     'AppProfile': Components.AppProfile;
     'AppConcept': Components.AppConcept;
+    'AppTemplates': Components.AppTemplates;
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
   }
@@ -80,6 +84,7 @@ declare global {
     'app-home': Components.AppHomeAttributes;
     'app-profile': Components.AppProfileAttributes;
     'app-concept': Components.AppConceptAttributes;
+    'app-templates': Components.AppTemplatesAttributes;
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
   }
@@ -133,6 +138,12 @@ declare global {
     new (): HTMLAppConceptElement;
   };
 
+  interface HTMLAppTemplatesElement extends Components.AppTemplates, HTMLStencilElement {}
+  var HTMLAppTemplatesElement: {
+    prototype: HTMLAppTemplatesElement;
+    new (): HTMLAppTemplatesElement;
+  };
+
   interface HTMLAppInstallationElement extends Components.AppInstallation, HTMLStencilElement {}
   var HTMLAppInstallationElement: {
     prototype: HTMLAppInstallationElement;
@@ -154,6 +165,7 @@ declare global {
     'app-home': HTMLAppHomeElement
     'app-profile': HTMLAppProfileElement
     'app-concept': HTMLAppConceptElement
+    'app-templates': HTMLAppTemplatesElement
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
   }
@@ -167,6 +179,7 @@ declare global {
     'app-home': HTMLAppHomeElement;
     'app-profile': HTMLAppProfileElement;
     'app-concept': HTMLAppConceptElement;
+    'app-templates': HTMLAppTemplatesElement;
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
   }

@@ -68,7 +68,7 @@ export class AppRoot {
 
           <ion-route url="/guide" component="app-concept"/>
           <ion-route url="/guide/concept" component="app-concept"/>
-
+          <ion-route url="/guide/templates" component="app-templates"/>
 
           <ion-route url="/profile/:name" component="app-profile"/>
         </ion-router>
@@ -90,6 +90,7 @@ export class AppRoot {
                       <ion-label>Guide</ion-label>
                     </ion-item-divider>
                     <ion-item href="/guide/concept" routerDirection="forward"><ion-label>Concept</ion-label></ion-item>
+                    <ion-item href="/guide/templates" routerDirection="forward"><ion-label>Templates</ion-label></ion-item>
 
                   </ion-item-group>
 

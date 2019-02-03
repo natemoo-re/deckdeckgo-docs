@@ -41,7 +41,7 @@ export class AppInstallation {
 <h2 id="using-deckdeckgo-from-a-cdn">Using DeckDeckGo from a CDN</h2>
 <p>It&#39;s recommended to use <a href="https://unpkg.com/">unpkg</a> to use the <a href="https://deckdeckgo.com">DeckDeckGo</a> from a CDN. To do so, add the following include script in the main HTML file of your project:</p>
 <deckgo-highlight-code language="javascript">
-      <code slot="code">&lt;script src=&quot;https://unpkg.com/deckdeckgo@latest/dist/deckdeckgo.js&quot;&gt;&lt;/script&gt;</code>
+      <code slot="code">&lt;script src=&quot;https:&#47;&#47;unpkg.com&#47;deckdeckgo@latest&#47;dist&#47;deckdeckgo.js&quot;&gt;&lt;&#47;script&gt;</code>
     </deckgo-highlight-code><h2 id="install-deckdeckgo-from-npm">Install DeckDeckGo from NPM</h2>
 <p>Install <a href="https://deckdeckgo.com">DeckDeckGo</a> in your project from <a href="https://www.npmjs.com/package/deckdeckgo">npm</a> using the following command:</p>
 <deckgo-highlight-code language="bash">
