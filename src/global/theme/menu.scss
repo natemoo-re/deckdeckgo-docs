@@ -44,9 +44,22 @@ ion-split-pane {
 
     ion-content {
       ion-list {
+        ion-item-divider {
+          border: 0;
+          --color: var(--ion-color-dark);
+        }
+
         ion-item {
-          --inner-border-width: 0px;
           --border-color: transparent;
+          --color: var(--ion-color-medium);
+          --padding-start: 32px;
+          font-size: var(--font-size-normal);
+          --min-height: inherit;
+
+          ion-label {
+            margin-top: 8px;
+            margin-bottom: 8px;
+          }
         }
       }
     }
