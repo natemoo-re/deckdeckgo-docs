@@ -30,9 +30,9 @@
   https://beta.ionicframework.com/docs/theming/color-generator
 */
 
-@import "variables";
-@import "fonts";
-@import "theme";
-@import "toolbar";
-@import "menu";
-@import "code";
+@import "theme/variables";
+@import "theme/fonts";
+@import "theme/theme";
+@import "theme/toolbar";
+@import "theme/menu";
+@import "theme/code";
