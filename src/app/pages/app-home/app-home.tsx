@@ -50,7 +50,7 @@ export class AppHome {
               </deckgo-highlight-code>
             </div>
             <p class="cta__secondary">
-              Dive deeper with the <a href="/doc">Getting Started</a> chapter
+              Dive deeper with the <a href="/docs">Getting Started</a> chapter
             </p>
           </section>
 
