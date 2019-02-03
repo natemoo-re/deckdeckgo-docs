@@ -66,6 +66,10 @@ export class AppRoot {
           <ion-route url="/docs/introduction" component="app-introduction"/>
           <ion-route url="/docs/installation" component="app-installation"/>
 
+          <ion-route url="/guide" component="app-concept"/>
+          <ion-route url="/guide/concept" component="app-concept"/>
+
+
           <ion-route url="/profile/:name" component="app-profile"/>
         </ion-router>
 
@@ -81,6 +85,12 @@ export class AppRoot {
                     </ion-item-divider>
                     <ion-item href="/docs/introduction" routerDirection="forward"><ion-label>Getting started</ion-label></ion-item>
                     <ion-item href="/docs/installation" routerDirection="forward"><ion-label>Installation</ion-label></ion-item>
+
+                    <ion-item-divider>
+                      <ion-label>Guide</ion-label>
+                    </ion-item-divider>
+                    <ion-item href="/guide/concept" routerDirection="forward"><ion-label>Concept</ion-label></ion-item>
+
                   </ion-item-group>
 
 

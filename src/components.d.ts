@@ -47,6 +47,9 @@ export namespace Components {
     'name'?: string;
   }
 
+  interface AppConcept {}
+  interface AppConceptAttributes extends StencilHTMLAttributes {}
+
   interface AppInstallation {}
   interface AppInstallationAttributes extends StencilHTMLAttributes {}
 
@@ -63,6 +66,7 @@ declare global {
     'AppNavigation': Components.AppNavigation;
     'AppHome': Components.AppHome;
     'AppProfile': Components.AppProfile;
+    'AppConcept': Components.AppConcept;
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
   }
@@ -75,6 +79,7 @@ declare global {
     'app-navigation': Components.AppNavigationAttributes;
     'app-home': Components.AppHomeAttributes;
     'app-profile': Components.AppProfileAttributes;
+    'app-concept': Components.AppConceptAttributes;
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
   }
@@ -122,6 +127,12 @@ declare global {
     new (): HTMLAppProfileElement;
   };
 
+  interface HTMLAppConceptElement extends Components.AppConcept, HTMLStencilElement {}
+  var HTMLAppConceptElement: {
+    prototype: HTMLAppConceptElement;
+    new (): HTMLAppConceptElement;
+  };
+
   interface HTMLAppInstallationElement extends Components.AppInstallation, HTMLStencilElement {}
   var HTMLAppInstallationElement: {
     prototype: HTMLAppInstallationElement;
@@ -142,6 +153,7 @@ declare global {
     'app-navigation': HTMLAppNavigationElement
     'app-home': HTMLAppHomeElement
     'app-profile': HTMLAppProfileElement
+    'app-concept': HTMLAppConceptElement
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
   }
@@ -154,6 +166,7 @@ declare global {
     'app-navigation': HTMLAppNavigationElement;
     'app-home': HTMLAppHomeElement;
     'app-profile': HTMLAppProfileElement;
+    'app-concept': HTMLAppConceptElement;
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
   }
