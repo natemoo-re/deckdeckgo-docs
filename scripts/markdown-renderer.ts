@@ -12,7 +12,7 @@ export function changeCodeCreation(renderer: marked.Renderer) {
         }
         return escapeUnsafe(line);
       })
-      .join('<br/>');
+      .join('{\'\\n\'}');
 
     return `<deckgo-highlight-code language="${lang ? lang : 'javascript'}">
       <code slot="code">${code}</code>

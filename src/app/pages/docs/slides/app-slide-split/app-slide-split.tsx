@@ -36,7 +36,7 @@ export class AppSlideContent {
 <h4 id="usage">Usage</h4>
 <p>The &quot;Split&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-split/&gt;</code>.</p>
 <deckgo-highlight-code language="javascript">
-      <code slot="code">&lt;deckgo-deck&gt;<br/>  &lt;deckgo-slide-split&gt;<br/>    &lt;h1 slot=&quot;title&quot;&gt;Two columns subject&lt;&#47;h1&gt;<br/>    &lt;p slot=&quot;start&quot;&gt;<br/>      The content you want to display on the left side of the page<br/>    &lt;&#47;p&gt;<br/>    &lt;p slot=&quot;end&quot;&gt;<br/>      The content you want to display on the right side of the page<br/>    &lt;&#47;p&gt;<br/>  &lt;&#47;deckgo-slide-split&gt;<br/>&lt;&#47;deckgo-deck&gt;</code>
+      <code slot="code">&lt;deckgo-deck&gt;{'\n'}  &lt;deckgo-slide-split&gt;{'\n'}    &lt;h1 slot=&quot;title&quot;&gt;Two columns subject&lt;&#47;h1&gt;{'\n'}    &lt;p slot=&quot;start&quot;&gt;{'\n'}      The content you want to display on the left side of the page{'\n'}    &lt;&#47;p&gt;{'\n'}    &lt;p slot=&quot;end&quot;&gt;{'\n'}      The content you want to display on the right side of the page{'\n'}    &lt;&#47;p&gt;{'\n'}  &lt;&#47;deckgo-slide-split&gt;{'\n'}&lt;&#47;deckgo-deck&gt;</code>
     </deckgo-highlight-code><h5 id="slots">Slots</h5>
 <p>Both slots <code>title</code>, <code>start</code> and <code>end</code> are optional. Without providing one of them, the page will remain empty.</p>
 <p>The <code>start</code> slot is the content of the left pane respectively the slot <code>end</code> is the content of the right pane.</p>

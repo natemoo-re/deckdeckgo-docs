@@ -38,7 +38,7 @@ export class AppSlideGif {
 <h4 id="usage">Usage</h4>
 <p>The &quot;Gif&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-gif/&gt;</code>.</p>
 <deckgo-highlight-code language="javascript">
-      <code slot="code">&lt;deckgo-slide-gif src=&quot;https:&#47;&#47;media.giphy.com&#47;media&#47;xUA7baWfTjfHGLZc3e&#47;giphy.gif&quot; alt=&quot;My gif&quot; fullscreen=&quot;true&quot;&gt;<br/>  &lt;h1 slot=&quot;title&quot;&gt;My title&lt;&#47;h1&gt;<br/>  &lt;h1 slot=&quot;header&quot;&gt;Hey&lt;&#47;h1&gt;<br/>  &lt;h2 slot=&quot;footer&quot;&gt;It&#039;s a cool gif&lt;&#47;h2&gt;<br/>&lt;&#47;deckgo-slide-gif&gt;</code>
+      <code slot="code">&lt;deckgo-slide-gif src=&quot;https:&#47;&#47;media.giphy.com&#47;media&#47;xUA7baWfTjfHGLZc3e&#47;giphy.gif&quot; alt=&quot;My gif&quot; fullscreen=&quot;true&quot;&gt;{'\n'}  &lt;h1 slot=&quot;title&quot;&gt;My title&lt;&#47;h1&gt;{'\n'}  &lt;h1 slot=&quot;header&quot;&gt;Hey&lt;&#47;h1&gt;{'\n'}  &lt;h2 slot=&quot;footer&quot;&gt;It&#039;s a cool gif&lt;&#47;h2&gt;{'\n'}&lt;&#47;deckgo-slide-gif&gt;</code>
     </deckgo-highlight-code><h4 id="slots">Slots</h4>
 <p>The slots <code>title</code>, <code>header</code> and <code>footer</code> are both optional. <code>header</code> and <code>footer</code> would be displayed over the gif.</p>
 <h5 id="notes">Notes</h5>

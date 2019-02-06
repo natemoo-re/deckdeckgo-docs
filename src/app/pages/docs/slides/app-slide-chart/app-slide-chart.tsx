@@ -38,7 +38,7 @@ export class AppSlideChart {
 <h4 id="usage">Usage</h4>
 <p>The &quot;Chart&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-chart/&gt;</code>.</p>
 <deckgo-highlight-code language="javascript">
-      <code slot="code">&lt;deckgo-slide-chart src=&quot;.&#47;assets&#47;csv&#47;data-pie-chart.csv&quot;&gt;<br/>    &lt;h1 slot=&quot;title&quot;&gt;My Pie chart&lt;&#47;h1&gt;<br/>&lt;&#47;deckgo-slide-chart&gt;</code>
+      <code slot="code">&lt;deckgo-slide-chart src=&quot;.&#47;assets&#47;csv&#47;data-pie-chart.csv&quot;&gt;{'\n'}    &lt;h1 slot=&quot;title&quot;&gt;My Pie chart&lt;&#47;h1&gt;{'\n'}&lt;&#47;deckgo-slide-chart&gt;</code>
     </deckgo-highlight-code><h5 id="slots">Slots</h5>
 <p>The slot <code>title</code> is optional.</p>
 <h5 id="notes">Notes</h5>

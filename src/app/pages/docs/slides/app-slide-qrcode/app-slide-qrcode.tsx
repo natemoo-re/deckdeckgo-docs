@@ -37,7 +37,7 @@ export class AppSlideQRCode {
 <p>The &quot;QR code&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-qrcode/&gt;</code>.</p>
 <h5 id="usage-1">Usage</h5>
 <deckgo-highlight-code language="javascript">
-      <code slot="code">&lt;deckgo-deck&gt;<br/>  &lt;deckgo-slide-qrcode content=&quot;https:&#47;&#47;deckdeckgo.com&quot;&gt;<br/>    &lt;h1 slot=&quot;title&quot;&gt;My QR code&lt;&#47;h1&gt;<br/>    &lt;p slot=&quot;content&quot;&gt;An optional additional content&lt;&#47;p&gt;<br/>  &lt;&#47;deckgo-slide-code&gt;<br/>&lt;&#47;deckgo-deck&gt;  </code>
+      <code slot="code">&lt;deckgo-deck&gt;{'\n'}  &lt;deckgo-slide-qrcode content=&quot;https:&#47;&#47;deckdeckgo.com&quot;&gt;{'\n'}    &lt;h1 slot=&quot;title&quot;&gt;My QR code&lt;&#47;h1&gt;{'\n'}    &lt;p slot=&quot;content&quot;&gt;An optional additional content&lt;&#47;p&gt;{'\n'}  &lt;&#47;deckgo-slide-code&gt;{'\n'}&lt;&#47;deckgo-deck&gt;  </code>
     </deckgo-highlight-code><h5 id="slots">Slots</h5>
 <p>The slots <code>title</code> and <code>content</code> are optional.</p>
 <h5 id="notes">Notes</h5>
@@ -51,7 +51,7 @@ export class AppSlideQRCode {
 <p>The attribute <code>content</code> should be provided in order to render a QR code in this template. It offers the same attributes as the <a href="https://deckdeckgo.com">DeckDeckGo</a> QR code Web Component, see its <a href="https://github.com/deckgo/deckdeckgo-qrcode">documentation</a> for the details.</p>
 <h5 id="example-without-any-slots">Example without any slots</h5>
 <deckgo-highlight-code language="javascript">
-      <code slot="code">&lt;deckgo-deck&gt;<br/>  &lt;deckgo-slide-qrcode content=&quot;An encoded text&quot;&gt;<br/>  &lt;&#47;deckgo-slide-code&gt;<br/>&lt;&#47;deckgo-deck&gt;  </code>
+      <code slot="code">&lt;deckgo-deck&gt;{'\n'}  &lt;deckgo-slide-qrcode content=&quot;An encoded text&quot;&gt;{'\n'}  &lt;&#47;deckgo-slide-code&gt;{'\n'}&lt;&#47;deckgo-deck&gt;  </code>
     </deckgo-highlight-code><h4 id="theming">Theming</h4>
 <p>The following theming options will affect this component if set on its host or parent.</p>
 <table>

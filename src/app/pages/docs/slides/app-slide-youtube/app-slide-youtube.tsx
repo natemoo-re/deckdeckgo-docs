@@ -36,7 +36,7 @@ export class AppSlideYoutube {
 <h4 id="usage">Usage</h4>
 <p>The &quot;Youtube&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-youtube/&gt;</code>.</p>
 <deckgo-highlight-code language="javascript">
-      <code slot="code">&lt;deckgo-slide-youtube src=&quot;https:&#47;&#47;www.youtube.com&#47;watch?v=oUOjJIfPIjw&quot;&gt;<br/>  &lt;h1 slot=&quot;title&quot;&gt;A 16&#47;9 video&lt;&#47;h1&gt;<br/>&lt;&#47;deckgo-slide-youtube&gt;</code>
+      <code slot="code">&lt;deckgo-slide-youtube src=&quot;https:&#47;&#47;www.youtube.com&#47;watch?v=oUOjJIfPIjw&quot;&gt;{'\n'}  &lt;h1 slot=&quot;title&quot;&gt;A 16&#47;9 video&lt;&#47;h1&gt;{'\n'}&lt;&#47;deckgo-slide-youtube&gt;</code>
     </deckgo-highlight-code><h5 id="slots">Slots</h5>
 <p>The slot <code>title</code> is optional.</p>
 <h5 id="notes">Notes</h5>
@@ -124,10 +124,10 @@ export class AppSlideYoutube {
 <p>The slide &quot;Youtube&quot; offers extra methods to play and pause the Youtube video clip. These methods are notably used by the [DeckDecGo]&#39;s remote control.</p>
 <h5 id="play-the-video">Play the video</h5>
 <deckgo-highlight-code language="javascript">
-      <code slot="code">const slide = deck.getElementsByTagName(&#039;deckgo-slide-youtube&#039;);<br/>await slide.play();</code>
+      <code slot="code">const slide = deck.getElementsByTagName(&#039;deckgo-slide-youtube&#039;);{'\n'}await slide.play();</code>
     </deckgo-highlight-code><h5 id="pause-the-video">Pause the video</h5>
 <deckgo-highlight-code language="javascript">
-      <code slot="code">const slide = deck.getElementsByTagName(&#039;deckgo-slide-youtube&#039;);<br/>await slide.pause();</code>
+      <code slot="code">const slide = deck.getElementsByTagName(&#039;deckgo-slide-youtube&#039;);{'\n'}await slide.pause();</code>
     </deckgo-highlight-code></main>
       </ion-content>
     ];
