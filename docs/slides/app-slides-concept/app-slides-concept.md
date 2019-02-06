@@ -27,19 +27,57 @@ In the previous example, the presentation contains two slides. The first slide u
 
 * [Title](#slide-title)
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-title-layout.png" width="200px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-title>
+        <h1 slot="title">slot="title"</h1>
+        <p slot="content">
+          slot="content"
+        </p>
+      </deckgo-slide-title>
+  </deckgo-deck>
+</div>
 
 * [Content](#slide-content)
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-content-layout.png" width="200px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-content>
+      <h1 slot="title">slot="title"</h1>
+      <p slot="content">
+        slot="content"
+      </p>
+    </deckgo-slide-content>
+  </deckgo-deck>
+</div>
 
 * [Split](#slide-split)
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-split-layout.png" width="200px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-split>
+      <h1 slot="title">slot="title"</h1>
+      <p slot="start">
+        slot="start"
+      </p>
+      <p slot="end">
+        slot="end"
+      </p>
+    </deckgo-slide-split>
+  </deckgo-deck>
+</div>
 
 * [Gif](#slide-gif)
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-gif-layout.gif" width="200px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-gif src="https://media.giphy.com/media/xUA7baWfTjfHGLZc3e/giphy.gif" alt="My gif" fullscreen={true}>
+      <h1 slot="title">slot="title"</h1>
+      <h1 slot="header">slot="header"</h1>
+      <h2 slot="footer">slot="footer"</h2>
+    </deckgo-slide-gif>
+  </deckgo-deck>
+</div>
 
 * [Chart](#slide-chart)
 

@@ -8,6 +8,7 @@
 import '@stencil/core';
 
 import '@ionic/core';
+import 'deckdeckgo';
 import 'deckdeckgo-highlight-code';
 import 'ionicons';
 

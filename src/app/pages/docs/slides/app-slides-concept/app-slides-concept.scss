@@ -1,0 +1,25 @@
+div.container {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid;
+
+  deckgo-deck {
+    --slide-padding-top: 16px;
+    --slide-padding-end: 16px;
+    --slide-padding-bottom: 16px;
+    --slide-padding-start: 16px;
+
+    --slide-split-padding-top: 16px;
+    --slide-split-padding-end: 16px;
+    --slide-split-padding-bottom: 16px;
+    --slide-split-padding-start: 16px;
+
+    --slide-split-title-display: block;
+    --slide-split-title-padding-top: 4px;
+    --slide-split-title-padding-end: 16px;
+    --slide-split-title-padding-bottom: 4px;
+    --slide-split-title-padding-start: 16px;
+  }
+}
