@@ -86,8 +86,6 @@ export class AppRoot {
           <ion-route url="/slides/author" component="app-slide-author"/>
           <ion-route url="/slides/qrcode" component="app-slide-qrcode"/>
           <ion-route url="/slides/background" component="app-slides-background"/>
-
-          <ion-route url="/profile/:name" component="app-profile"/>
         </ion-router>
 
         <ion-split-pane when="lg">
@@ -117,11 +115,7 @@ export class AppRoot {
                     <ion-item href="/slides/author" routerDirection="forward"><ion-label>Author</ion-label></ion-item>
                     <ion-item href="/slides/qrcode" routerDirection="forward"><ion-label>QR Code</ion-label></ion-item>
                     <ion-item href="/slides/background" routerDirection="forward"><ion-label>Background</ion-label></ion-item>
-
                   </ion-item-group>
-
-
-                  <ion-item href="/profile/hello" routerDirection="forward">Profile</ion-item>
                 </ion-list>
               </ion-menu-toggle>
 
