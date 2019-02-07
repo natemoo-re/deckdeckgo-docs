@@ -49,6 +49,9 @@ export namespace Components {
   interface AppComponentsGif {}
   interface AppComponentsGifAttributes extends StencilHTMLAttributes {}
 
+  interface AppComponentsHighlightCode {}
+  interface AppComponentsHighlightCodeAttributes extends StencilHTMLAttributes {}
+
   interface AppInstallation {}
   interface AppInstallationAttributes extends StencilHTMLAttributes {}
 
@@ -99,6 +102,7 @@ declare global {
     'AppHome': Components.AppHome;
     'AppComponentsChart': Components.AppComponentsChart;
     'AppComponentsGif': Components.AppComponentsGif;
+    'AppComponentsHighlightCode': Components.AppComponentsHighlightCode;
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
     'AppSlideAuthor': Components.AppSlideAuthor;
@@ -123,6 +127,7 @@ declare global {
     'app-home': Components.AppHomeAttributes;
     'app-components-chart': Components.AppComponentsChartAttributes;
     'app-components-gif': Components.AppComponentsGifAttributes;
+    'app-components-highlight-code': Components.AppComponentsHighlightCodeAttributes;
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
     'app-slide-author': Components.AppSlideAuthorAttributes;
@@ -185,6 +190,12 @@ declare global {
   var HTMLAppComponentsGifElement: {
     prototype: HTMLAppComponentsGifElement;
     new (): HTMLAppComponentsGifElement;
+  };
+
+  interface HTMLAppComponentsHighlightCodeElement extends Components.AppComponentsHighlightCode, HTMLStencilElement {}
+  var HTMLAppComponentsHighlightCodeElement: {
+    prototype: HTMLAppComponentsHighlightCodeElement;
+    new (): HTMLAppComponentsHighlightCodeElement;
   };
 
   interface HTMLAppInstallationElement extends Components.AppInstallation, HTMLStencilElement {}
@@ -274,6 +285,7 @@ declare global {
     'app-home': HTMLAppHomeElement
     'app-components-chart': HTMLAppComponentsChartElement
     'app-components-gif': HTMLAppComponentsGifElement
+    'app-components-highlight-code': HTMLAppComponentsHighlightCodeElement
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
     'app-slide-author': HTMLAppSlideAuthorElement
@@ -298,6 +310,7 @@ declare global {
     'app-home': HTMLAppHomeElement;
     'app-components-chart': HTMLAppComponentsChartElement;
     'app-components-gif': HTMLAppComponentsGifElement;
+    'app-components-highlight-code': HTMLAppComponentsHighlightCodeElement;
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
     'app-slide-author': HTMLAppSlideAuthorElement;

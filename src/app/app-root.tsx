@@ -90,6 +90,7 @@ export class AppRoot {
           <ion-route url="/components" component="app-concept"/>
           <ion-route url="/components/chart" component="app-components-chart"/>
           <ion-route url="/components/gif" component="app-components-gif"/>
+          <ion-route url="/components/code" component="app-components-highlight-code"/>
         </ion-router>
 
         <ion-split-pane when="lg">
@@ -125,6 +126,7 @@ export class AppRoot {
                     </ion-item-divider>
                     <ion-item href="/components/chart" routerDirection="forward"><ion-label>Chart</ion-label></ion-item>
                     <ion-item href="/components/gif" routerDirection="forward"><ion-label>Gif</ion-label></ion-item>
+                    <ion-item href="/components/code" routerDirection="forward"><ion-label>Highlight Code</ion-label></ion-item>
                   </ion-item-group>
                 </ion-list>
               </ion-menu-toggle>

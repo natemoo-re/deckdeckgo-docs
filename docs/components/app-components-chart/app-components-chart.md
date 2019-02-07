@@ -69,7 +69,7 @@ The [Stencil documentation](https://stenciljs.com/docs/overview) provide example
 
 ## Showcase
 
-The following examples are the one provided in the [src/index.html](src/index.html) of this component. If you would like to run them locally, proceed as follow:
+The following examples are the one provided in the [src/index.html](https://github.com/deckgo/deckdeckgo-charts/tree/master/src/index.html) of this component. If you would like to run them locally, proceed as follow:
 
 ```
 git clone https://github.com/deckgo/deckdeckgo-charts
@@ -191,7 +191,7 @@ draw() => Promise<void>
 
 #### Examples
 
-You could find other examples of pie charts in the [src/index.html](src/index.html) of the project.
+You could find other examples of pie charts in the [src/index.html](https://github.com/deckgo/deckdeckgo-charts/tree/master/src/index.html) of the project.
 
 ```
 <deckgo-pie-chart width={500} height={400} src="https://raw.githubusercontent.com/fluster/deckdeckgo-charts/master/showcase/data-pie-chart.csv"></deckgo-pie-chart>
@@ -298,7 +298,7 @@ draw() => Promise<void>
 
 #### Examples
 
-You could find other examples of line charts in the [src/index.html](src/index.html) of the project.
+You could find other examples of line charts in the [src/index.html](https://github.com/deckgo/deckdeckgo-charts/tree/master/src/index.html) of the project.
 
 ```
 <deckgo-line-chart width={500} height={400} date-pattern="dd.MM.yyyy" src="https://raw.githubusercontent.com/fluster/deckdeckgo-charts/master/showcase/data-line-chart.csv"></deckgo-line-chart>
@@ -368,7 +368,7 @@ draw() => Promise<void>
 
 #### Examples
 
-You could find other examples of bar charts in the [src/index.html](src/index.html) of the project.
+You could find other examples of bar charts in the [src/index.html](https://github.com/deckgo/deckdeckgo-charts/tree/master/src/index.html) of the project.
 
 ```
 <deckgo-bar-chart width={500} 

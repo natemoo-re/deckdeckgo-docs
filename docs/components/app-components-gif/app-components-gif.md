@@ -61,3 +61,5 @@ The following theming options will affect this component if set on its host or p
 ## Note
 
 Of course, as other images added to a presentation build with [DeckDeckGo], gifs are lazy loaded too. 
+
+[DeckDeckGo]: https://deckdeckgo.com
