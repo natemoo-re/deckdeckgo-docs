@@ -18,7 +18,7 @@ To highlight your code, this component is using [Prism.js](https://prismjs.com) 
     - [Find the next anchor](#find-the-next-anchor)
     - [Zoom into code](#zoom-into-code)
     - [Load or reload the component](#load-or-reload-the-component)
-    - [Examples](#examples)
+  - [Examples](#examples)
 
 ## Showcase
 
@@ -118,7 +118,7 @@ zoomCode(zoom: boolean) => Promise<void>
 load() => Promise<void>
 ```
 
-#### Examples
+### Examples
 
 You could find the examples in the [src/index.html](https://github.com/deckgo/deckdeckgo-qrcode/blob/master/src/index.html) of the project.
 

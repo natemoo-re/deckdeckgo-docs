@@ -47,9 +47,9 @@ export class AppComponentsHighlightCode {
 <li><a href="#find-the-next-anchor">Find the next anchor</a></li>
 <li><a href="#zoom-into-code">Zoom into code</a></li>
 <li><a href="#load-or-reload-the-component">Load or reload the component</a></li>
-<li><a href="#examples">Examples</a></li>
 </ul>
 </li>
+<li><a href="#examples">Examples</a></li>
 </ul>
 </li>
 </ul>
@@ -252,7 +252,7 @@ export class AppComponentsHighlightCode {
     </deckgo-highlight-code><h4 id="load-or-reload-the-component">Load or reload the component</h4>
 <deckgo-highlight-code language="javascript">
       <code slot="code">load() =&gt; Promise&lt;void&gt;</code>
-    </deckgo-highlight-code><h4 id="examples">Examples</h4>
+    </deckgo-highlight-code><h3 id="examples">Examples</h3>
 <p>You could find the examples in the <a href="https://github.com/deckgo/deckdeckgo-qrcode/blob/master/src/index.html">src/index.html</a> of the project.</p>
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;deckgo-highlight-code src=&quot;https:&#47;&#47;domain.com&#47;yourfile.js&quot;&gt;{'\n'}&lt;&#47;deckgo-highlight-code&gt;{'\n'}{'\n'}&lt;deckgo-highlight-code language=&quot;java&quot; highlight-lines=&quot;2,2&quot;&gt;{'\n'}  &lt;code slot=&quot;code&quot;&gt;public static void main(String args[]) &#123;{'\n'}{'\n'}  System.out.println(&quot;Hello World&quot;);{'\n'}&#125;&lt;&#47;code&gt;{'\n'}&lt;&#47;deckgo-highlight-code&gt;</code>

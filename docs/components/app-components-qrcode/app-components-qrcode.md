@@ -16,8 +16,8 @@ To generate the QR code, the project [qrcode-generator](https://github.com/kazuh
 	- [Properties](#properties)
 	- [Styling](#styling)
 		- [Styling type img](#styling-type-img)
-		- [Methods](#methods)
-		- [Examples](#examples)
+  - [Methods](#methods)
+  - [Examples](#examples)
 - [QR Code with logo](#qr-code-with-logo)
 
 ## Showcase
@@ -101,7 +101,7 @@ The `<deckgo-qrcode/>` could be styled using the following CSS4 variables which 
 
 In oder to style QR code if its type is set to  `<img/>`, you will need to use properties instead of CSS4 variables.
 
-#### Methods
+### Methods
 
 The `<deckgo-qrcode/>` component exposes the following method in case you would like to refresh your QR code, for example on resize of the window on in case you would set its content asynchronously:
 
@@ -109,7 +109,7 @@ The `<deckgo-qrcode/>` component exposes the following method in case you would 
 generate() => Promise<void>
 ```
 
-#### Examples
+### Examples
 
 You could find all the examples in the [src/index.html](src/index.html) of the project.
 

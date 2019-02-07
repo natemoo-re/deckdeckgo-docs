@@ -44,9 +44,11 @@ export class AppComponentsQRCode {
 <li><a href="#slot">Slot</a></li>
 <li><a href="#properties">Properties</a></li>
 <li><a href="#styling">Styling</a><ul>
-<li><a href="#styling-type-img">Styling type img</a></li>
+<li><a href="#styling-type-img">Styling type img</a><ul>
 <li><a href="#methods">Methods</a></li>
 <li><a href="#examples">Examples</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -204,11 +206,11 @@ export class AppComponentsQRCode {
 </tbody></table>
 <h4 id="styling-type-img">Styling type img</h4>
 <p>In oder to style QR code if its type is set to  <code>&lt;img/&gt;</code>, you will need to use properties instead of CSS4 variables.</p>
-<h4 id="methods">Methods</h4>
+<h3 id="methods">Methods</h3>
 <p>The <code>&lt;deckgo-qrcode/&gt;</code> component exposes the following method in case you would like to refresh your QR code, for example on resize of the window on in case you would set its content asynchronously:</p>
 <deckgo-highlight-code language="javascript">
       <code slot="code">generate() =&gt; Promise&lt;void&gt;</code>
-    </deckgo-highlight-code><h4 id="examples">Examples</h4>
+    </deckgo-highlight-code><h3 id="examples">Examples</h3>
 <p>You could find all the examples in the <a href="src/index.html">src/index.html</a> of the project.</p>
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;deckgo-qrcode content=&quot;https:&#47;&#47;deckdeckgo.com&quot; style=&quot;--deckgo-qrcode-size: 300px;&quot;&gt;{'\n'}&lt;&#47;deckgo-qrcode&gt;</code>
