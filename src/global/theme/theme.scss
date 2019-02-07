@@ -16,6 +16,14 @@ main {
   h2, h3 {
     margin-top: 32px;
   }
+
+  ul {
+    font-size: var(--font-size-small);
+    li {
+      padding-left: 8px;
+      font-size: var(--font-size-small);
+    }
+  }
 }
 
 a {

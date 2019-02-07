@@ -1,8 +1,48 @@
-## Chart
+# Chart
 
 The "Chart" component is an extra component which let you draw charts easily. This Web Component could be use with or without [DeckDeckGo] respectively could be use as a plotter library in any web projects.
 
 To create and draw the charts, this project is using [D3js](https://d3js.org).
+
+## Table of contents
+
+- [Getting Started](#getting-started)
+	- [Using DeckDeckGo charts from a CDN](#using-deckdeckgo-charts-from-a-cdn)
+	- [Install DeckDeckGo charts from NPM](#install-deckdeckgo-charts-from-npm)
+	- [Framework integration](#framework-integration)
+- [Showcase](#showcase)
+	- [Pie](#pie)
+	- [Donut](#donut)
+	- [Compare two graphs](#compare-two-graphs)
+	- [Line and area](#line-and-area)
+	- [Compare two lines and smoothing effect](#compare-two-lines-and-smoothing-effect)
+	- [Compare two lines and display a grid](#compare-two-lines-and-display-a-grid)
+	- [Bar](#bar)
+	- [Compare multiple bars](#compare-multiple-bars)
+- [Usage](#usage)
+	- [Pie usage](#pie-usage)
+		- [CSV](#csv)
+			- [Single column](#single-column)
+			- [Two columns](#two-columns)
+		- [Properties](#properties)
+		- [Styling](#styling)
+		- [Methods](#methods)
+		- [Examples](#examples)
+	- [Line usage](#line-usage)
+		- [CSV](#csv-1)
+			- [Two columns](#two-columns-1)
+			- [Three columns](#three-columns)
+		- [Properties](#properties-1)
+		- [Styling](#styling-1)
+		- [Methods](#methods-1)
+		- [Examples](#examples-1)
+	- [Bar usage](#bar-usage)
+		- [CSV](#csv-2)
+			- [Multiple columns](#multiple-columns)
+		- [Properties](#properties-2)
+		- [Styling](#styling-2)
+		- [Methods](#methods-2)
+		- [Examples](#examples-2)
 
 ## Getting Started
 

@@ -28,9 +28,67 @@ export class AppComponentsChart {
       <app-navigation></app-navigation>,
 
       <ion-content padding>
-        <main><h2 id="chart">Chart</h2>
+        <main><h1 id="chart">Chart</h1>
 <p>The &quot;Chart&quot; component is an extra component which let you draw charts easily. This Web Component could be use with or without <a href="https://deckdeckgo.com">DeckDeckGo</a> respectively could be use as a plotter library in any web projects.</p>
 <p>To create and draw the charts, this project is using <a href="https://d3js.org">D3js</a>.</p>
+<h2 id="table-of-contents">Table of contents</h2>
+<ul>
+<li><a href="#getting-started">Getting Started</a><ul>
+<li><a href="#using-deckdeckgo-charts-from-a-cdn">Using DeckDeckGo charts from a CDN</a></li>
+<li><a href="#install-deckdeckgo-charts-from-npm">Install DeckDeckGo charts from NPM</a></li>
+<li><a href="#framework-integration">Framework integration</a></li>
+</ul>
+</li>
+<li><a href="#showcase">Showcase</a><ul>
+<li><a href="#pie">Pie</a></li>
+<li><a href="#donut">Donut</a></li>
+<li><a href="#compare-two-graphs">Compare two graphs</a></li>
+<li><a href="#line-and-area">Line and area</a></li>
+<li><a href="#compare-two-lines-and-smoothing-effect">Compare two lines and smoothing effect</a></li>
+<li><a href="#compare-two-lines-and-display-a-grid">Compare two lines and display a grid</a></li>
+<li><a href="#bar">Bar</a></li>
+<li><a href="#compare-multiple-bars">Compare multiple bars</a></li>
+</ul>
+</li>
+<li><a href="#usage">Usage</a><ul>
+<li><a href="#pie-usage">Pie usage</a><ul>
+<li><a href="#csv">CSV</a><ul>
+<li><a href="#single-column">Single column</a></li>
+<li><a href="#two-columns">Two columns</a></li>
+</ul>
+</li>
+<li><a href="#properties">Properties</a></li>
+<li><a href="#styling">Styling</a></li>
+<li><a href="#methods">Methods</a></li>
+<li><a href="#examples">Examples</a></li>
+</ul>
+</li>
+<li><a href="#line-usage">Line usage</a><ul>
+<li><a href="#csv-1">CSV</a><ul>
+<li><a href="#two-columns-1">Two columns</a></li>
+<li><a href="#three-columns">Three columns</a></li>
+</ul>
+</li>
+<li><a href="#properties-1">Properties</a></li>
+<li><a href="#styling-1">Styling</a></li>
+<li><a href="#methods-1">Methods</a></li>
+<li><a href="#examples-1">Examples</a></li>
+</ul>
+</li>
+<li><a href="#bar-usage">Bar usage</a><ul>
+<li><a href="#csv-2">CSV</a><ul>
+<li><a href="#multiple-columns">Multiple columns</a></li>
+</ul>
+</li>
+<li><a href="#properties-2">Properties</a></li>
+<li><a href="#styling-2">Styling</a></li>
+<li><a href="#methods-2">Methods</a></li>
+<li><a href="#examples-2">Examples</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <h2 id="getting-started">Getting Started</h2>
 <p>The <a href="https://deckdeckgo.com">DeckDeckGo</a> charts Web Component could be use directly in your project from a CDN, using a simple script include, or could be installed from <a href="https://www.npmjs.com/package/deckdeckgo-charts">npm</a>.</p>
 <h3 id="using-deckdeckgo-charts-from-a-cdn">Using DeckDeckGo charts from a CDN</h3>
