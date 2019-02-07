@@ -6,10 +6,6 @@ To create and draw the charts, this project is using [D3js](https://d3js.org).
 
 ## Table of contents
 
-- [Getting Started](#getting-started)
-	- [Using DeckDeckGo charts from a CDN](#using-deckdeckgo-charts-from-a-cdn)
-	- [Install DeckDeckGo charts from NPM](#install-deckdeckgo-charts-from-npm)
-	- [Framework integration](#framework-integration)
 - [Showcase](#showcase)
 	- [Pie](#pie)
 	- [Donut](#donut)
@@ -19,6 +15,10 @@ To create and draw the charts, this project is using [D3js](https://d3js.org).
 	- [Compare two lines and display a grid](#compare-two-lines-and-display-a-grid)
 	- [Bar](#bar)
 	- [Compare multiple bars](#compare-multiple-bars)
+- [Getting Started](#getting-started)
+	- [Using DeckDeckGo charts from a CDN](#using-deckdeckgo-charts-from-a-cdn)
+	- [Install DeckDeckGo charts from NPM](#install-deckdeckgo-charts-from-npm)
+	- [Framework integration](#framework-integration)
 - [Usage](#usage)
 	- [Pie usage](#pie-usage)
 		- [CSV](#csv)
@@ -43,29 +43,6 @@ To create and draw the charts, this project is using [D3js](https://d3js.org).
 		- [Styling](#styling-2)
 		- [Methods](#methods-2)
 		- [Examples](#examples-2)
-
-## Getting Started
-
-The [DeckDeckGo] charts Web Component could be use directly in your project from a CDN, using a simple script include, or could be installed from [npm](https://www.npmjs.com/package/deckdeckgo-charts).
-
-### Using DeckDeckGo charts from a CDN
-
-It's recommended to use [unpkg](https://unpkg.com/) to use the [DeckDeckGo] charts from a CDN. To do so, add the following include script in the main HTML file of your project:
-
-```
-<script src="https://unpkg.com/deckdeckgo-charts@latest/dist/deckdeckgo-charts.js"></script>
-```
-### Install DeckDeckGo charts from NPM
-
-Install [DeckDeckGo] charts in your project from [npm](https://www.npmjs.com/package/deckdeckgo-charts) using the following command:
-
-```bash
-npm install deckdeckgo-charts
-```
-
-### Framework integration
-
-The [Stencil documentation](https://stenciljs.com/docs/overview) provide examples of framework integration for [Angular](https://stenciljs.com/docs/angular), [React](https://stenciljs.com/docs/react), [Vue](https://stenciljs.com/docs/vue) and [Ember](https://stenciljs.com/docs/ember).
 
 ## Showcase
 
@@ -122,6 +99,29 @@ npm run start
   <deckgo-bar-chart width={500} height={400} src="https://raw.githubusercontent.com/fluster/deckdeckgo-charts/master/showcase/data-pie-chart.csv" 
                     style={{'--deckgo-chart-fill-color-bar1': 'var(--ion-color-primary)'}}></deckgo-bar-chart>
 </div>
+
+## Getting Started
+
+The [DeckDeckGo] charts Web Component could be use directly in your project from a CDN, using a simple script include, or could be installed from [npm](https://www.npmjs.com/package/deckdeckgo-charts).
+
+### Using DeckDeckGo charts from a CDN
+
+It's recommended to use [unpkg](https://unpkg.com/) to use the [DeckDeckGo] charts from a CDN. To do so, add the following include script in the main HTML file of your project:
+
+```
+<script src="https://unpkg.com/deckdeckgo-charts@latest/dist/deckdeckgo-charts.js"></script>
+```
+### Install DeckDeckGo charts from NPM
+
+Install [DeckDeckGo] charts in your project from [npm](https://www.npmjs.com/package/deckdeckgo-charts) using the following command:
+
+```bash
+npm install deckdeckgo-charts
+```
+
+### Framework integration
+
+The [Stencil documentation](https://stenciljs.com/docs/overview) provide examples of framework integration for [Angular](https://stenciljs.com/docs/angular), [React](https://stenciljs.com/docs/react), [Vue](https://stenciljs.com/docs/vue) and [Ember](https://stenciljs.com/docs/ember).
 
 ## Usage
 

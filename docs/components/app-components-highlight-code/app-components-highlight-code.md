@@ -2,14 +2,15 @@
 
 The "Highlight Code" component is an extra component which let you highlight code easily. This Web Component could be use with or without [DeckDeckGo] respectively could be use as a plotter library in any web projects.
 
+To highlight your code, this component is using [Prism.js](https://prismjs.com) from [James DiGioia](https://twitter.com/jamesdigioia).
+
 ## Table of contents
 
-- [Code](#code)
+- [Showcase](#showcase)
 - [Getting Started](#getting-started)
   - [Using DeckDeckGo Highlight Code from a CDN](#using-deckdeckgo-highlight-code-from-a-cdn)
   - [Install DeckDeckGo Highlight Code from NPM](#install-deckdeckgo-highlight-code-from-npm)
   - [Framework integration](#framework-integration)
-- [Showcase](#showcase)
 - [Usage](#usage)
   - [Properties](#properties)
   - [Styling](#styling)
@@ -19,11 +20,13 @@ The "Highlight Code" component is an extra component which let you highlight cod
     - [Load or reload the component](#load-or-reload-the-component)
     - [Examples](#examples)
 
-## Code
+## Showcase
 
-This component has for goal to let you easily highlight the code you would showcase in your [DeckDeckGo] presentation.
-
-To highlight your code, this component is using [Prism.js](https://prismjs.com) from [James DiGioia](https://twitter.com/jamesdigioia).
+```java
+public static void main(String args[]) { 
+  System.out.println("Hello World");
+}
+```
 
 ## Getting Started
 
@@ -47,14 +50,6 @@ npm install deckdeckgo-highlight-code
 ### Framework integration
 
 The [Stencil documentation](https://stenciljs.com/docs/overview) provide examples of framework integration for [Angular](https://stenciljs.com/docs/angular), [React](https://stenciljs.com/docs/react), [Vue](https://stenciljs.com/docs/vue) and [Ember](https://stenciljs.com/docs/ember).
-
-## Showcase
-
-```java
-public static void main(String args[]) { 
-  System.out.println("Hello World");
-}
-```
 
 ## Usage
 
@@ -125,7 +120,7 @@ load() => Promise<void>
 
 #### Examples
 
-You could find the examples in the [src/index.html](https://github.com/deckgo/deckdeckgo-highlight-code/tree/master/src/index.html) of the project.
+You could find the examples in the [src/index.html](https://github.com/deckgo/deckdeckgo-qrcode/blob/master/src/index.html) of the project.
 
 ```
 <deckgo-highlight-code src="https://domain.com/yourfile.js">

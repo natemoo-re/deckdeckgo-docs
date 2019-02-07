@@ -33,12 +33,6 @@ export class AppComponentsChart {
 <p>To create and draw the charts, this project is using <a href="https://d3js.org">D3js</a>.</p>
 <h2 id="table-of-contents">Table of contents</h2>
 <ul>
-<li><a href="#getting-started">Getting Started</a><ul>
-<li><a href="#using-deckdeckgo-charts-from-a-cdn">Using DeckDeckGo charts from a CDN</a></li>
-<li><a href="#install-deckdeckgo-charts-from-npm">Install DeckDeckGo charts from NPM</a></li>
-<li><a href="#framework-integration">Framework integration</a></li>
-</ul>
-</li>
 <li><a href="#showcase">Showcase</a><ul>
 <li><a href="#pie">Pie</a></li>
 <li><a href="#donut">Donut</a></li>
@@ -48,6 +42,12 @@ export class AppComponentsChart {
 <li><a href="#compare-two-lines-and-display-a-grid">Compare two lines and display a grid</a></li>
 <li><a href="#bar">Bar</a></li>
 <li><a href="#compare-multiple-bars">Compare multiple bars</a></li>
+</ul>
+</li>
+<li><a href="#getting-started">Getting Started</a><ul>
+<li><a href="#using-deckdeckgo-charts-from-a-cdn">Using DeckDeckGo charts from a CDN</a></li>
+<li><a href="#install-deckdeckgo-charts-from-npm">Install DeckDeckGo charts from NPM</a></li>
+<li><a href="#framework-integration">Framework integration</a></li>
 </ul>
 </li>
 <li><a href="#usage">Usage</a><ul>
@@ -89,18 +89,6 @@ export class AppComponentsChart {
 </ul>
 </li>
 </ul>
-<h2 id="getting-started">Getting Started</h2>
-<p>The <a href="https://deckdeckgo.com">DeckDeckGo</a> charts Web Component could be use directly in your project from a CDN, using a simple script include, or could be installed from <a href="https://www.npmjs.com/package/deckdeckgo-charts">npm</a>.</p>
-<h3 id="using-deckdeckgo-charts-from-a-cdn">Using DeckDeckGo charts from a CDN</h3>
-<p>It&#39;s recommended to use <a href="https://unpkg.com/">unpkg</a> to use the <a href="https://deckdeckgo.com">DeckDeckGo</a> charts from a CDN. To do so, add the following include script in the main HTML file of your project:</p>
-<deckgo-highlight-code language="javascript">
-      <code slot="code">&lt;script src=&quot;https:&#47;&#47;unpkg.com&#47;deckdeckgo-charts@latest&#47;dist&#47;deckdeckgo-charts.js&quot;&gt;&lt;&#47;script&gt;</code>
-    </deckgo-highlight-code><h3 id="install-deckdeckgo-charts-from-npm">Install DeckDeckGo charts from NPM</h3>
-<p>Install <a href="https://deckdeckgo.com">DeckDeckGo</a> charts in your project from <a href="https://www.npmjs.com/package/deckdeckgo-charts">npm</a> using the following command:</p>
-<deckgo-highlight-code language="bash">
-      <code slot="code">npm install deckdeckgo-charts</code>
-    </deckgo-highlight-code><h3 id="framework-integration">Framework integration</h3>
-<p>The <a href="https://stenciljs.com/docs/overview">Stencil documentation</a> provide examples of framework integration for <a href="https://stenciljs.com/docs/angular">Angular</a>, <a href="https://stenciljs.com/docs/react">React</a>, <a href="https://stenciljs.com/docs/vue">Vue</a> and <a href="https://stenciljs.com/docs/ember">Ember</a>.</p>
 <h2 id="showcase">Showcase</h2>
 <p>The following examples are the one provided in the <a href="https://github.com/deckgo/deckdeckgo-charts/tree/master/src/index.html">src/index.html</a> of this component. If you would like to run them locally, proceed as follow:</p>
 <deckgo-highlight-code language="javascript">
@@ -138,6 +126,18 @@ export class AppComponentsChart {
                     style={{'--deckgo-chart-fill-color-bar1': 'var(--ion-color-primary)'}}></deckgo-bar-chart>
 </div>
 
+<h2 id="getting-started">Getting Started</h2>
+<p>The <a href="https://deckdeckgo.com">DeckDeckGo</a> charts Web Component could be use directly in your project from a CDN, using a simple script include, or could be installed from <a href="https://www.npmjs.com/package/deckdeckgo-charts">npm</a>.</p>
+<h3 id="using-deckdeckgo-charts-from-a-cdn">Using DeckDeckGo charts from a CDN</h3>
+<p>It&#39;s recommended to use <a href="https://unpkg.com/">unpkg</a> to use the <a href="https://deckdeckgo.com">DeckDeckGo</a> charts from a CDN. To do so, add the following include script in the main HTML file of your project:</p>
+<deckgo-highlight-code language="javascript">
+      <code slot="code">&lt;script src=&quot;https:&#47;&#47;unpkg.com&#47;deckdeckgo-charts@latest&#47;dist&#47;deckdeckgo-charts.js&quot;&gt;&lt;&#47;script&gt;</code>
+    </deckgo-highlight-code><h3 id="install-deckdeckgo-charts-from-npm">Install DeckDeckGo charts from NPM</h3>
+<p>Install <a href="https://deckdeckgo.com">DeckDeckGo</a> charts in your project from <a href="https://www.npmjs.com/package/deckdeckgo-charts">npm</a> using the following command:</p>
+<deckgo-highlight-code language="bash">
+      <code slot="code">npm install deckdeckgo-charts</code>
+    </deckgo-highlight-code><h3 id="framework-integration">Framework integration</h3>
+<p>The <a href="https://stenciljs.com/docs/overview">Stencil documentation</a> provide examples of framework integration for <a href="https://stenciljs.com/docs/angular">Angular</a>, <a href="https://stenciljs.com/docs/react">React</a>, <a href="https://stenciljs.com/docs/vue">Vue</a> and <a href="https://stenciljs.com/docs/ember">Ember</a>.</p>
 <h2 id="usage">Usage</h2>
 <p>The main idea behind the <a href="https://deckdeckgo.com">DeckDeckGo</a> charts is to be able to drop a <strong>csv</strong> file, provide it to the component and let it do the job respectively draw the chart.</p>
 <h3 id="pie-usage">Pie usage</h3>

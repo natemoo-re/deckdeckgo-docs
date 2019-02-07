@@ -52,6 +52,9 @@ export namespace Components {
   interface AppComponentsHighlightCode {}
   interface AppComponentsHighlightCodeAttributes extends StencilHTMLAttributes {}
 
+  interface AppComponentsQrcode {}
+  interface AppComponentsQrcodeAttributes extends StencilHTMLAttributes {}
+
   interface AppInstallation {}
   interface AppInstallationAttributes extends StencilHTMLAttributes {}
 
@@ -103,6 +106,7 @@ declare global {
     'AppComponentsChart': Components.AppComponentsChart;
     'AppComponentsGif': Components.AppComponentsGif;
     'AppComponentsHighlightCode': Components.AppComponentsHighlightCode;
+    'AppComponentsQrcode': Components.AppComponentsQrcode;
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
     'AppSlideAuthor': Components.AppSlideAuthor;
@@ -128,6 +132,7 @@ declare global {
     'app-components-chart': Components.AppComponentsChartAttributes;
     'app-components-gif': Components.AppComponentsGifAttributes;
     'app-components-highlight-code': Components.AppComponentsHighlightCodeAttributes;
+    'app-components-qrcode': Components.AppComponentsQrcodeAttributes;
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
     'app-slide-author': Components.AppSlideAuthorAttributes;
@@ -196,6 +201,12 @@ declare global {
   var HTMLAppComponentsHighlightCodeElement: {
     prototype: HTMLAppComponentsHighlightCodeElement;
     new (): HTMLAppComponentsHighlightCodeElement;
+  };
+
+  interface HTMLAppComponentsQrcodeElement extends Components.AppComponentsQrcode, HTMLStencilElement {}
+  var HTMLAppComponentsQrcodeElement: {
+    prototype: HTMLAppComponentsQrcodeElement;
+    new (): HTMLAppComponentsQrcodeElement;
   };
 
   interface HTMLAppInstallationElement extends Components.AppInstallation, HTMLStencilElement {}
@@ -286,6 +297,7 @@ declare global {
     'app-components-chart': HTMLAppComponentsChartElement
     'app-components-gif': HTMLAppComponentsGifElement
     'app-components-highlight-code': HTMLAppComponentsHighlightCodeElement
+    'app-components-qrcode': HTMLAppComponentsQrcodeElement
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
     'app-slide-author': HTMLAppSlideAuthorElement
@@ -311,6 +323,7 @@ declare global {
     'app-components-chart': HTMLAppComponentsChartElement;
     'app-components-gif': HTMLAppComponentsGifElement;
     'app-components-highlight-code': HTMLAppComponentsHighlightCodeElement;
+    'app-components-qrcode': HTMLAppComponentsQrcodeElement;
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
     'app-slide-author': HTMLAppSlideAuthorElement;
