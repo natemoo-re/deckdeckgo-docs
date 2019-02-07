@@ -25,7 +25,7 @@ In the previous example, the presentation contains two slides. The first slide u
 
 [DeckDeckGo] provide the following templates:
 
-* [Title](#slide-title)
+* Slide: [Title](/slides/title)
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -38,7 +38,7 @@ In the previous example, the presentation contains two slides. The first slide u
   </deckgo-deck>
 </div>
 
-* [Content](#slide-content)
+* Slide: [Content](/slides/content)
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -51,7 +51,7 @@ In the previous example, the presentation contains two slides. The first slide u
   </deckgo-deck>
 </div>
 
-* [Split](#slide-split)
+* Slide: [Split](/slides/split)
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -67,7 +67,7 @@ In the previous example, the presentation contains two slides. The first slide u
   </deckgo-deck>
 </div>
 
-* [Gif](#slide-gif)
+* Slide: [Gif](/slides/gif)
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -79,7 +79,7 @@ In the previous example, the presentation contains two slides. The first slide u
   </deckgo-deck>
 </div>
 
-* [Chart](#slide-chart)
+* Slide: [Chart](/slides/chart)
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -96,7 +96,7 @@ In the previous example, the presentation contains two slides. The first slide u
   </deckgo-deck>
 </div>
 
-* [Youtube](#slide-youtube)
+* Slide: [Youtube](/slides/youtube)
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -106,7 +106,7 @@ In the previous example, the presentation contains two slides. The first slide u
   </deckgo-deck>
 </div>
 
-* [Code](#slide-code)
+* Slide: [Code](/slides/code)
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -116,7 +116,7 @@ In the previous example, the presentation contains two slides. The first slide u
   </deckgo-deck>
 </div>
 
-* [Author](#slide-author)
+* Slide: [Author](/slides/author)
 
 
 <div class="container" margin>
@@ -130,7 +130,7 @@ In the previous example, the presentation contains two slides. The first slide u
   </deckgo-deck>
 </div>
 
-* [QR Code](#slide-qr-code)
+* Slide: [QR Code](/slides/qrcode)
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -141,6 +141,8 @@ In the previous example, the presentation contains two slides. The first slide u
   </deckgo-deck>
 </div>
 
-*Note: If you would miss or need further templates, don't hesitate to open an issue and/or submit a PR, it would be my pleasure to add more options*
+## Note
+
+If you would miss or need further templates, don't hesitate to open an issue and/or submit a PR, it would be my pleasure to add more options.
 
 [DeckDeckGo]: https://deckdeckgo.com 

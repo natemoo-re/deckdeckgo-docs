@@ -38,7 +38,7 @@ export class AppSlidesConcept {
 <h1 id="templates">Templates</h1>
 <p><a href="https://deckdeckgo.com">DeckDeckGo</a> provide the following templates:</p>
 <ul>
-<li><a href="#slide-title">Title</a></li>
+<li>Slide: <a href="/slides/title">Title</a></li>
 </ul>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -52,7 +52,7 @@ export class AppSlidesConcept {
 </div>
 
 <ul>
-<li><a href="#slide-content">Content</a></li>
+<li>Slide: <a href="/slides/content">Content</a></li>
 </ul>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -66,7 +66,7 @@ export class AppSlidesConcept {
 </div>
 
 <ul>
-<li><a href="#slide-split">Split</a></li>
+<li>Slide: <a href="/slides/split">Split</a></li>
 </ul>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -83,7 +83,7 @@ export class AppSlidesConcept {
 </div>
 
 <ul>
-<li><a href="#slide-gif">Gif</a></li>
+<li>Slide: <a href="/slides/gif">Gif</a></li>
 </ul>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -96,7 +96,7 @@ export class AppSlidesConcept {
 </div>
 
 <ul>
-<li><a href="#slide-chart">Chart</a></li>
+<li>Slide: <a href="/slides/chart">Chart</a></li>
 </ul>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -114,7 +114,7 @@ export class AppSlidesConcept {
 </div>
 
 <ul>
-<li><a href="#slide-youtube">Youtube</a></li>
+<li>Slide: <a href="/slides/youtube">Youtube</a></li>
 </ul>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -125,7 +125,7 @@ export class AppSlidesConcept {
 </div>
 
 <ul>
-<li><a href="#slide-code">Code</a></li>
+<li>Slide: <a href="/slides/code">Code</a></li>
 </ul>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -136,7 +136,7 @@ export class AppSlidesConcept {
 </div>
 
 <ul>
-<li><a href="#slide-author">Author</a></li>
+<li>Slide: <a href="/slides/author">Author</a></li>
 </ul>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -150,7 +150,7 @@ export class AppSlidesConcept {
 </div>
 
 <ul>
-<li><a href="#slide-qr-code">QR Code</a></li>
+<li>Slide: <a href="/slides/qrcode">QR Code</a></li>
 </ul>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -161,7 +161,8 @@ export class AppSlidesConcept {
   </deckgo-deck>
 </div>
 
-<p><em>Note: If you would miss or need further templates, don&#39;t hesitate to open an issue and/or submit a PR, it would be my pleasure to add more options</em></p>
+<h2 id="note">Note</h2>
+<p>If you would miss or need further templates, don&#39;t hesitate to open an issue and/or submit a PR, it would be my pleasure to add more options</p>
 </main>
       </ion-content>
     ];
