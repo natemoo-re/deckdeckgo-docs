@@ -13,7 +13,8 @@ export class AppRoot {
   private treeShakeWorkaroundComponents: any = [
     <deckgo-pie-chart/>,
     <deckgo-line-chart/>,
-    <deckgo-bar-chart/>
+    <deckgo-bar-chart/>,
+    <deckgo-qrcode/>
   ];
 
   @Prop({connect: 'ion-menu-controller'}) lazyMenuController!: HTMLIonMenuControllerElement;
