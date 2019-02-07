@@ -4,9 +4,23 @@ The "Chart" slide let you draw easily charts in your presentation.
 
 #### Layout
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-chart-pie-layout.png" width="450px"/>
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-chart-line-layout.png" width="450px"/>
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-chart-bar-layout.png" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-chart width={200} height={100} src="https://raw.githubusercontent.com/fluster/deckdeckgo-charts/master/showcase/data-pie-chart.csv">
+      <h1 slot="title">slot="title"</h1>
+    </deckgo-slide-chart>
+    <deckgo-slide-chart width={200} height={100} type="line" y-axis-domain="extent" date-pattern="dd.MM.yyyy"
+                        src="https://raw.githubusercontent.com/fluster/deckdeckgo-charts/master/showcase/data-line-chart-to-compare.csv">
+      <h1 slot="title">slot="title"</h1>
+    </deckgo-slide-chart>
+    <deckgo-slide-chart width={200} height={100}
+                        type="bar" src="https://raw.githubusercontent.com/fluster/deckdeckgo-charts/master/showcase/data-bar-chart-to-compare.csv"
+                        style={{'--deckgo-chart-fill-color-bar1': 'var(--ion-color-primary)', '--deckgo-chart-fill-color-bar2': 'var(--ion-color-secondary)', '--deckgo-chart-fill-color-bar3': 'var(--ion-color-tertiary)'}}
+                        >
+      <h1 slot="title">slot="title"</h1>
+    </deckgo-slide-chart>
+  </deckgo-deck>
+</div>
 
 #### Usage
 

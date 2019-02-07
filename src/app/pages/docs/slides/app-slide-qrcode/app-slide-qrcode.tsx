@@ -5,7 +5,8 @@ import {DeckdeckgoDocsUtils} from '../../../../utils/deckdeckgo-docs-utils';
 import {MenuService} from '../../../../services/menu/menu.service';
 
 @Component({
-  tag: 'app-slide-qrcode'
+  tag: 'app-slide-qrcode',
+  styleUrl: 'app-slides-qrcode.scss'
 })
 export class AppSlideQRCode {
 

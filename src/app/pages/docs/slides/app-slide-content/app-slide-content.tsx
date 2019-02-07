@@ -5,7 +5,8 @@ import {DeckdeckgoDocsUtils} from '../../../../utils/deckdeckgo-docs-utils';
 import {MenuService} from '../../../../services/menu/menu.service';
 
 @Component({
-  tag: 'app-slide-content'
+  tag: 'app-slide-content',
+  styleUrl: 'app-slides-content.scss'
 })
 export class AppConcept {
 
@@ -32,12 +33,21 @@ export class AppConcept {
 <p>The &quot;Content&quot; slide is a simple slide which display its title and content aligned to the start of the page.</p>
 <p>This slide could be for example use for the every slides of your presentation where you would like to display content related to your talk.</p>
 <h4 id="layout">Layout</h4>
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-content-layout.png" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-content>
+        <h1 slot="title">Something related to my topic</h1>
+        <p slot="content">
+          Cool beans
+        </p>
+      </deckgo-slide-content>
+  </deckgo-deck>
+</div>
 
 <h4 id="usage">Usage</h4>
 <p>The &quot;Content&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-content/&gt;</code>.</p>
 <deckgo-highlight-code language="javascript">
-      <code slot="code">&lt;deckgo-deck&gt;{'\n'}  &lt;deckgo-slide-content&gt;{'\n'}    &lt;h1 slot=&quot;title&quot;&gt;Something related to my topic&lt;&#47;h1&gt;{'\n'}    &lt;p slot=&quot;content&quot;&gt;{'\n'}      Cool beans{'\n'}    &lt;&#47;p&gt;{'\n'}  &lt;&#47;deckgo-slide-title&gt;{'\n'}&lt;&#47;deckgo-deck&gt;</code>
+      <code slot="code">&lt;deckgo-deck&gt;{'\n'}  &lt;deckgo-slide-content&gt;{'\n'}    &lt;h1 slot=&quot;title&quot;&gt;Something related to my topic&lt;&#47;h1&gt;{'\n'}    &lt;p slot=&quot;content&quot;&gt;{'\n'}      Cool beans{'\n'}    &lt;&#47;p&gt;{'\n'}  &lt;&#47;deckgo-slide-content&gt;{'\n'}&lt;&#47;deckgo-deck&gt;</code>
     </deckgo-highlight-code><h5 id="slots">Slots</h5>
 <p>Both slots <code>title</code> and <code>content</code> are optional. Without providing one of them, the page will remain empty.</p>
 <h5 id="notes">Notes</h5>
@@ -69,7 +79,7 @@ export class AppConcept {
 </tbody></table>
 <h5 id="example">Example</h5>
 <deckgo-highlight-code language="javascript">
-      <code slot="code">&lt;deckgo-deck&gt;{'\n'}  &lt;deckgo-slide-content reveal=&quot;true&quot; reveal-show-first=&quot;true&quot;&gt;{'\n'}    &lt;h1 slot=&quot;title&quot;&gt;Something related to my topic&lt;&#47;h1&gt;{'\n'}    &lt;ul slot=&quot;content&quot;&gt;{'\n'}      &lt;li&gt;Cool&lt;&#47;li&gt;{'\n'}      &lt;li&gt;Beans&lt;&#47;li&gt;{'\n'}    &lt;&#47;p&gt;{'\n'}  &lt;&#47;deckgo-slide-content&gt;{'\n'}&lt;&#47;deckgo-deck&gt;</code>
+      <code slot="code">&lt;deckgo-deck&gt;{'\n'}  &lt;deckgo-slide-content reveal=&quot;true&quot; reveal-show-first=&quot;true&quot;&gt;{'\n'}    &lt;h1 slot=&quot;title&quot;&gt;Something related to my topic&lt;&#47;h1&gt;{'\n'}    &lt;ul slot=&quot;content&quot;&gt;{'\n'}      &lt;li&gt;Cool&lt;&#47;li&gt;{'\n'}      &lt;li&gt;Beans&lt;&#47;li&gt;{'\n'}    &lt;&#47;ul&gt;{'\n'}  &lt;&#47;deckgo-slide-content&gt;{'\n'}&lt;&#47;deckgo-deck&gt;</code>
     </deckgo-highlight-code><h4 id="theming">Theming</h4>
 <p>The following theming options will affect this component if set on its host or parent.</p>
 <table>

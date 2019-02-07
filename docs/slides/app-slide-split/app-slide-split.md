@@ -4,7 +4,19 @@ The "Split" slide is a simple slide which display two panes on the page.
 
 #### Layout
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-split-layout.png" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-split>
+        <h1 slot="title">Two columns subject</h1>
+        <p slot="start">
+          The content you want to display on the left side of the page
+        </p>
+        <p slot="end">
+          The content you want to display on the right side of the page
+        </p>
+      </deckgo-slide-split>
+  </deckgo-deck>
+</div>
 
 #### Usage
 

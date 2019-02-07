@@ -5,7 +5,8 @@ import {DeckdeckgoDocsUtils} from '../../../../utils/deckdeckgo-docs-utils';
 import {MenuService} from '../../../../services/menu/menu.service';
 
 @Component({
-  tag: 'app-slide-split'
+  tag: 'app-slide-split',
+  styleUrl: 'app-slides-split.scss'
 })
 export class AppSlideContent {
 
@@ -31,7 +32,19 @@ export class AppSlideContent {
         <main><h1 id="slide-split">Slide: Split</h1>
 <p>The &quot;Split&quot; slide is a simple slide which display two panes on the page.</p>
 <h4 id="layout">Layout</h4>
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-split-layout.png" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-split>
+        <h1 slot="title">Two columns subject</h1>
+        <p slot="start">
+          The content you want to display on the left side of the page
+        </p>
+        <p slot="end">
+          The content you want to display on the right side of the page
+        </p>
+      </deckgo-slide-split>
+  </deckgo-deck>
+</div>
 
 <h4 id="usage">Usage</h4>
 <p>The &quot;Split&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-split/&gt;</code>.</p>

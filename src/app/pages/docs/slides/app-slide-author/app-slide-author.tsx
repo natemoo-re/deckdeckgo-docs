@@ -5,7 +5,8 @@ import {DeckdeckgoDocsUtils} from '../../../../utils/deckdeckgo-docs-utils';
 import {MenuService} from '../../../../services/menu/menu.service';
 
 @Component({
-  tag: 'app-slide-author'
+  tag: 'app-slide-author',
+  styleUrl: 'app-slides-author.scss'
 })
 export class AppSlideAuthor {
 

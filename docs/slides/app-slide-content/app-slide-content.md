@@ -6,7 +6,16 @@ This slide could be for example use for the every slides of your presentation wh
 
 #### Layout
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-content-layout.png" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-content>
+        <h1 slot="title">Something related to my topic</h1>
+        <p slot="content">
+          Cool beans
+        </p>
+      </deckgo-slide-content>
+  </deckgo-deck>
+</div>
 
 #### Usage
 
@@ -19,7 +28,7 @@ The "Content" slide's Web Component could be integrated using the tag `<deckgo-s
     <p slot="content">
       Cool beans
     </p>
-  </deckgo-slide-title>
+  </deckgo-slide-content>
 </deckgo-deck>
 ```
 
@@ -51,7 +60,7 @@ This component offers the following options which could be set using attributes:
     <ul slot="content">
       <li>Cool</li>
       <li>Beans</li>
-    </p>
+    </ul>
   </deckgo-slide-content>
 </deckgo-deck>
 ```

@@ -5,7 +5,8 @@ import {DeckdeckgoDocsUtils} from '../../../../utils/deckdeckgo-docs-utils';
 import {MenuService} from '../../../../services/menu/menu.service';
 
 @Component({
-  tag: 'app-slide-code'
+  tag: 'app-slide-code',
+  styleUrl: 'app-slides-code.scss'
 })
 export class AppSlideCode {
 

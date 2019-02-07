@@ -5,7 +5,8 @@ import {DeckdeckgoDocsUtils} from '../../../../utils/deckdeckgo-docs-utils';
 import {MenuService} from '../../../../services/menu/menu.service';
 
 @Component({
-  tag: 'app-slide-gif'
+  tag: 'app-slide-gif',
+  styleUrl: 'app-slides-gif.scss'
 })
 export class AppSlideGif {
 
@@ -31,7 +32,15 @@ export class AppSlideGif {
         <main><h1 id="slide-gif">Slide: Gif</h1>
 <p>The &quot;Gif&quot; slide let you add easily a gif, like those provided by <a href="https://giphy.com">Giphy</a>, to your presentation.</p>
 <h4 id="layout">Layout</h4>
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-gif-layout.gif" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-gif src="https://media.giphy.com/media/xUA7baWfTjfHGLZc3e/giphy.gif" alt="My gif" fullscreen={true}>
+      <h1 slot="title">My title</h1>
+      <h1 slot="header">Hey</h1>
+      <h2 slot="footer">It's a cool gif</h2>
+    </deckgo-slide-gif>
+  </deckgo-deck>
+</div>
 
 <h4 id="for-images-too">For images too</h4>
 <p>The slide Gif is useful for Gifs but could be use for any images too, in case you would like for example to display an image fullscreen.</p>

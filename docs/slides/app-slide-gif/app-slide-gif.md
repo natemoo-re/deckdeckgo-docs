@@ -4,7 +4,15 @@ The "Gif" slide let you add easily a gif, like those provided by [Giphy](https:/
 
 #### Layout
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-gif-layout.gif" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-gif src="https://media.giphy.com/media/xUA7baWfTjfHGLZc3e/giphy.gif" alt="My gif" fullscreen={true}>
+      <h1 slot="title">My title</h1>
+      <h1 slot="header">Hey</h1>
+      <h2 slot="footer">It's a cool gif</h2>
+    </deckgo-slide-gif>
+  </deckgo-deck>
+</div>
 
 #### For images too
 
