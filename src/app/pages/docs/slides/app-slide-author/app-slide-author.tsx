@@ -32,7 +32,16 @@ export class AppSlideAuthor {
         <main><h1 id="slide-author">Slide: Author</h1>
 <p>The &quot;Author&quot; slide let you introduce the author of the presentation.</p>
 <h4 id="layout">Layout</h4>
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-author-layout.png" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-author img-src="https://secure.meetupstatic.com/photos/member/9/c/4/2/member_272620002.jpeg">
+        <h1 slot="title">slot="title"</h1>
+        <div slot="author">slot="author"</div>
+        <div slot="social-link" style={{fontSize: '0.5rem'}}><deckgo-social twitter="daviddalbusco"><ion-icon area-label="David on Twitter" slot="icon" name="logo-twitter"></ion-icon> twitter</deckgo-social></div>
+        <div slot="social-link" style={{fontSize: '0.5rem'}}><deckgo-social linkedin="david-dal-busco/"><ion-icon area-label="David on Linkedin" slot="icon" name="logo-linkedin"></ion-icon> linkedin</deckgo-social></div>
+    </deckgo-slide-author>
+  </deckgo-deck>
+</div>
 
 <h4 id="usage">Usage</h4>
 <p>The &quot;Author&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-author/&gt;</code>.</p>

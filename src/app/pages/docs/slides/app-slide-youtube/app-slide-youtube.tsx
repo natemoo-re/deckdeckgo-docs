@@ -32,7 +32,13 @@ export class AppSlideYoutube {
         <main><h1 id="slide-youtube">Slide: Youtube</h1>
 <p>The &quot;Youtube&quot; slide let you add easily a <a href="https://youtube.com">Youtube</a> video to your presentation.</p>
 <h4 id="layout">Layout</h4>
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-youtube-layout.png" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-youtube src="https://www.youtube.com/watch?v=oUOjJIfPIjw">
+      <h1 slot="title">A 16/9 video</h1>
+    </deckgo-slide-youtube>
+  </deckgo-deck>
+</div>
 
 <h4 id="usage">Usage</h4>
 <p>The &quot;Youtube&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-youtube/&gt;</code>.</p>

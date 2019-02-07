@@ -32,7 +32,13 @@ export class AppSlideCode {
         <main><h1 id="slide-code">Slide: Code</h1>
 <p>The &quot;Code&quot; slide is a the slide to use if you would like to showcase code during your talk.</p>
 <h4 id="layout">Layout</h4>
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-code-layout.gif" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-code src="https://raw.githubusercontent.com/fluster/deckdeckgo/master/src/components/slides/deckdeckgo-slide-code/deckdeckgo-slide-code.tsx">
+          <h1 slot="title">slot="title"</h1>
+        </deckgo-slide-code>
+  </deckgo-deck>
+</div>
 
 <h4 id="usage">Usage</h4>
 <p>The &quot;Code&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-code/&gt;</code>.</p>

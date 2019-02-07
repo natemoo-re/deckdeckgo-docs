@@ -4,7 +4,13 @@ The "Code" slide is a the slide to use if you would like to showcase code during
 
 #### Layout
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-code-layout.gif" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-code src="https://raw.githubusercontent.com/fluster/deckdeckgo/master/src/components/slides/deckdeckgo-slide-code/deckdeckgo-slide-code.tsx">
+          <h1 slot="title">slot="title"</h1>
+        </deckgo-slide-code>
+  </deckgo-deck>
+</div>
 
 #### Usage
 

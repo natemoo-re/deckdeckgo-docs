@@ -4,7 +4,13 @@ The "Youtube" slide let you add easily a [Youtube](https://youtube.com) video to
 
 #### Layout
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-youtube-layout.png" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-youtube src="https://www.youtube.com/watch?v=oUOjJIfPIjw">
+      <h1 slot="title">A 16/9 video</h1>
+    </deckgo-slide-youtube>
+  </deckgo-deck>
+</div>
 
 #### Usage
 

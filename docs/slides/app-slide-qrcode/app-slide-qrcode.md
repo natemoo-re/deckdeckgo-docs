@@ -4,7 +4,14 @@ The "QR code" slide is an handy slide in case you would like to display a QR cod
 
 #### Layout
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-qrcode-layout.png" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-qrcode content="https://deckdeckgo.com">
+        <h1 slot="title">slot="title"</h1>
+        <p slot="content">slot="content"</p>
+    </deckgo-slide-qrcode>
+  </deckgo-deck>
+</div>
 
 #### Usage
 
