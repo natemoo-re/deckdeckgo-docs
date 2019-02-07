@@ -2,6 +2,21 @@
 
 The "Code" slide is a the slide to use if you would like to showcase code during your talk.
 
+## Table of contents
+
+- [Layout](#layout)
+- [Usage](#usage)
+  - [Usage with file URI](#usage-with-file-uri)
+  - [Usage with slotted element](#usage-with-slotted-element)
+  - [Slots](#slots)
+  - [Notes](#notes)
+- [Code components](#code-components)
+- [Installation](#installation)
+- [Attributes](#attributes)
+  - [Example with file URI](#example-with-file-uri)
+  - [Example with slotted element](#example-with-slotted-element)
+- [Theming](#theming)
+
 ## Layout
 
 <div class="container" margin>

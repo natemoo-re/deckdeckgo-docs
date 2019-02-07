@@ -2,6 +2,17 @@
 
 The "Gif" slide let you add easily a gif, like those provided by [Giphy](https://giphy.com), to your presentation.
 
+## Table of contents
+
+- [Layout](#layout)
+- [For images too](#for-images-too)
+- [Usage](#usage)
+  - [Slots](#slots)
+  - [Notes](#notes)
+- [Gif component](#gif-component)
+- [Attributes](#attributes)
+- [Theming](#theming)
+
 ## Layout
 
 <div class="container" margin>

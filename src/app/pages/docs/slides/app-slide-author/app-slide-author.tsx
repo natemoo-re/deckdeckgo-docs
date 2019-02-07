@@ -31,6 +31,21 @@ export class AppSlideAuthor {
       <ion-content padding>
         <main><h1 id="slide-author">Slide: Author</h1>
 <p>The &quot;Author&quot; slide let you introduce the author of the presentation.</p>
+<h2 id="table-of-contents">Table of contents</h2>
+<ul>
+<li><a href="#layout">Layout</a></li>
+<li><a href="#usage">Usage</a><ul>
+<li><a href="#slots">Slots</a></li>
+<li><a href="#notes">Notes</a></li>
+<li><a href="#social-components">Social components</a></li>
+</ul>
+</li>
+<li><a href="#attributes">Attributes</a><ul>
+<li><a href="#example">Example</a></li>
+</ul>
+</li>
+<li><a href="#theming">Theming</a></li>
+</ul>
 <h2 id="layout">Layout</h2>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>

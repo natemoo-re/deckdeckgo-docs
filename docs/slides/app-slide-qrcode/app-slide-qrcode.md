@@ -2,6 +2,19 @@
 
 The "QR code" slide is an handy slide in case you would like to display a QR code. It could for example be use as the very last slide of your presentation to display an easy link pointing to your deck, you previously published online. It would allow your audience to get easily your slides without any delay on their phone.
 
+## Table of contents
+
+- [Layout](#layout)
+- [Usage](#usage)
+  - [Usage](#usage-1)
+  - [Slots](#slots)
+  - [Notes](#notes)
+- [Code components](#code-components)
+- [Installation](#installation)
+- [Attributes](#attributes)
+  - [Example without any slots](#example-without-any-slots)
+- [Theming](#theming)
+
 ## Layout
 
 <div class="container" margin>

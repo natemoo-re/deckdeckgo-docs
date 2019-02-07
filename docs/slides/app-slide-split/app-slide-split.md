@@ -2,6 +2,15 @@
 
 The "Split" slide is a simple slide which display two panes on the page.
 
+## Table of contents
+
+- [Layout](#layout)
+- [Usage](#usage)
+  - [Slots](#slots)
+  - [Notes](#notes)
+- [Attributes](#attributes)
+- [Theming](#theming)
+
 ## Layout
 
 <div class="container" margin>

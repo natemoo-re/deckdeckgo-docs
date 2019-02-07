@@ -2,6 +2,19 @@
 
 The "Youtube" slide let you add easily a [Youtube](https://youtube.com) video to your presentation.
 
+## Table of contents
+
+- [Layout](#layout)
+- [Usage](#usage)
+  - [Slots](#slots)
+  - [Notes](#notes)
+  - [Youtube component](#youtube-component)
+- [Attributes](#attributes)
+- [Theming](#theming)
+- [Methods](#methods)
+  - [Play the video](#play-the-video)
+  - [Pause the video](#pause-the-video)
+
 ## Layout
 
 <div class="container" margin>

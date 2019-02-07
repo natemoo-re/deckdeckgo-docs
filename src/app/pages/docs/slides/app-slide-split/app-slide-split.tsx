@@ -31,6 +31,17 @@ export class AppSlideContent {
       <ion-content padding>
         <main><h1 id="slide-split">Slide: Split</h1>
 <p>The &quot;Split&quot; slide is a simple slide which display two panes on the page.</p>
+<h2 id="table-of-contents">Table of contents</h2>
+<ul>
+<li><a href="#layout">Layout</a></li>
+<li><a href="#usage">Usage</a><ul>
+<li><a href="#slots">Slots</a></li>
+<li><a href="#notes">Notes</a></li>
+</ul>
+</li>
+<li><a href="#attributes">Attributes</a></li>
+<li><a href="#theming">Theming</a></li>
+</ul>
 <h2 id="layout">Layout</h2>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>

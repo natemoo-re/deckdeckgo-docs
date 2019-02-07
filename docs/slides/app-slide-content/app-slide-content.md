@@ -4,6 +4,16 @@ The "Content" slide is a simple slide which display its title and content aligne
 
 This slide could be for example use for the every slides of your presentation where you would like to display content related to your talk.
 
+## Table of contents
+
+- [Layout](#layout)
+- [Usage](#usage)
+  - [Slots](#slots)
+  - [Notes](#notes)
+- [Attributes](#attributes)
+  - [Example](#example)
+- [Theming](#theming)
+
 ## Layout
 
 <div class="container" margin>

@@ -2,6 +2,17 @@
 
 The "Author" slide let you introduce the author of the presentation.
 
+## Table of contents
+
+- [Layout](#layout)
+- [Usage](#usage)
+  - [Slots](#slots)
+  - [Notes](#notes)
+  - [Social components](#social-components)
+- [Attributes](#attributes)
+  - [Example](#example)
+- [Theming](#theming)
+
 ## Layout
 
 <div class="container" margin>

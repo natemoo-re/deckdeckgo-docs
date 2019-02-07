@@ -2,6 +2,17 @@
 
 The "Chart" slide let you draw easily charts in your presentation.
 
+## Table of contents
+
+- [Layout](#layout)
+- [Usage](#usage)
+  - [Slots](#slots)
+  - [Notes](#notes)
+- [Chart components](#chart-components)
+- [Installation](#installation)
+- [Attributes](#attributes)
+- [Theming](#theming)
+
 ## Layout
 
 <div class="container" margin>

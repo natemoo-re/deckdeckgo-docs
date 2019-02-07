@@ -31,6 +31,25 @@ export class AppSlideCode {
       <ion-content padding>
         <main><h1 id="slide-code">Slide: Code</h1>
 <p>The &quot;Code&quot; slide is a the slide to use if you would like to showcase code during your talk.</p>
+<h2 id="table-of-contents">Table of contents</h2>
+<ul>
+<li><a href="#layout">Layout</a></li>
+<li><a href="#usage">Usage</a><ul>
+<li><a href="#usage-with-file-uri">Usage with file URI</a></li>
+<li><a href="#usage-with-slotted-element">Usage with slotted element</a></li>
+<li><a href="#slots">Slots</a></li>
+<li><a href="#notes">Notes</a></li>
+</ul>
+</li>
+<li><a href="#code-components">Code components</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#attributes">Attributes</a><ul>
+<li><a href="#example-with-file-uri">Example with file URI</a></li>
+<li><a href="#example-with-slotted-element">Example with slotted element</a></li>
+</ul>
+</li>
+<li><a href="#theming">Theming</a></li>
+</ul>
 <h2 id="layout">Layout</h2>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>

@@ -32,6 +32,20 @@ export class AppConcept {
         <main><h1 id="slide-content">Slide: Content</h1>
 <p>The &quot;Content&quot; slide is a simple slide which display its title and content aligned to the start of the page.</p>
 <p>This slide could be for example use for the every slides of your presentation where you would like to display content related to your talk.</p>
+<h2 id="table-of-contents">Table of contents</h2>
+<ul>
+<li><a href="#layout">Layout</a></li>
+<li><a href="#usage">Usage</a><ul>
+<li><a href="#slots">Slots</a></li>
+<li><a href="#notes">Notes</a></li>
+</ul>
+</li>
+<li><a href="#attributes">Attributes</a><ul>
+<li><a href="#example">Example</a></li>
+</ul>
+</li>
+<li><a href="#theming">Theming</a></li>
+</ul>
 <h2 id="layout">Layout</h2>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>

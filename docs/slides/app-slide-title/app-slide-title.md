@@ -4,6 +4,16 @@ The "Title" slide is a simple slide which display its title and content center i
 
 This slide could be for example use for the very first and last slide of your presentation.
 
+## Table of contents
+
+- [Layout](#layout)
+- [Usage](#usage)
+  - [Slots](#slots)
+  - [Notes](#notes)
+- [Attributes](#attributes)
+- [Example](#example)
+- [Theming](#theming)
+
 ## Layout
 
 <div class="container" margin>

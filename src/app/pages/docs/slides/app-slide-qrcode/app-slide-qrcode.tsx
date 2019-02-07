@@ -31,6 +31,23 @@ export class AppSlideQRCode {
       <ion-content padding>
         <main><h1 id="slide-qr-code">Slide: QR Code</h1>
 <p>The &quot;QR code&quot; slide is an handy slide in case you would like to display a QR code. It could for example be use as the very last slide of your presentation to display an easy link pointing to your deck, you previously published online. It would allow your audience to get easily your slides without any delay on their phone.</p>
+<h2 id="table-of-contents">Table of contents</h2>
+<ul>
+<li><a href="#layout">Layout</a></li>
+<li><a href="#usage">Usage</a><ul>
+<li><a href="#usage-1">Usage</a></li>
+<li><a href="#slots">Slots</a></li>
+<li><a href="#notes">Notes</a></li>
+</ul>
+</li>
+<li><a href="#code-components">Code components</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#attributes">Attributes</a><ul>
+<li><a href="#example-without-any-slots">Example without any slots</a></li>
+</ul>
+</li>
+<li><a href="#theming">Theming</a></li>
+</ul>
 <h2 id="layout">Layout</h2>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
