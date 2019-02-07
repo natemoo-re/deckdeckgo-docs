@@ -43,12 +43,8 @@ export namespace Components {
   interface AppHome {}
   interface AppHomeAttributes extends StencilHTMLAttributes {}
 
-  interface AppProfile {
-    'name': string;
-  }
-  interface AppProfileAttributes extends StencilHTMLAttributes {
-    'name'?: string;
-  }
+  interface AppComponentsChart {}
+  interface AppComponentsChartAttributes extends StencilHTMLAttributes {}
 
   interface AppInstallation {}
   interface AppInstallationAttributes extends StencilHTMLAttributes {}
@@ -98,7 +94,7 @@ declare global {
     'AppMenuFooter': Components.AppMenuFooter;
     'AppNavigation': Components.AppNavigation;
     'AppHome': Components.AppHome;
-    'AppProfile': Components.AppProfile;
+    'AppComponentsChart': Components.AppComponentsChart;
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
     'AppSlideAuthor': Components.AppSlideAuthor;
@@ -121,7 +117,7 @@ declare global {
     'app-menu-footer': Components.AppMenuFooterAttributes;
     'app-navigation': Components.AppNavigationAttributes;
     'app-home': Components.AppHomeAttributes;
-    'app-profile': Components.AppProfileAttributes;
+    'app-components-chart': Components.AppComponentsChartAttributes;
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
     'app-slide-author': Components.AppSlideAuthorAttributes;
@@ -174,10 +170,10 @@ declare global {
     new (): HTMLAppHomeElement;
   };
 
-  interface HTMLAppProfileElement extends Components.AppProfile, HTMLStencilElement {}
-  var HTMLAppProfileElement: {
-    prototype: HTMLAppProfileElement;
-    new (): HTMLAppProfileElement;
+  interface HTMLAppComponentsChartElement extends Components.AppComponentsChart, HTMLStencilElement {}
+  var HTMLAppComponentsChartElement: {
+    prototype: HTMLAppComponentsChartElement;
+    new (): HTMLAppComponentsChartElement;
   };
 
   interface HTMLAppInstallationElement extends Components.AppInstallation, HTMLStencilElement {}
@@ -265,7 +261,7 @@ declare global {
     'app-menu-footer': HTMLAppMenuFooterElement
     'app-navigation': HTMLAppNavigationElement
     'app-home': HTMLAppHomeElement
-    'app-profile': HTMLAppProfileElement
+    'app-components-chart': HTMLAppComponentsChartElement
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
     'app-slide-author': HTMLAppSlideAuthorElement
@@ -288,7 +284,7 @@ declare global {
     'app-menu-footer': HTMLAppMenuFooterElement;
     'app-navigation': HTMLAppNavigationElement;
     'app-home': HTMLAppHomeElement;
-    'app-profile': HTMLAppProfileElement;
+    'app-components-chart': HTMLAppComponentsChartElement;
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
     'app-slide-author': HTMLAppSlideAuthorElement;
