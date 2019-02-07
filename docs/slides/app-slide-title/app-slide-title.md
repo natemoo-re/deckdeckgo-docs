@@ -6,7 +6,16 @@ This slide could be for example use for the very first and last slide of your pr
 
 #### Layout
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-title-layout.png" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-title>
+      <h1 slot="title">My presentation title</h1>
+      <p slot="content">
+        Hello World 🚀
+      </p>
+    </deckgo-slide-title>
+  </deckgo-deck>
+</div>
 
 #### Usage
 

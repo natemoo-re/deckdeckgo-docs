@@ -162,7 +162,7 @@ export class AppSlidesConcept {
 </div>
 
 <h2 id="note">Note</h2>
-<p>If you would miss or need further templates, don&#39;t hesitate to open an issue and/or submit a PR, it would be my pleasure to add more options</p>
+<p>If you would miss or need further templates, don&#39;t hesitate to open an issue and/or submit a PR, it would be my pleasure to add more options.</p>
 </main>
       </ion-content>
     ];

@@ -5,7 +5,8 @@ import {DeckdeckgoDocsUtils} from '../../../../utils/deckdeckgo-docs-utils';
 import {MenuService} from '../../../../services/menu/menu.service';
 
 @Component({
-  tag: 'app-slide-title'
+  tag: 'app-slide-title',
+  styleUrl: 'app-slides-title.scss'
 })
 export class AppSlideTitle {
 
@@ -32,7 +33,16 @@ export class AppSlideTitle {
 <p>The &quot;Title&quot; slide is a simple slide which display its title and content center in the middle of the page.</p>
 <p>This slide could be for example use for the very first and last slide of your presentation.</p>
 <h4 id="layout">Layout</h4>
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-title-layout.png" width="450px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-title>
+      <h1 slot="title">My presentation title</h1>
+      <p slot="content">
+        Hello World 🚀
+      </p>
+    </deckgo-slide-title>
+  </deckgo-deck>
+</div>
 
 <h4 id="usage">Usage</h4>
 <p>The &quot;Title&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-title/&gt;</code>.</p>
