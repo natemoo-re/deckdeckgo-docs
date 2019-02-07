@@ -5,7 +5,7 @@ ul {
 }
 
 main {
-  max-width: 1024px;
+  max-width: calc(1200px - 28% - 64px);
   margin-left: auto;
   margin-right: auto;
 
