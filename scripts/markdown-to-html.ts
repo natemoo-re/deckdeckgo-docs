@@ -58,5 +58,5 @@ const globAsync = promisify(glob);
 
   await Promise.all(filePromises);
 
-  console.log(`> Documentation successfully converted, ${filePromises.length} files converted 🚀\n`);
+  console.log(`> Documentation successfully generated, ${filePromises.length} files converted 🚀\n`);
 })();
