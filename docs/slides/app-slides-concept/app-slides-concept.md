@@ -98,19 +98,48 @@ In the previous example, the presentation contains two slides. The first slide u
 
 * [Youtube](#slide-youtube)
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-youtube-layout.png" width="200px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-youtube src="https://www.youtube.com/watch?v=oUOjJIfPIjw">
+      <h1 slot="title">slot="title"</h1>
+    </deckgo-slide-youtube>
+  </deckgo-deck>
+</div>
 
 * [Code](#slide-code)
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-code-layout.gif" width="200px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-code src="https://raw.githubusercontent.com/fluster/deckdeckgo/master/src/components/slides/deckdeckgo-slide-code/deckdeckgo-slide-code.tsx">
+      <h1 slot="title">slot="title"</h1>
+    </deckgo-slide-code>
+  </deckgo-deck>
+</div>
 
 * [Author](#slide-author)
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-author-layout.png" width="200px"/>
+
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-author img-src="https://secure.meetupstatic.com/photos/member/9/c/4/2/member_272620002.jpeg">
+        <h1 slot="title">slot="title"</h1>
+        <div slot="author">slot="author"</div>
+        <div slot="social-link" style={{fontSize: '0.5rem'}}><deckgo-social twitter="daviddalbusco"><ion-icon area-label="David on Twitter" slot="icon" name="logo-twitter"></ion-icon> twitter</deckgo-social></div>
+        <div slot="social-link" style={{fontSize: '0.5rem'}}><deckgo-social linkedin="david-dal-busco/"><ion-icon area-label="David on Linkedin" slot="icon" name="logo-linkedin"></ion-icon> linkedin</deckgo-social></div>
+    </deckgo-slide-author>
+  </deckgo-deck>
+</div>
 
 * [QR Code](#slide-qr-code)
 
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-qrcode-layout.png" width="200px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-qrcode content="https://deckdeckgo.com">
+        <h1 slot="title">slot="title"</h1>
+        <p slot="content">slot="content"</p>
+    </deckgo-slide-qrcode>
+  </deckgo-deck>
+</div>
 
 *Note: If you would miss or need further templates, don't hesitate to open an issue and/or submit a PR, it would be my pleasure to add more options*
 
