@@ -46,6 +46,9 @@ export namespace Components {
   interface AppComponentsChart {}
   interface AppComponentsChartAttributes extends StencilHTMLAttributes {}
 
+  interface AppComponentsGif {}
+  interface AppComponentsGifAttributes extends StencilHTMLAttributes {}
+
   interface AppInstallation {}
   interface AppInstallationAttributes extends StencilHTMLAttributes {}
 
@@ -95,6 +98,7 @@ declare global {
     'AppNavigation': Components.AppNavigation;
     'AppHome': Components.AppHome;
     'AppComponentsChart': Components.AppComponentsChart;
+    'AppComponentsGif': Components.AppComponentsGif;
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
     'AppSlideAuthor': Components.AppSlideAuthor;
@@ -118,6 +122,7 @@ declare global {
     'app-navigation': Components.AppNavigationAttributes;
     'app-home': Components.AppHomeAttributes;
     'app-components-chart': Components.AppComponentsChartAttributes;
+    'app-components-gif': Components.AppComponentsGifAttributes;
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
     'app-slide-author': Components.AppSlideAuthorAttributes;
@@ -174,6 +179,12 @@ declare global {
   var HTMLAppComponentsChartElement: {
     prototype: HTMLAppComponentsChartElement;
     new (): HTMLAppComponentsChartElement;
+  };
+
+  interface HTMLAppComponentsGifElement extends Components.AppComponentsGif, HTMLStencilElement {}
+  var HTMLAppComponentsGifElement: {
+    prototype: HTMLAppComponentsGifElement;
+    new (): HTMLAppComponentsGifElement;
   };
 
   interface HTMLAppInstallationElement extends Components.AppInstallation, HTMLStencilElement {}
@@ -262,6 +273,7 @@ declare global {
     'app-navigation': HTMLAppNavigationElement
     'app-home': HTMLAppHomeElement
     'app-components-chart': HTMLAppComponentsChartElement
+    'app-components-gif': HTMLAppComponentsGifElement
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
     'app-slide-author': HTMLAppSlideAuthorElement
@@ -285,6 +297,7 @@ declare global {
     'app-navigation': HTMLAppNavigationElement;
     'app-home': HTMLAppHomeElement;
     'app-components-chart': HTMLAppComponentsChartElement;
+    'app-components-gif': HTMLAppComponentsGifElement;
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
     'app-slide-author': HTMLAppSlideAuthorElement;
