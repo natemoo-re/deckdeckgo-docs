@@ -15,6 +15,11 @@ ion-split-pane {
 
       ion-content {
         ion-list {
+          ion-item-divider {
+            --color: white;
+            font-weight: bold;
+          }
+
           ion-item {
             --color: white;
           }
@@ -57,18 +62,25 @@ ion-split-pane {
         ion-item-divider {
           border: 0;
           --color: var(--ion-color-dark);
+          font-size: var(--font-size-small);
+          font-weight: bold;
+
+          &:not(:first-of-type) {
+            margin-top: 8px;
+          }
         }
 
         ion-item {
           --border-color: transparent;
           --color: var(--ion-color-medium);
           --padding-start: 32px;
-          font-size: var(--font-size-normal);
           --min-height: inherit;
+          font-size: var(--font-size-small);
+          height: inherit;
 
           ion-label {
-            margin-top: 8px;
-            margin-bottom: 8px;
+            margin-top: 6px;
+            margin-bottom: 6px;
           }
         }
       }
