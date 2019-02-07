@@ -6,9 +6,9 @@ If you wish to do so, use it directly in your project from a CDN, using a simple
 
 ## Table of contents
 
-- [Using DeckDeckGo from a CDN](#using-deckdeckgo-from-a-cdn)
-- [Install DeckDeckGo from npm](#install-deckdeckgo-from-npm)
-- [Framework integration](#framework-integration)
+- [Using DeckDeckGo from a CDN](#app-installation-using-deckdeckgo-from-a-cdn)
+- [Install DeckDeckGo from npm](#app-installation-install-deckdeckgo-from-npm)
+- [Framework integration](#app-installation-framework-integration)
 
 ## Using DeckDeckGo from a CDN
 

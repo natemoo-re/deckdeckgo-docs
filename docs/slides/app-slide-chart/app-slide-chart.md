@@ -4,14 +4,14 @@ The "Chart" slide let you draw easily charts in your presentation.
 
 ## Table of contents
 
-- [Layout](#layout)
-- [Usage](#usage)
-  - [Slots](#slots)
-  - [Notes](#notes)
-- [Chart components](#chart-components)
-- [Installation](#installation)
-- [Attributes](#attributes)
-- [Theming](#theming)
+- [Layout](#app-slide-chart-layout)
+- [Usage](#app-slide-chart-usage)
+  - [Slots](#app-slide-chart-slots)
+  - [Notes](#app-slide-chart-notes)
+- [Chart components](#app-slide-chart-chart-components)
+- [Installation](#app-slide-chart-installation)
+- [Attributes](#app-slide-chart-attributes)
+- [Theming](#app-slide-chart-theming)
 
 ## Layout
 

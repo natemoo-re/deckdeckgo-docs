@@ -4,12 +4,12 @@ The "Gif" component allows you to easily add a Gif, like those provided by [Giph
 
 ## Table of contents
 
-- [Showcase](#showcase)
-- [Usage](#usage)
-  - [Slots](#slots)
-- [Attributes](#attributes)
-- [Theming](#theming)
-- [Note](#note)
+- [Showcase](#app-components-gif-showcase)
+- [Usage](#app-components-gif-usage)
+  - [Slots](#app-components-gif-slots)
+- [Attributes](#app-components-gif-attributes)
+- [Theming](#app-components-gif-theming)
+- [Note](#app-components-gif-note)
 
 ## Showcase
 

@@ -4,16 +4,16 @@ The "QR code" slide is an handy slide in case you would like to display a QR cod
 
 ## Table of contents
 
-- [Layout](#layout)
-- [Usage](#usage)
-  - [Usage](#usage-1)
-  - [Slots](#slots)
-  - [Notes](#notes)
-- [Code components](#code-components)
-- [Installation](#installation)
-- [Attributes](#attributes)
-  - [Example without any slots](#example-without-any-slots)
-- [Theming](#theming)
+- [Layout](#app-slide-qrcode-layout)
+- [Usage](#app-slide-qrcode-usage)
+  - [Usage](#app-slide-qrcode-usage-1)
+  - [Slots](#app-slide-qrcode-slots)
+  - [Notes](#app-slide-qrcode-notes)
+- [Code components](#app-slide-qrcode-code-components)
+- [Installation](#app-slide-qrcode-installation)
+- [Attributes](#app-slide-qrcode-attributes)
+  - [Example without any slots](#app-slide-qrcode-example-without-any-slots)
+- [Theming](#app-slide-qrcode-theming)
 
 ## Layout
 

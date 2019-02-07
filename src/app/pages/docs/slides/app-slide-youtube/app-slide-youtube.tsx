@@ -29,26 +29,26 @@ export class AppSlideYoutube {
       <app-navigation></app-navigation>,
 
       <ion-content padding>
-        <main><h1 id="slide-youtube">Slide: Youtube</h1>
+        <main><h1 id="app-slide-youtube-slide-youtube">Slide: Youtube</h1>
 <p>The &quot;Youtube&quot; slide let you add easily a <a href="https://youtube.com">Youtube</a> video to your presentation.</p>
-<h2 id="table-of-contents">Table of contents</h2>
+<h2 id="app-slide-youtube-table-of-contents">Table of contents</h2>
 <ul>
-<li><a href="#layout">Layout</a></li>
-<li><a href="#usage">Usage</a><ul>
-<li><a href="#slots">Slots</a></li>
-<li><a href="#notes">Notes</a></li>
-<li><a href="#youtube-component">Youtube component</a></li>
+<li><a href="#app-slide-youtube-layout">Layout</a></li>
+<li><a href="#app-slide-youtube-usage">Usage</a><ul>
+<li><a href="#app-slide-youtube-slots">Slots</a></li>
+<li><a href="#app-slide-youtube-notes">Notes</a></li>
+<li><a href="#app-slide-youtube-youtube-component">Youtube component</a></li>
 </ul>
 </li>
-<li><a href="#attributes">Attributes</a></li>
-<li><a href="#theming">Theming</a></li>
-<li><a href="#methods">Methods</a><ul>
-<li><a href="#play-the-video">Play the video</a></li>
-<li><a href="#pause-the-video">Pause the video</a></li>
+<li><a href="#app-slide-youtube-attributes">Attributes</a></li>
+<li><a href="#app-slide-youtube-theming">Theming</a></li>
+<li><a href="#app-slide-youtube-methods">Methods</a><ul>
+<li><a href="#app-slide-youtube-play-the-video">Play the video</a></li>
+<li><a href="#app-slide-youtube-pause-the-video">Pause the video</a></li>
 </ul>
 </li>
 </ul>
-<h2 id="layout">Layout</h2>
+<h2 id="app-slide-youtube-layout">Layout</h2>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
     <deckgo-slide-youtube src="https://www.youtube.com/watch?v=oUOjJIfPIjw">
@@ -57,18 +57,18 @@ export class AppSlideYoutube {
   </deckgo-deck>
 </div>
 
-<h2 id="usage">Usage</h2>
+<h2 id="app-slide-youtube-usage">Usage</h2>
 <p>The &quot;Youtube&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-youtube/&gt;</code>.</p>
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;deckgo-slide-youtube src=&quot;https:&#47;&#47;www.youtube.com&#47;watch?v=oUOjJIfPIjw&quot;&gt;{'\n'}  &lt;h1 slot=&quot;title&quot;&gt;A 16&#47;9 video&lt;&#47;h1&gt;{'\n'}&lt;&#47;deckgo-slide-youtube&gt;</code>
-    </deckgo-highlight-code><h3 id="slots">Slots</h3>
+    </deckgo-highlight-code><h3 id="app-slide-youtube-slots">Slots</h3>
 <p>The slot <code>title</code> is optional.</p>
-<h3 id="notes">Notes</h3>
+<h3 id="app-slide-youtube-notes">Notes</h3>
 <p>Optionally a slot <code>notes</code> could be use to add some notes regarding the particular slide. These will be automatically <code>displayed</code> in the <a href="https://deckdeckgo.app">remote control</a>.</p>
 <p>If you are using the <a href="https://deckdeckgo.com">DeckDeckGo</a> starter kit and wish to make your notes accessible to anyone, you would need to mark them with an attribute <code>show</code>.</p>
-<h3 id="youtube-component">Youtube component</h3>
+<h3 id="app-slide-youtube-youtube-component">Youtube component</h3>
 <p>The slide &quot;Youtube&quot; relies on the component <code>&lt;deckgo-youtube/&gt;</code> which is described in the components <a href="https://github.com/deckgo/deckdeckgo/blob/master/doc/components/components.md">documentation</a>.</p>
-<h2 id="attributes">Attributes</h2>
+<h2 id="app-slide-youtube-attributes">Attributes</h2>
 <p>This component offers the following options which could be set using attributes:</p>
 <table>
 <thead>
@@ -98,7 +98,7 @@ export class AppSlideYoutube {
 <td>Using this option you would be able to define your own height.</td>
 </tr>
 </tbody></table>
-<h2 id="theming">Theming</h2>
+<h2 id="app-slide-youtube-theming">Theming</h2>
 <p>The following theming options will affect this component if set on its host or parent.</p>
 <table>
 <thead>
@@ -144,12 +144,12 @@ export class AppSlideYoutube {
 <td>The z-index of the slide</td>
 </tr>
 </tbody></table>
-<h2 id="methods">Methods</h2>
+<h2 id="app-slide-youtube-methods">Methods</h2>
 <p>The slide &quot;Youtube&quot; offers extra methods to play and pause the Youtube video clip. These methods are notably used by the [DeckDecGo]&#39;s remote control.</p>
-<h3 id="play-the-video">Play the video</h3>
+<h3 id="app-slide-youtube-play-the-video">Play the video</h3>
 <deckgo-highlight-code language="javascript">
       <code slot="code">const slide = deck.getElementsByTagName(&#039;deckgo-slide-youtube&#039;);{'\n'}await slide.play();</code>
-    </deckgo-highlight-code><h3 id="pause-the-video">Pause the video</h3>
+    </deckgo-highlight-code><h3 id="app-slide-youtube-pause-the-video">Pause the video</h3>
 <deckgo-highlight-code language="javascript">
       <code slot="code">const slide = deck.getElementsByTagName(&#039;deckgo-slide-youtube&#039;);{'\n'}await slide.pause();</code>
     </deckgo-highlight-code></main>

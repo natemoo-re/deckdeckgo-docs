@@ -4,18 +4,18 @@ The "Code" slide is a the slide to use if you would like to showcase code during
 
 ## Table of contents
 
-- [Layout](#layout)
-- [Usage](#usage)
-  - [Usage with file URI](#usage-with-file-uri)
-  - [Usage with slotted element](#usage-with-slotted-element)
-  - [Slots](#slots)
-  - [Notes](#notes)
-- [Code components](#code-components)
-- [Installation](#installation)
-- [Attributes](#attributes)
-  - [Example with file URI](#example-with-file-uri)
-  - [Example with slotted element](#example-with-slotted-element)
-- [Theming](#theming)
+- [Layout](#app-slide-code-layout)
+- [Usage](#app-slide-code-usage)
+  - [Usage with file URI](#app-slide-code-usage-with-file-uri)
+  - [Usage with slotted element](#app-slide-code-usage-with-slotted-element)
+  - [Slots](#app-slide-code-slots)
+  - [Notes](#app-slide-code-notes)
+- [Code components](#app-slide-code-code-components)
+- [Installation](#app-slide-code-installation)
+- [Attributes](#app-slide-code-attributes)
+  - [Example with file URI](#app-slide-code-example-with-file-uri)
+  - [Example with slotted element](#app-slide-code-example-with-slotted-element)
+- [Theming](#app-slide-code-theming)
 
 ## Layout
 

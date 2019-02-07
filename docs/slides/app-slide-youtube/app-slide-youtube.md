@@ -4,16 +4,16 @@ The "Youtube" slide let you add easily a [Youtube](https://youtube.com) video to
 
 ## Table of contents
 
-- [Layout](#layout)
-- [Usage](#usage)
-  - [Slots](#slots)
-  - [Notes](#notes)
-  - [Youtube component](#youtube-component)
-- [Attributes](#attributes)
-- [Theming](#theming)
-- [Methods](#methods)
-  - [Play the video](#play-the-video)
-  - [Pause the video](#pause-the-video)
+- [Layout](#app-slide-youtube-layout)
+- [Usage](#app-slide-youtube-usage)
+  - [Slots](#app-slide-youtube-slots)
+  - [Notes](#app-slide-youtube-notes)
+  - [Youtube component](#app-slide-youtube-youtube-component)
+- [Attributes](#app-slide-youtube-attributes)
+- [Theming](#app-slide-youtube-theming)
+- [Methods](#app-slide-youtube-methods)
+  - [Play the video](#app-slide-youtube-play-the-video)
+  - [Pause the video](#app-slide-youtube-pause-the-video)
 
 ## Layout
 

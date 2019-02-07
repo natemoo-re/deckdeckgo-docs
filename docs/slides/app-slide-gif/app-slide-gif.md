@@ -4,14 +4,14 @@ The "Gif" slide let you add easily a gif, like those provided by [Giphy](https:/
 
 ## Table of contents
 
-- [Layout](#layout)
-- [For images too](#for-images-too)
-- [Usage](#usage)
-  - [Slots](#slots)
-  - [Notes](#notes)
-- [Gif component](#gif-component)
-- [Attributes](#attributes)
-- [Theming](#theming)
+- [Layout](#app-slide-gif-layout)
+- [For images too](#app-slide-gif-for-images-too)
+- [Usage](#app-slide-gif-usage)
+  - [Slots](#app-slide-gif-slots)
+  - [Notes](#app-slide-gif-notes)
+- [Gif component](#app-slide-gif-gif-component)
+- [Attributes](#app-slide-gif-attributes)
+- [Theming](#app-slide-gif-theming)
 
 ## Layout
 

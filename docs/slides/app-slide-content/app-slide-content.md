@@ -6,13 +6,13 @@ This slide could be for example use for the every slides of your presentation wh
 
 ## Table of contents
 
-- [Layout](#layout)
-- [Usage](#usage)
-  - [Slots](#slots)
-  - [Notes](#notes)
-- [Attributes](#attributes)
-  - [Example](#example)
-- [Theming](#theming)
+- [Layout](#app-slide-content-layout)
+- [Usage](#app-slide-content-usage)
+  - [Slots](#app-slide-content-slots)
+  - [Notes](#app-slide-content-notes)
+- [Attributes](#app-slide-content-attributes)
+  - [Example](#app-slide-content-example)
+- [Theming](#app-slide-content-theming)
 
 ## Layout
 

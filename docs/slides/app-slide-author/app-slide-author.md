@@ -4,14 +4,14 @@ The "Author" slide let you introduce the author of the presentation.
 
 ## Table of contents
 
-- [Layout](#layout)
-- [Usage](#usage)
-  - [Slots](#slots)
-  - [Notes](#notes)
-  - [Social components](#social-components)
-- [Attributes](#attributes)
-  - [Example](#example)
-- [Theming](#theming)
+- [Layout](#app-slide-author-layout)
+- [Usage](#app-slide-author-usage)
+  - [Slots](#app-slide-author-slots)
+  - [Notes](#app-slide-author-notes)
+  - [Social components](#app-slide-author-social-components)
+- [Attributes](#app-slide-author-attributes)
+  - [Example](#app-slide-author-example)
+- [Theming](#app-slide-author-theming)
 
 ## Layout
 

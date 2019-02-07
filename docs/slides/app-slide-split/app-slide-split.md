@@ -4,12 +4,12 @@ The "Split" slide is a simple slide which display two panes on the page.
 
 ## Table of contents
 
-- [Layout](#layout)
-- [Usage](#usage)
-  - [Slots](#slots)
-  - [Notes](#notes)
-- [Attributes](#attributes)
-- [Theming](#theming)
+- [Layout](#app-slide-split-layout)
+- [Usage](#app-slide-split-usage)
+  - [Slots](#app-slide-split-slots)
+  - [Notes](#app-slide-split-notes)
+- [Attributes](#app-slide-split-attributes)
+- [Theming](#app-slide-split-theming)
 
 ## Layout
 

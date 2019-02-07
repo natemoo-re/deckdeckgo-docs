@@ -1,13 +1,13 @@
 import glob from 'glob';
 import {promisify} from 'util';
 import fs from 'fs';
+import path from 'path';
 
 import marked from 'marked';
 import {changeCodeCreation} from './markdown-renderer';
 import {updateFile} from './markdown-writer';
 
 const readFile = promisify(fs.readFile);
-// const writeFile = promisify(fs.writeFile);
 const globAsync = promisify(glob);
 
 (async function () {
@@ -39,9 +39,12 @@ const globAsync = promisify(glob);
       const renderer = new marked.Renderer();
       changeCodeCreation(renderer);
 
+      const fileName: string = path.basename(file, path.extname(file));
+
       const markdownHtmlContents: string = marked(markdownContents, {
         renderer,
         headerIds: true,
+        headerPrefix: fileName + '-',
         xhtml: true
       });
 

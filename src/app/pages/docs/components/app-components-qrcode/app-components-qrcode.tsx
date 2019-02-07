@@ -28,34 +28,34 @@ export class AppComponentsQRCode {
       <app-navigation></app-navigation>,
 
       <ion-content padding>
-        <main><h1 id="qr-code">QR Code</h1>
+        <main><h1 id="app-components-qrcode-qr-code">QR Code</h1>
 <p>The &quot;QR Code&quot; component is an extra component which let you add QR code in your slides, useful for example to display links and url and if you wish your audience to easily access them. This Web Component could be use with or without <a href="https://deckdeckgo.com">DeckDeckGo</a> respectively could be use as a plotter library in any web projects.</p>
 <p>To generate the QR code, the project <a href="https://github.com/kazuhikoarase/qrcode-generator">qrcode-generator</a> from <a href="https://github.com/kazuhikoarase">Kazuhiko Arase</a> is used.</p>
-<h2 id="table-of-contents">Table of contents</h2>
+<h2 id="app-components-qrcode-table-of-contents">Table of contents</h2>
 <ul>
-<li><a href="#showcase">Showcase</a></li>
-<li><a href="#getting-started">Getting Started</a><ul>
-<li><a href="#using-deckdeckgo-qr-code-from-a-cdn">Using DeckDeckGo QR Code from a CDN</a></li>
-<li><a href="#install-deckdeckgo-qr-code-from-npm">Install DeckDeckGo QR Code from NPM</a></li>
-<li><a href="#framework-integration">Framework integration</a></li>
+<li><a href="#app-components-qrcode-showcase">Showcase</a></li>
+<li><a href="#app-components-qrcode-getting-started">Getting Started</a><ul>
+<li><a href="#app-components-qrcode-using-deckdeckgo-qr-code-from-a-cdn">Using DeckDeckGo QR Code from a CDN</a></li>
+<li><a href="#app-components-qrcode-install-deckdeckgo-qr-code-from-npm">Install DeckDeckGo QR Code from NPM</a></li>
+<li><a href="#app-components-qrcode-framework-integration">Framework integration</a></li>
 </ul>
 </li>
-<li><a href="#usage">Usage</a><ul>
-<li><a href="#slot">Slot</a></li>
-<li><a href="#properties">Properties</a></li>
-<li><a href="#styling">Styling</a><ul>
-<li><a href="#styling-type-img">Styling type img</a><ul>
-<li><a href="#methods">Methods</a></li>
-<li><a href="#examples">Examples</a></li>
-</ul>
-</li>
+<li><a href="#app-components-qrcode-usage">Usage</a><ul>
+<li><a href="#app-components-qrcode-slot">Slot</a></li>
+<li><a href="#app-components-qrcode-properties">Properties</a></li>
+<li><a href="#app-components-qrcode-styling">Styling</a><ul>
+<li><a href="#app-components-qrcode-styling-type-img">Styling type img</a><ul>
+<li><a href="#app-components-qrcode-methods">Methods</a></li>
+<li><a href="#app-components-qrcode-examples">Examples</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#qr-code-with-logo">QR Code with logo</a></li>
 </ul>
-<h2 id="showcase">Showcase</h2>
+</li>
+<li><a href="#app-components-qrcode-qr-code-with-logo">QR Code with logo</a></li>
+</ul>
+<h2 id="app-components-qrcode-showcase">Showcase</h2>
 <p>This Web Component let you generate QR code like the following as <code>svg</code> (default) or <code>img</code>:</p>
 <div>
   <deckgo-qrcode content="https://deckdeckgo.com" style={{'--deckgo-qrcode-size': '300px', '--deckgo-qrcode-color-fill': 'var(--ion-color-primary)'}}>
@@ -69,24 +69,24 @@ export class AppComponentsQRCode {
   </deckgo-qrcode>
 </div>
 
-<h2 id="getting-started">Getting Started</h2>
+<h2 id="app-components-qrcode-getting-started">Getting Started</h2>
 <p>The <a href="https://deckdeckgo.com">DeckDeckGo</a> - QR Code Web Component could be use directly in your project from a CDN, using a simple script include, or could be installed from <a href="https://www.npmjs.com/package/deckdeckgo-qrcode">npm</a>.</p>
-<h3 id="using-deckdeckgo-qr-code-from-a-cdn">Using DeckDeckGo QR Code from a CDN</h3>
+<h3 id="app-components-qrcode-using-deckdeckgo-qr-code-from-a-cdn">Using DeckDeckGo QR Code from a CDN</h3>
 <p>It&#39;s recommended to use <a href="https://unpkg.com/">unpkg</a> to use the <a href="https://deckdeckgo.com">DeckDeckGo</a> Code from a CDN. To do so, add the following include script in the main HTML file of your project:</p>
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;script src=&quot;https:&#47;&#47;unpkg.com&#47;deckdeckgo-qrcode@latest&#47;dist&#47;deckdeckgo-qrcode.js&quot;&gt;&lt;&#47;script&gt;</code>
-    </deckgo-highlight-code><h3 id="install-deckdeckgo-qr-code-from-npm">Install DeckDeckGo QR Code from NPM</h3>
+    </deckgo-highlight-code><h3 id="app-components-qrcode-install-deckdeckgo-qr-code-from-npm">Install DeckDeckGo QR Code from NPM</h3>
 <p>Install <a href="https://deckdeckgo.com">DeckDeckGo</a> - QR Code in your project from <a href="https://www.npmjs.com/package/deckdeckgo-qrcode">npm</a> using the following command:</p>
 <deckgo-highlight-code language="bash">
       <code slot="code">npm install deckdeckgo-qrcode</code>
-    </deckgo-highlight-code><h3 id="framework-integration">Framework integration</h3>
+    </deckgo-highlight-code><h3 id="app-components-qrcode-framework-integration">Framework integration</h3>
 <p>The <a href="https://stenciljs.com/docs/overview">Stencil documentation</a> provide examples of framework integration for <a href="https://stenciljs.com/docs/angular">Angular</a>, <a href="https://stenciljs.com/docs/react">React</a>, <a href="https://stenciljs.com/docs/vue">Vue</a> and <a href="https://stenciljs.com/docs/ember">Ember</a>.</p>
-<h2 id="usage">Usage</h2>
+<h2 id="app-components-qrcode-usage">Usage</h2>
 <p>The <code>&lt;deckgo-qrcode/&gt;</code> Web Component will generate per default a <code>&lt;svg/&gt;</code> QR code with a correction level set to high.</p>
 <p>Optionally, it&#39;s also possible to generate the QR code as an <code>&lt;img/&gt;</code> and/or to display a logo over it.</p>
-<h3 id="slot">Slot</h3>
+<h3 id="app-components-qrcode-slot">Slot</h3>
 <p>To display a logo over your QR code, this Web Component provide a <code>slot</code> called <code>logo</code>. </p>
-<h3 id="properties">Properties</h3>
+<h3 id="app-components-qrcode-properties">Properties</h3>
 <p>The <code>&lt;deckgo-qrcode/&gt;</code> expose the following properties:</p>
 <table>
 <thead>
@@ -156,7 +156,7 @@ export class AppComponentsQRCode {
 <td>X</td>
 </tr>
 </tbody></table>
-<h3 id="styling">Styling</h3>
+<h3 id="app-components-qrcode-styling">Styling</h3>
 <p>The <code>&lt;deckgo-qrcode/&gt;</code> could be styled using the following CSS4 variables which would only applies on the type <code>&lt;svg/&gt;</code>:</p>
 <table>
 <thead>
@@ -204,20 +204,20 @@ export class AppComponentsQRCode {
 <td>X</td>
 </tr>
 </tbody></table>
-<h4 id="styling-type-img">Styling type img</h4>
+<h4 id="app-components-qrcode-styling-type-img">Styling type img</h4>
 <p>In oder to style QR code if its type is set to  <code>&lt;img/&gt;</code>, you will need to use properties instead of CSS4 variables.</p>
-<h3 id="methods">Methods</h3>
+<h3 id="app-components-qrcode-methods">Methods</h3>
 <p>The <code>&lt;deckgo-qrcode/&gt;</code> component exposes the following method in case you would like to refresh your QR code, for example on resize of the window on in case you would set its content asynchronously:</p>
 <deckgo-highlight-code language="javascript">
       <code slot="code">generate() =&gt; Promise&lt;void&gt;</code>
-    </deckgo-highlight-code><h3 id="examples">Examples</h3>
+    </deckgo-highlight-code><h3 id="app-components-qrcode-examples">Examples</h3>
 <p>You could find all the examples in the <a href="src/index.html">src/index.html</a> of the project.</p>
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;deckgo-qrcode content=&quot;https:&#47;&#47;deckdeckgo.com&quot; style=&quot;--deckgo-qrcode-size: 300px;&quot;&gt;{'\n'}&lt;&#47;deckgo-qrcode&gt;</code>
     </deckgo-highlight-code><p>Example with a logo:</p>
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;deckgo-qrcode content=&quot;https:&#47;&#47;myurl.com&quot;&gt;{'\n'}  &lt;img slot=&quot;logo&quot; src=&quot;my-logo.svg&quot;&#47;&gt;{'\n'}&lt;&#47;deckgo-qrcode&gt;</code>
-    </deckgo-highlight-code><h2 id="qr-code-with-logo">QR Code with logo</h2>
+    </deckgo-highlight-code><h2 id="app-components-qrcode-qr-code-with-logo">QR Code with logo</h2>
 <p>It&#39;s possible to display a logo over your QR Code as the code generated with this Web Component have a correction level set to high meaning, if I understand correctly, that your content is encoded and displayed multiple times inside the QR code. Therefore, even if the logo cover a part of it, it will be still possible for a reader to read the content from &quot;somewhere else&quot; in the code.</p>
 <p>However, test it carefully and play with the colours, cell-size and size of your code to ensure its readability.</p>
 </main>

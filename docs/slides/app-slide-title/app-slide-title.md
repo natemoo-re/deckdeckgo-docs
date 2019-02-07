@@ -6,13 +6,13 @@ This slide could be for example use for the very first and last slide of your pr
 
 ## Table of contents
 
-- [Layout](#layout)
-- [Usage](#usage)
-  - [Slots](#slots)
-  - [Notes](#notes)
-- [Attributes](#attributes)
-- [Example](#example)
-- [Theming](#theming)
+- [Layout](#app-slide-title-layout)
+- [Usage](#app-slide-title-usage)
+  - [Slots](#app-slide-title-slots)
+  - [Notes](#app-slide-title-notes)
+- [Attributes](#app-slide-title-attributes)
+- [Example](#app-slide-title-example)
+- [Theming](#app-slide-title-theming)
 
 ## Layout
 

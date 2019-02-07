@@ -6,19 +6,19 @@ To generate the QR code, the project [qrcode-generator](https://github.com/kazuh
 
 ## Table of contents
 
-- [Showcase](#showcase)
-- [Getting Started](#getting-started)
-	- [Using DeckDeckGo QR Code from a CDN](#using-deckdeckgo-qr-code-from-a-cdn)
-	- [Install DeckDeckGo QR Code from NPM](#install-deckdeckgo-qr-code-from-npm)
-	- [Framework integration](#framework-integration)
-- [Usage](#usage)
-	- [Slot](#slot)
-	- [Properties](#properties)
-	- [Styling](#styling)
-		- [Styling type img](#styling-type-img)
-  - [Methods](#methods)
-  - [Examples](#examples)
-- [QR Code with logo](#qr-code-with-logo)
+- [Showcase](#app-components-qrcode-showcase)
+- [Getting Started](#app-components-qrcode-getting-started)
+	- [Using DeckDeckGo QR Code from a CDN](#app-components-qrcode-using-deckdeckgo-qr-code-from-a-cdn)
+	- [Install DeckDeckGo QR Code from NPM](#app-components-qrcode-install-deckdeckgo-qr-code-from-npm)
+	- [Framework integration](#app-components-qrcode-framework-integration)
+- [Usage](#app-components-qrcode-usage)
+	- [Slot](#app-components-qrcode-slot)
+	- [Properties](#app-components-qrcode-properties)
+	- [Styling](#app-components-qrcode-styling)
+		- [Styling type img](#app-components-qrcode-styling-type-img)
+  - [Methods](#app-components-qrcode-methods)
+  - [Examples](#app-components-qrcode-examples)
+- [QR Code with logo](#app-components-qrcode-qr-code-with-logo)
 
 ## Showcase
 

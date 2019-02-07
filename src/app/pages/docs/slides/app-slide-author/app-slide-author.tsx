@@ -29,24 +29,24 @@ export class AppSlideAuthor {
       <app-navigation></app-navigation>,
 
       <ion-content padding>
-        <main><h1 id="slide-author">Slide: Author</h1>
+        <main><h1 id="app-slide-author-slide-author">Slide: Author</h1>
 <p>The &quot;Author&quot; slide let you introduce the author of the presentation.</p>
-<h2 id="table-of-contents">Table of contents</h2>
+<h2 id="app-slide-author-table-of-contents">Table of contents</h2>
 <ul>
-<li><a href="#layout">Layout</a></li>
-<li><a href="#usage">Usage</a><ul>
-<li><a href="#slots">Slots</a></li>
-<li><a href="#notes">Notes</a></li>
-<li><a href="#social-components">Social components</a></li>
+<li><a href="#app-slide-author-layout">Layout</a></li>
+<li><a href="#app-slide-author-usage">Usage</a><ul>
+<li><a href="#app-slide-author-slots">Slots</a></li>
+<li><a href="#app-slide-author-notes">Notes</a></li>
+<li><a href="#app-slide-author-social-components">Social components</a></li>
 </ul>
 </li>
-<li><a href="#attributes">Attributes</a><ul>
-<li><a href="#example">Example</a></li>
+<li><a href="#app-slide-author-attributes">Attributes</a><ul>
+<li><a href="#app-slide-author-example">Example</a></li>
 </ul>
 </li>
-<li><a href="#theming">Theming</a></li>
+<li><a href="#app-slide-author-theming">Theming</a></li>
 </ul>
-<h2 id="layout">Layout</h2>
+<h2 id="app-slide-author-layout">Layout</h2>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
     <deckgo-slide-author img-src="https://secure.meetupstatic.com/photos/member/9/c/4/2/member_272620002.jpeg">
@@ -58,11 +58,11 @@ export class AppSlideAuthor {
   </deckgo-deck>
 </div>
 
-<h2 id="usage">Usage</h2>
+<h2 id="app-slide-author-usage">Usage</h2>
 <p>The &quot;Author&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-author/&gt;</code>.</p>
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;deckgo-deck&gt;{'\n'}  &lt;deckgo-slide-author img-src=&quot;&#47;assets&#47;author.jpeg&quot; img-alt=&quot;My self&quot;&gt;{'\n'}    &lt;h1 slot=&quot;title&quot;&gt;Author&lt;&#47;h1&gt;{'\n'}    &lt;div slot=&quot;author&quot;&gt;{'\n'}      &lt;h2&gt;David&lt;&#47;h2&gt;{'\n'}      &lt;p&gt;Something about me&lt;&#47;p&gt;{'\n'}    &lt;&#47;div&gt;{'\n'}    &lt;div slot=&quot;social-link&quot;&gt;&lt;deckgo-social twitter=&quot;daviddalbusco&quot;&gt;twitter&lt;&#47;deckgo-social&gt;&lt;&#47;div&gt;{'\n'}  &lt;&#47;deckgo-slide-author&gt;{'\n'}&lt;&#47;deckgo-deck&gt;  </code>
-    </deckgo-highlight-code><h3 id="slots">Slots</h3>
+    </deckgo-highlight-code><h3 id="app-slide-author-slots">Slots</h3>
 <p>Both slots <code>title</code>, <code>author</code> and <code>social-link</code> are optional, but of course the slide would looks better with at least the slot <code>author</code> would be provided.</p>
 <p>Notes: </p>
 <ul>
@@ -71,12 +71,12 @@ export class AppSlideAuthor {
 <li><p>You could provide up to six <code>social-link</code> slots. Each of these could be your custom code or you could use the component <code>&lt;deckgo-social/&gt;</code> to easily provide a link to an external URI.</p>
 </li>
 </ul>
-<h3 id="notes">Notes</h3>
+<h3 id="app-slide-author-notes">Notes</h3>
 <p>Optionally a slot <code>notes</code> could be use to add some notes regarding the particular slide. These will be automatically <code>displayed</code> in the <a href="https://deckdeckgo.app">remote control</a>.</p>
 <p>If you are using the <a href="https://deckdeckgo.com">DeckDeckGo</a> starter kit and wish to make your notes accessible to anyone, you would need to mark them with an attribute <code>show</code>.</p>
-<h3 id="social-components">Social components</h3>
+<h3 id="app-slide-author-social-components">Social components</h3>
 <p>The details of the component <code>&lt;deckgo-social/&gt;</code> is described in the components <a href="https://github.com/deckgo/deckdeckgo/blob/master/doc/components/components.md">documentation</a>.</p>
-<h2 id="attributes">Attributes</h2>
+<h2 id="app-slide-author-attributes">Attributes</h2>
 <p>This component offers the following options which could be set using attributes:</p>
 <table>
 <thead>
@@ -100,10 +100,10 @@ export class AppSlideAuthor {
 <td>An optional accessibility alt for the image.</td>
 </tr>
 </tbody></table>
-<h3 id="example">Example</h3>
+<h3 id="app-slide-author-example">Example</h3>
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;deckgo-deck&gt;{'\n'}  &lt;deckgo-slide-author img-src=&quot;&#47;assets&#47;author.jpeg&quot;&gt;{'\n'}    &lt;div slot=&quot;author&quot;&gt;{'\n'}      &lt;h2&gt;David&lt;&#47;h2&gt;{'\n'}      &lt;p&gt;Something about me&lt;&#47;p&gt;{'\n'}    &lt;&#47;div&gt;{'\n'}    &lt;div slot=&quot;social-link&quot;&gt;&lt;deckgo-social twitter=&quot;daviddalbusco&quot;&gt;twitter&lt;&#47;deckgo-social&gt;&lt;&#47;div&gt;{'\n'}    &lt;div slot=&quot;social-link&quot;&gt;&lt;deckgo-social linkedin=&quot;david-dal-busco&#47;&quot;&gt;linkedin&lt;&#47;deckgo-social&gt;&lt;&#47;div&gt;{'\n'}    &lt;div slot=&quot;social-link&quot;&gt;&lt;deckgo-social medium=&quot;david.dalbusco&quot;&gt;medium&lt;&#47;deckgo-social&gt;&lt;&#47;div&gt;{'\n'}  &lt;&#47;deckgo-slide-author&gt;{'\n'}&lt;&#47;deckgo-deck&gt;</code>
-    </deckgo-highlight-code><h2 id="theming">Theming</h2>
+    </deckgo-highlight-code><h2 id="app-slide-author-theming">Theming</h2>
 <p>The following theming options will affect this component if set on its host or parent.</p>
 <table>
 <thead>

@@ -6,19 +6,19 @@ To highlight your code, this component is using [Prism.js](https://prismjs.com) 
 
 ## Table of contents
 
-- [Showcase](#showcase)
-- [Getting Started](#getting-started)
-  - [Using DeckDeckGo Highlight Code from a CDN](#using-deckdeckgo-highlight-code-from-a-cdn)
-  - [Install DeckDeckGo Highlight Code from NPM](#install-deckdeckgo-highlight-code-from-npm)
-  - [Framework integration](#framework-integration)
-- [Usage](#usage)
-  - [Properties](#properties)
-  - [Styling](#styling)
-  - [Methods](#methods)
-    - [Find the next anchor](#find-the-next-anchor)
-    - [Zoom into code](#zoom-into-code)
-    - [Load or reload the component](#load-or-reload-the-component)
-  - [Examples](#examples)
+- [Showcase](#app-components-highlight-code-showcase)
+- [Getting Started](#app-components-highlight-code-getting-started)
+  - [Using DeckDeckGo Highlight Code from a CDN](#app-components-highlight-code-using-deckdeckgo-highlight-code-from-a-cdn)
+  - [Install DeckDeckGo Highlight Code from NPM](#app-components-highlight-code-install-deckdeckgo-highlight-code-from-npm)
+  - [Framework integration](#app-components-highlight-code-framework-integration)
+- [Usage](#app-components-highlight-code-usage)
+  - [Properties](#app-components-highlight-code-properties)
+  - [Styling](#app-components-highlight-code-styling)
+  - [Methods](#app-components-highlight-code-methods)
+    - [Find the next anchor](#app-components-highlight-code-find-the-next-anchor)
+    - [Zoom into code](#app-components-highlight-code-zoom-into-code)
+    - [Load or reload the component](#app-components-highlight-code-load-or-reload-the-component)
+  - [Examples](#app-components-highlight-code-examples)
 
 ## Showcase
 
