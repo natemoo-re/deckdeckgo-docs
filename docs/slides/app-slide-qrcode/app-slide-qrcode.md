@@ -2,7 +2,7 @@
 
 The "QR code" slide is an handy slide in case you would like to display a QR code. It could for example be use as the very last slide of your presentation to display an easy link pointing to your deck, you previously published online. It would allow your audience to get easily your slides without any delay on their phone.
 
-#### Layout
+## Layout
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -13,11 +13,11 @@ The "QR code" slide is an handy slide in case you would like to display a QR cod
   </deckgo-deck>
 </div>
 
-#### Usage
+## Usage
 
 The "QR code" slide's Web Component could be integrated using the tag `<deckgo-slide-qrcode/>`.
 
-##### Usage
+### Usage
 
 ```
 <deckgo-deck>
@@ -28,29 +28,29 @@ The "QR code" slide's Web Component could be integrated using the tag `<deckgo-s
 </deckgo-deck>  
 ```
 
-##### Slots
+### Slots
 
 The slots `title` and `content` are optional.
 
-##### Notes
+### Notes
 
 Optionally a slot `notes` could be use to add some notes regarding the particular slide. These will be automatically `displayed` in the [remote control](https://deckdeckgo.app).
 
 If you are using the [DeckDeckGo] starter kit and wish to make your notes accessible to anyone, you would need to mark them with an attribute `show`.
 
-#### Code components
+## Code components
 
 The slide "QR Code" relies on the code component `<deckgo-qrcode/>` which is described in the components [documentation](https://github.com/deckgo/deckdeckgo/blob/master/doc/components/components.md).
 
-#### Installation
+## Installation
 
 The [DeckDeckGo] - QR Code component is provided in separate extra library. If you don't use the [DeckDeckGo] starter kit and wish to add the [DeckDeckGo] QR code to your project, you will need to install and integrate it from a CDN or [npm](https://www.npmjs.com/package/deckdeckgo-qrcode) as described in its [installation guide](https://github.com/deckgo/deckdeckgo-qrcode#getting-started).
 
-#### Attributes
+## Attributes
 
 The attribute `content` should be provided in order to render a QR code in this template. It offers the same attributes as the [DeckDeckGo] QR code Web Component, see its [documentation](https://github.com/deckgo/deckdeckgo-qrcode) for the details.
 
-##### Example without any slots
+### Example without any slots
 
 ```
 <deckgo-deck>
@@ -59,7 +59,7 @@ The attribute `content` should be provided in order to render a QR code in this 
 </deckgo-deck>  
 ```
 
-#### Theming
+## Theming
 
 The following theming options will affect this component if set on its host or parent.
 

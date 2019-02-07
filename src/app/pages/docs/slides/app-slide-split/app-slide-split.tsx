@@ -31,7 +31,7 @@ export class AppSlideContent {
       <ion-content padding>
         <main><h1 id="slide-split">Slide: Split</h1>
 <p>The &quot;Split&quot; slide is a simple slide which display two panes on the page.</p>
-<h4 id="layout">Layout</h4>
+<h2 id="layout">Layout</h2>
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
     <deckgo-slide-split>
@@ -46,18 +46,18 @@ export class AppSlideContent {
   </deckgo-deck>
 </div>
 
-<h4 id="usage">Usage</h4>
+<h2 id="usage">Usage</h2>
 <p>The &quot;Split&quot; slide&#39;s Web Component could be integrated using the tag <code>&lt;deckgo-slide-split/&gt;</code>.</p>
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;deckgo-deck&gt;{'\n'}  &lt;deckgo-slide-split&gt;{'\n'}    &lt;h1 slot=&quot;title&quot;&gt;Two columns subject&lt;&#47;h1&gt;{'\n'}    &lt;p slot=&quot;start&quot;&gt;{'\n'}      The content you want to display on the left side of the page{'\n'}    &lt;&#47;p&gt;{'\n'}    &lt;p slot=&quot;end&quot;&gt;{'\n'}      The content you want to display on the right side of the page{'\n'}    &lt;&#47;p&gt;{'\n'}  &lt;&#47;deckgo-slide-split&gt;{'\n'}&lt;&#47;deckgo-deck&gt;</code>
-    </deckgo-highlight-code><h5 id="slots">Slots</h5>
+    </deckgo-highlight-code><h3 id="slots">Slots</h3>
 <p>Both slots <code>title</code>, <code>start</code> and <code>end</code> are optional. Without providing one of them, the page will remain empty.</p>
 <p>The <code>start</code> slot is the content of the left pane respectively the slot <code>end</code> is the content of the right pane.</p>
 <p>Note: The slot <code>title</code> is per default hidden even if you provide it. See attributes below if you wish to display it. </p>
-<h5 id="notes">Notes</h5>
+<h3 id="notes">Notes</h3>
 <p>Optionally a slot <code>notes</code> could be use to add some notes regarding the particular slide. These will be automatically <code>displayed</code> in the <a href="https://deckdeckgo.app">remote control</a>.</p>
 <p>If you are using the <a href="https://deckdeckgo.com">DeckDeckGo</a> starter kit and wish to make your notes accessible to anyone, you would need to mark them with an attribute <code>show</code>.</p>
-<h4 id="attributes">Attributes</h4>
+<h2 id="attributes">Attributes</h2>
 <p>This component offers the following options which could be set using attributes:</p>
 <table>
 <thead>
@@ -81,7 +81,7 @@ export class AppSlideContent {
 <td>Show the first elements which would be hidden if <code>reveal</code> is set to <code>true</code></td>
 </tr>
 </tbody></table>
-<h4 id="theming">Theming</h4>
+<h2 id="theming">Theming</h2>
 <p>The following theming options will affect this component if set on its host or parent.</p>
 <table>
 <thead>

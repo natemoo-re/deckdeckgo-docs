@@ -2,7 +2,7 @@
 
 The "Author" slide let you introduce the author of the presentation.
 
-#### Layout
+## Layout
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -15,7 +15,7 @@ The "Author" slide let you introduce the author of the presentation.
   </deckgo-deck>
 </div>
 
-#### Usage
+## Usage
 
 The "Author" slide's Web Component could be integrated using the tag `<deckgo-slide-author/>`.
 
@@ -32,7 +32,7 @@ The "Author" slide's Web Component could be integrated using the tag `<deckgo-sl
 </deckgo-deck>  
 ```
 
-##### Slots
+### Slots
 
 Both slots `title`, `author` and `social-link` are optional, but of course the slide would looks better with at least the slot `author` would be provided.
 
@@ -42,17 +42,17 @@ Notes:
 
 * You could provide up to six `social-link` slots. Each of these could be your custom code or you could use the component `<deckgo-social/>` to easily provide a link to an external URI.
 
-##### Notes
+### Notes
 
 Optionally a slot `notes` could be use to add some notes regarding the particular slide. These will be automatically `displayed` in the [remote control](https://deckdeckgo.app).
 
 If you are using the [DeckDeckGo] starter kit and wish to make your notes accessible to anyone, you would need to mark them with an attribute `show`.
 
-##### Social components
+### Social components
 
 The details of the component `<deckgo-social/>` is described in the components [documentation](https://github.com/deckgo/deckdeckgo/blob/master/doc/components/components.md).
 
-#### Attributes
+## Attributes
 
 This component offers the following options which could be set using attributes:
 
@@ -61,7 +61,7 @@ This component offers the following options which could be set using attributes:
 | img-src | string |  | An image URI, for example a picture of the author. Note: this image will be displayed as a circle. |
 | img-alt | string |  | An optional accessibility alt for the image. |
 
-##### Example
+### Example
 
 ```
 <deckgo-deck>
@@ -77,7 +77,7 @@ This component offers the following options which could be set using attributes:
 </deckgo-deck>
 ```
 
-#### Theming
+## Theming
 
 The following theming options will affect this component if set on its host or parent.
 

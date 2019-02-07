@@ -2,7 +2,7 @@
 
 The "Gif" slide let you add easily a gif, like those provided by [Giphy](https://giphy.com), to your presentation.
 
-#### Layout
+## Layout
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -14,11 +14,11 @@ The "Gif" slide let you add easily a gif, like those provided by [Giphy](https:/
   </deckgo-deck>
 </div>
 
-#### For images too
+## For images too
 
 The slide Gif is useful for Gifs but could be use for any images too, in case you would like for example to display an image fullscreen.
 
-#### Usage
+## Usage
 
 The "Gif" slide's Web Component could be integrated using the tag `<deckgo-slide-gif/>`.
 
@@ -30,21 +30,21 @@ The "Gif" slide's Web Component could be integrated using the tag `<deckgo-slide
 </deckgo-slide-gif>
 ```
 
-#### Slots
+### Slots
 
 The slots `title`, `header` and `footer` are both optional. `header` and `footer` would be displayed over the gif.
 
-##### Notes
+### Notes
 
 Optionally a slot `notes` could be use to add some notes regarding the particular slide. These will be automatically `displayed` in the [remote control](https://deckdeckgo.app).
 
 If you are using the [DeckDeckGo] starter kit and wish to make your notes accessible to anyone, you would need to mark them with an attribute `show`.
 
-#### Gif component
+## Gif component
 
 The slide "Gif" relies on the component `<deckgo-gif/>` which is described in the components [documentation](https://github.com/deckgo/deckdeckgo/blob/master/doc/components/components.md).
 
-#### Attributes
+## Attributes
 
 This component offers the following options which could be set using attributes:
 
@@ -54,7 +54,7 @@ This component offers the following options which could be set using attributes:
 | alt | string |  | And alt information could be provided for accessibility reason. |
 | fullscreen | number | false | If set to true, the gif width and height will be related to the slide width and height respectively will be fullscreen. |
 
-#### Theming
+## Theming
 
 The following theming options will affect this component if set on its host or parent.
 

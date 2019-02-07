@@ -2,7 +2,7 @@
 
 The "Code" slide is a the slide to use if you would like to showcase code during your talk.
 
-#### Layout
+## Layout
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -12,13 +12,13 @@ The "Code" slide is a the slide to use if you would like to showcase code during
   </deckgo-deck>
 </div>
 
-#### Usage
+## Usage
 
 The "Code" slide's Web Component could be integrated using the tag `<deckgo-slide-code/>`.
 
 You could provide a file URI to the code you want to display or provide it with a slotted element.
 
-##### Usage with file URI
+### Usage with file URI
 
 ```
 <deckgo-deck>
@@ -28,7 +28,7 @@ You could provide a file URI to the code you want to display or provide it with 
 </deckgo-deck>  
 ```
 
-##### Usage with slotted element
+### Usage with slotted element
 
 ```
 <deckgo-deck>
@@ -42,31 +42,31 @@ You could provide a file URI to the code you want to display or provide it with 
 </deckgo-deck>  
 ```
 
-##### Slots
+### Slots
 
 The slots `title` and `code` are optional.
 
 This template also exposes a slot `info` which would let you display an information over your code on mobile devices, useful to explain your reader that they should click to switch between vertical and horizontal scrolling. Find an example of the use of that slot on the [DeckDeckGo] website.
 
-##### Notes
+### Notes
 
 Optionally a slot `notes` could be use to add some notes regarding the particular slide. These will be automatically `displayed` in the [remote control](https://deckdeckgo.app).
 
 If you are using the [DeckDeckGo] starter kit and wish to make your notes accessible to anyone, you would need to mark them with an attribute `show`.
 
-#### Code components
+## Code components
 
 The slide "Code" relies on the code component `<deckgo-highlight-code/>` which is described in the components [documentation](https://github.com/deckgo/deckdeckgo/blob/master/doc/components/components.md).
 
-#### Installation
+## Installation
 
 The [DeckDeckGo] - Hightlight code component is provided in separate extra library. If you don't use the [DeckDeckGo] starter kit and wish to add the [DeckDeckGo] code to your project, you will need to install and integrate it from a CDN or [npm](https://www.npmjs.com/package/deckdeckgo-highlight-code) as described in its [installation guide](https://github.com/deckgo/deckdeckgo-highlight-code#getting-started).
 
-#### Attributes
+## Attributes
 
 At least `src` or the `slot` code should be provided in order to render code in this template. It offers the same attributes as the [DeckDeckGo] code Web Component, see its [documentation](https://github.com/deckgo/deckdeckgo-highlight-code) for the details.
 
-##### Example with file URI
+### Example with file URI
 
 ```
 <deckgo-deck>
@@ -76,7 +76,7 @@ At least `src` or the `slot` code should be provided in order to render code in 
 </deckgo-deck>
 ```
 
-##### Example with slotted element
+### Example with slotted element
 
 ```
 <deckgo-deck>
@@ -100,7 +100,7 @@ At least `src` or the `slot` code should be provided in order to render code in 
 </deckgo-deck>  
 ```
 
-#### Theming
+## Theming
 
 The following theming options will affect this component if set on its host or parent.
 

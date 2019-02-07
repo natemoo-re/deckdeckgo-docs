@@ -2,7 +2,7 @@
 
 The "Chart" slide let you draw easily charts in your presentation.
 
-#### Layout
+## Layout
 
 <div class="container" margin>
   <deckgo-deck embedded={true}>
@@ -22,7 +22,7 @@ The "Chart" slide let you draw easily charts in your presentation.
   </deckgo-deck>
 </div>
 
-#### Usage
+## Usage
 
 The "Chart" slide's Web Component could be integrated using the tag `<deckgo-slide-chart/>`.
 
@@ -32,25 +32,25 @@ The "Chart" slide's Web Component could be integrated using the tag `<deckgo-sli
 </deckgo-slide-chart>
 ```
 
-##### Slots
+### Slots
 
 The slot `title` is optional.
 
-##### Notes
+### Notes
 
 Optionally a slot `notes` could be use to add some notes regarding the particular slide. These will be automatically `displayed` in the [remote control](https://deckdeckgo.app).
 
 If you are using the [DeckDeckGo] starter kit and wish to make your notes accessible to anyone, you would need to mark them with an attribute `show`.
 
-#### Chart components
+## Chart components
 
 The slide "Chart" relies on the charts components `<deckgo-pie-chart/>`, `<deckgo-line-chart/>` and  `<deckgo-bar-chart/>` which are described in the components [documentation](https://github.com/deckgo/deckdeckgo/blob/master/doc/components/components.md).
 
-#### Installation
+## Installation
 
 The [DeckDeckGo] charts components are provided in separate extra library. If you don't use the [DeckDeckGo] starter kit and wish to add the [DeckDeckGo] chart to your project, you will need to install and integrate it from a CDN or [npm](https://www.npmjs.com/package/deckdeckgo-charts) as described in its [installation guide](https://github.com/deckgo/deckdeckgo-charts#getting-started).
 
-#### Attributes
+## Attributes
 
 This component offers the following options which could be set using attributes:
 
@@ -60,7 +60,7 @@ This component offers the following options which could be set using attributes:
 
 Furthermore, this slide component offers the same attributes as the [DeckDeckGo] charts Web Component, see its [documentation](https://github.com/deckgo/deckdeckgo-charts) for the details.
 
-#### Theming
+## Theming
 
 The following theming options will affect this component if set on its host or parent.
 

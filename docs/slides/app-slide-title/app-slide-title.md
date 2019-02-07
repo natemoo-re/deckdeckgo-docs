@@ -4,7 +4,7 @@ The "Title" slide is a simple slide which display its title and content center i
 
 This slide could be for example use for the very first and last slide of your presentation.
 
-#### Layout
+## Layout
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -17,7 +17,7 @@ This slide could be for example use for the very first and last slide of your pr
   </deckgo-deck>
 </div>
 
-#### Usage
+## Usage
 
 The "Title" slide's Web Component could be integrated using the tag `<deckgo-slide-title/>`.
 
@@ -32,11 +32,11 @@ The "Title" slide's Web Component could be integrated using the tag `<deckgo-sli
 </deckgo-deck>
 ```
 
-##### Slots
+### Slots
 
 Both slots `title` and `content` are optional. Without providing one of them, the page will remain empty.
 
-##### Notes
+### Notes
 
 Optionally a slot `notes` could be use to add some notes regarding the particular slide. These will be automatically `displayed` in the [remote control](https://deckdeckgo.app).
 
@@ -62,7 +62,7 @@ If you are using the [DeckDeckGo] starter kit and wish to make your notes access
 </deckgo-deck>
 ```
 
-#### Attributes
+## Attributes
 
 This component offers the following options which could be set using attributes:
 
@@ -71,7 +71,7 @@ This component offers the following options which could be set using attributes:
 | reveal | boolean | false | Hide the slotted elements `li`, `p` an `img` and display them when navigating using `slideNext()` or `slidePrev()` (see [documention](/doc/features/navigation.md)) |
 | reveal-show-first | boolean | false | Show the first elements which would be hidden if `reveal` is set to `true` |
 
-##### Example
+## Example
 
 ```
 <deckgo-deck>
@@ -86,7 +86,7 @@ This component offers the following options which could be set using attributes:
 </deckgo-deck>
 ```
 
-#### Theming
+## Theming
 
 The following theming options will affect this component if set on its host or parent.
 

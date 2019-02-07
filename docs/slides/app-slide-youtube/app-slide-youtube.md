@@ -2,7 +2,7 @@
 
 The "Youtube" slide let you add easily a [Youtube](https://youtube.com) video to your presentation.
 
-#### Layout
+## Layout
 
 <div class="container" margin>
   <deckgo-deck embedded={true} pager={false}>
@@ -12,7 +12,7 @@ The "Youtube" slide let you add easily a [Youtube](https://youtube.com) video to
   </deckgo-deck>
 </div>
 
-#### Usage
+## Usage
 
 The "Youtube" slide's Web Component could be integrated using the tag `<deckgo-slide-youtube/>`.
 
@@ -22,21 +22,21 @@ The "Youtube" slide's Web Component could be integrated using the tag `<deckgo-s
 </deckgo-slide-youtube>
 ```
 
-##### Slots
+### Slots
 
 The slot `title` is optional.
 
-##### Notes
+### Notes
 
 Optionally a slot `notes` could be use to add some notes regarding the particular slide. These will be automatically `displayed` in the [remote control](https://deckdeckgo.app).
 
 If you are using the [DeckDeckGo] starter kit and wish to make your notes accessible to anyone, you would need to mark them with an attribute `show`.
 
-##### Youtube component
+### Youtube component
 
 The slide "Youtube" relies on the component `<deckgo-youtube/>` which is described in the components [documentation](https://github.com/deckgo/deckdeckgo/blob/master/doc/components/components.md).
 
-#### Attributes
+## Attributes
 
 This component offers the following options which could be set using attributes:
 
@@ -46,7 +46,7 @@ This component offers the following options which could be set using attributes:
 | width | number | Per default the video width will be calculated according the content size available. | Using this option you would be able to define your own width. |
 | height | number | Per default the video height will be calculated according the content size available. | Using this option you would be able to define your own height. |
 
-#### Theming
+## Theming
 
 The following theming options will affect this component if set on its host or parent.
 
@@ -60,18 +60,18 @@ The following theming options will affect this component if set on its host or p
 | --slide-padding-start | 32px | Padding left of the all slide |
 | --zIndex | 1 | The z-index of the slide |
 
-#### Methods
+## Methods
 
 The slide "Youtube" offers extra methods to play and pause the Youtube video clip. These methods are notably used by the [DeckDecGo]'s remote control.
 
-##### Play the video
+### Play the video
 
 ```
 const slide = deck.getElementsByTagName('deckgo-slide-youtube');
 await slide.play();
 ```
 
-##### Pause the video
+### Pause the video
 
 ```
 const slide = deck.getElementsByTagName('deckgo-slide-youtube');

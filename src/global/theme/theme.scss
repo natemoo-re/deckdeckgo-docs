@@ -8,6 +8,14 @@ main {
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
+
+  h1:not(:first-of-type) {
+    margin-top: 48px;
+  }
+
+  h2, h3 {
+    margin-top: 32px;
+  }
 }
 
 a {
