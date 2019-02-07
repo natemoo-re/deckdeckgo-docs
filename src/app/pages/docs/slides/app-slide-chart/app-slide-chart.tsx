@@ -33,7 +33,7 @@ export class AppSlideChart {
 <p>The &quot;Chart&quot; slide let you draw easily charts in your presentation.</p>
 <h4 id="layout">Layout</h4>
 <div class="container" margin>
-  <deckgo-deck embedded={true} pager={false}>
+  <deckgo-deck embedded={true}>
     <deckgo-slide-chart width={200} height={100} src="https://raw.githubusercontent.com/fluster/deckdeckgo-charts/master/showcase/data-pie-chart.csv">
       <h1 slot="title">slot="title"</h1>
     </deckgo-slide-chart>

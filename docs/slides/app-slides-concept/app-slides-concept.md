@@ -82,7 +82,7 @@ In the previous example, the presentation contains two slides. The first slide u
 * Slide: [Chart](/slides/chart)
 
 <div class="container" margin>
-  <deckgo-deck embedded={true} pager={false}>
+  <deckgo-deck embedded={true}>
     <deckgo-slide-chart width={200} height={100} src="https://raw.githubusercontent.com/fluster/deckdeckgo-charts/master/showcase/data-pie-chart.csv">
       <h1 slot="title">slot="title"</h1>
     </deckgo-slide-chart>
