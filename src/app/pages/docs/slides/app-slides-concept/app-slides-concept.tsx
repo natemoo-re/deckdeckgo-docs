@@ -89,8 +89,8 @@ export class AppSlidesConcept {
   <deckgo-deck embedded={true} pager={false}>
     <deckgo-slide-gif src="https://media.giphy.com/media/xUA7baWfTjfHGLZc3e/giphy.gif" alt="My gif" fullscreen={true}>
       <h1 slot="title">slot="title"</h1>
-      <h1 slot="header">slot="header"</h1>
-      <h2 slot="footer">slot="footer"</h2>
+      <h1 slot="header" style={{fontSize: 'var(--font-size-h1)'}}>slot="header"</h1>
+      <h2 slot="footer" style={{fontSize: 'var(--font-size-normal)'}}>slot="footer"</h2>
     </deckgo-slide-gif>
   </deckgo-deck>
 </div>
@@ -98,9 +98,20 @@ export class AppSlidesConcept {
 <ul>
 <li><a href="#slide-chart">Chart</a></li>
 </ul>
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-chart-pie-layout.png" width="200px"/>
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-chart-line-layout.png" width="200px"/>
-<img src="https://github.com/deckgo/deckdeckgo/blob/master/doc/slides/deckdeckgo-slide-chart-bar-layout.png" width="200px"/>
+<div class="container" margin>
+  <deckgo-deck embedded={true} pager={false}>
+    <deckgo-slide-chart src="https://raw.githubusercontent.com/fluster/deckdeckgo-charts/master/showcase/data-pie-chart.csv">
+      <h1 slot="title">slot="title"</h1>
+    </deckgo-slide-chart>
+    <deckgo-slide-chart type="line" y-axis-domain="extent" date-pattern="dd.MM.yyyy"
+                        src="https://raw.githubusercontent.com/fluster/deckdeckgo-charts/master/showcase/data-line-chart-to-compare.csv">
+      <h1 slot="title">slot="title"</h1>
+    </deckgo-slide-chart>
+    <deckgo-slide-chart type="bar" src="https://raw.githubusercontent.com/fluster/deckdeckgo-charts/master/showcase/data-bar-chart-to-compare.csv">
+      <h1 slot="title">slot="title"</h1>
+    </deckgo-slide-chart>
+  </deckgo-deck>
+</div>
 
 <ul>
 <li><a href="#slide-youtube">Youtube</a></li>

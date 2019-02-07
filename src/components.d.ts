@@ -9,6 +9,7 @@ import '@stencil/core';
 
 import '@ionic/core';
 import 'deckdeckgo';
+import 'deckdeckgo-charts';
 import 'deckdeckgo-highlight-code';
 import 'ionicons';
 

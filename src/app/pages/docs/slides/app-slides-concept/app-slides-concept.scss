@@ -6,6 +6,8 @@ div.container {
   border: 1px solid;
 
   deckgo-deck {
+    --font-size-h1: 18px;
+
     --slide-padding-top: 16px;
     --slide-padding-end: 16px;
     --slide-padding-bottom: 16px;
@@ -21,5 +23,11 @@ div.container {
     --slide-split-title-padding-end: 16px;
     --slide-split-title-padding-bottom: 4px;
     --slide-split-title-padding-start: 16px;
+
+    --slide-chart-margin-top: 4px;
+    --slide-chart-margin-start: 4px;
+    --slide-chart-margin-end: 4px;
+    --slide-chart-margin-bottom: 4px;
+    --deckgo-chart-text-display: none;
   }
 }
