@@ -33,8 +33,6 @@ npm install
 npm run start
 ```
  
-*Note*: if the build script complains that an `empty.js` file is missing in `node_modules/@stencil/core/dist/sys/src`, just create an empty file in that folder, that's current StencilJS known issue, no worries.
-
 ## License
 
 MIT © [David Dal Busco](mailto:david.dalbusco@outlook.com)
