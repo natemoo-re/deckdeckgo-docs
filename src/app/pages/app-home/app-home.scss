@@ -81,6 +81,11 @@ app-home {
         }
       }
     }
+
+    deckgo-highlight-code {
+      --deckgo-highlight-code-background: var(--ion-color-dark);
+      --deckgo-highlight-code-color: white;
+    }
   }
 
   @media screen and (max-width: 720px) {

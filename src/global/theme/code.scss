@@ -4,6 +4,13 @@ deckgo-highlight-code {
   --deckgo-highlight-code-margin-bottom: 0;
   --deckgo-highlight-code-padding: 16px;
   --deckgo-highlight-code-border-radius: 8px;
-  --deckgo-highlight-code-background: var(--ion-color-dark);
-  --deckgo-highlight-code-color: white;
+  --deckgo-highlight-code-background: var(--ion-color-light);
+  --deckgo-highlight-code-color: inherit;
+}
+
+deckgo-highlight-code, deckgo-deck {
+  --deckgo-highlight-code-token-atrule: black;
+  --deckgo-highlight-code-token-function: var(--ion-color-primary);
+  --deckgo-highlight-code-token-selector:  var(--ion-color-primary);
+  --deckgo-highlight-code-token-property:  var(--ion-color-primary);
 }
