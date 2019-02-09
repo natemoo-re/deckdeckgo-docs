@@ -61,6 +61,12 @@ export namespace Components {
   interface AppComponentsYoutube {}
   interface AppComponentsYoutubeAttributes extends StencilHTMLAttributes {}
 
+  interface AppDeckEvents {}
+  interface AppDeckEventsAttributes extends StencilHTMLAttributes {}
+
+  interface AppDeckExtraFeatures {}
+  interface AppDeckExtraFeaturesAttributes extends StencilHTMLAttributes {}
+
   interface AppDeckNavigation {}
   interface AppDeckNavigationAttributes extends StencilHTMLAttributes {}
 
@@ -130,6 +136,8 @@ declare global {
     'AppComponentsQrcode': Components.AppComponentsQrcode;
     'AppComponentsSocial': Components.AppComponentsSocial;
     'AppComponentsYoutube': Components.AppComponentsYoutube;
+    'AppDeckEvents': Components.AppDeckEvents;
+    'AppDeckExtraFeatures': Components.AppDeckExtraFeatures;
     'AppDeckNavigation': Components.AppDeckNavigation;
     'AppDeckPager': Components.AppDeckPager;
     'AppDeckSize': Components.AppDeckSize;
@@ -163,6 +171,8 @@ declare global {
     'app-components-qrcode': Components.AppComponentsQrcodeAttributes;
     'app-components-social': Components.AppComponentsSocialAttributes;
     'app-components-youtube': Components.AppComponentsYoutubeAttributes;
+    'app-deck-events': Components.AppDeckEventsAttributes;
+    'app-deck-extra-features': Components.AppDeckExtraFeaturesAttributes;
     'app-deck-navigation': Components.AppDeckNavigationAttributes;
     'app-deck-pager': Components.AppDeckPagerAttributes;
     'app-deck-size': Components.AppDeckSizeAttributes;
@@ -254,6 +264,18 @@ declare global {
   var HTMLAppComponentsYoutubeElement: {
     prototype: HTMLAppComponentsYoutubeElement;
     new (): HTMLAppComponentsYoutubeElement;
+  };
+
+  interface HTMLAppDeckEventsElement extends Components.AppDeckEvents, HTMLStencilElement {}
+  var HTMLAppDeckEventsElement: {
+    prototype: HTMLAppDeckEventsElement;
+    new (): HTMLAppDeckEventsElement;
+  };
+
+  interface HTMLAppDeckExtraFeaturesElement extends Components.AppDeckExtraFeatures, HTMLStencilElement {}
+  var HTMLAppDeckExtraFeaturesElement: {
+    prototype: HTMLAppDeckExtraFeaturesElement;
+    new (): HTMLAppDeckExtraFeaturesElement;
   };
 
   interface HTMLAppDeckNavigationElement extends Components.AppDeckNavigation, HTMLStencilElement {}
@@ -377,6 +399,8 @@ declare global {
     'app-components-qrcode': HTMLAppComponentsQrcodeElement
     'app-components-social': HTMLAppComponentsSocialElement
     'app-components-youtube': HTMLAppComponentsYoutubeElement
+    'app-deck-events': HTMLAppDeckEventsElement
+    'app-deck-extra-features': HTMLAppDeckExtraFeaturesElement
     'app-deck-navigation': HTMLAppDeckNavigationElement
     'app-deck-pager': HTMLAppDeckPagerElement
     'app-deck-size': HTMLAppDeckSizeElement
@@ -410,6 +434,8 @@ declare global {
     'app-components-qrcode': HTMLAppComponentsQrcodeElement;
     'app-components-social': HTMLAppComponentsSocialElement;
     'app-components-youtube': HTMLAppComponentsYoutubeElement;
+    'app-deck-events': HTMLAppDeckEventsElement;
+    'app-deck-extra-features': HTMLAppDeckExtraFeaturesElement;
     'app-deck-navigation': HTMLAppDeckNavigationElement;
     'app-deck-pager': HTMLAppDeckPagerElement;
     'app-deck-size': HTMLAppDeckSizeElement;

@@ -103,6 +103,8 @@ export class AppRoot {
           <ion-route url="/deck/navigation" component="app-deck-navigation"/>
           <ion-route url="/deck/pager" component="app-deck-pager"/>
           <ion-route url="/deck/size" component="app-deck-size"/>
+          <ion-route url="/deck/extra" component="app-deck-extra-features"/>
+          <ion-route url="/deck/events" component="app-deck-events"/>
         </ion-router>
 
         <ion-split-pane when="lg">
@@ -155,6 +157,8 @@ export class AppRoot {
                     <ion-item href="/deck/navigation" routerDirection="forward"><ion-label>Navigation</ion-label></ion-item>
                     <ion-item href="/deck/pager" routerDirection="forward"><ion-label>Pager</ion-label></ion-item>
                     <ion-item href="/deck/size" routerDirection="forward"><ion-label>Size</ion-label></ion-item>
+                    <ion-item href="/deck/extra" routerDirection="forward"><ion-label>Extra</ion-label></ion-item>
+                    <ion-item href="/deck/events" routerDirection="forward"><ion-label>Events</ion-label></ion-item>
 
                   </ion-item-group>
                 </ion-list>
