@@ -97,6 +97,15 @@ export namespace Components {
   interface AppIntroduction {}
   interface AppIntroductionAttributes extends StencilHTMLAttributes {}
 
+  interface AppMiscBackstory {}
+  interface AppMiscBackstoryAttributes extends StencilHTMLAttributes {}
+
+  interface AppMiscCollections {}
+  interface AppMiscCollectionsAttributes extends StencilHTMLAttributes {}
+
+  interface AppMiscLogo {}
+  interface AppMiscLogoAttributes extends StencilHTMLAttributes {}
+
   interface AppSlideAuthor {}
   interface AppSlideAuthorAttributes extends StencilHTMLAttributes {}
 
@@ -157,6 +166,9 @@ declare global {
     'AppEditTheming': Components.AppEditTheming;
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
+    'AppMiscBackstory': Components.AppMiscBackstory;
+    'AppMiscCollections': Components.AppMiscCollections;
+    'AppMiscLogo': Components.AppMiscLogo;
     'AppSlideAuthor': Components.AppSlideAuthor;
     'AppSlideChart': Components.AppSlideChart;
     'AppSlideCode': Components.AppSlideCode;
@@ -195,6 +207,9 @@ declare global {
     'app-edit-theming': Components.AppEditThemingAttributes;
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
+    'app-misc-backstory': Components.AppMiscBackstoryAttributes;
+    'app-misc-collections': Components.AppMiscCollectionsAttributes;
+    'app-misc-logo': Components.AppMiscLogoAttributes;
     'app-slide-author': Components.AppSlideAuthorAttributes;
     'app-slide-chart': Components.AppSlideChartAttributes;
     'app-slide-code': Components.AppSlideCodeAttributes;
@@ -353,6 +368,24 @@ declare global {
     new (): HTMLAppIntroductionElement;
   };
 
+  interface HTMLAppMiscBackstoryElement extends Components.AppMiscBackstory, HTMLStencilElement {}
+  var HTMLAppMiscBackstoryElement: {
+    prototype: HTMLAppMiscBackstoryElement;
+    new (): HTMLAppMiscBackstoryElement;
+  };
+
+  interface HTMLAppMiscCollectionsElement extends Components.AppMiscCollections, HTMLStencilElement {}
+  var HTMLAppMiscCollectionsElement: {
+    prototype: HTMLAppMiscCollectionsElement;
+    new (): HTMLAppMiscCollectionsElement;
+  };
+
+  interface HTMLAppMiscLogoElement extends Components.AppMiscLogo, HTMLStencilElement {}
+  var HTMLAppMiscLogoElement: {
+    prototype: HTMLAppMiscLogoElement;
+    new (): HTMLAppMiscLogoElement;
+  };
+
   interface HTMLAppSlideAuthorElement extends Components.AppSlideAuthor, HTMLStencilElement {}
   var HTMLAppSlideAuthorElement: {
     prototype: HTMLAppSlideAuthorElement;
@@ -444,6 +477,9 @@ declare global {
     'app-edit-theming': HTMLAppEditThemingElement
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
+    'app-misc-backstory': HTMLAppMiscBackstoryElement
+    'app-misc-collections': HTMLAppMiscCollectionsElement
+    'app-misc-logo': HTMLAppMiscLogoElement
     'app-slide-author': HTMLAppSlideAuthorElement
     'app-slide-chart': HTMLAppSlideChartElement
     'app-slide-code': HTMLAppSlideCodeElement
@@ -482,6 +518,9 @@ declare global {
     'app-edit-theming': HTMLAppEditThemingElement;
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
+    'app-misc-backstory': HTMLAppMiscBackstoryElement;
+    'app-misc-collections': HTMLAppMiscCollectionsElement;
+    'app-misc-logo': HTMLAppMiscLogoElement;
     'app-slide-author': HTMLAppSlideAuthorElement;
     'app-slide-chart': HTMLAppSlideChartElement;
     'app-slide-code': HTMLAppSlideCodeElement;

@@ -108,6 +108,11 @@ export class AppRoot {
           <ion-route url="/deck/size" component="app-deck-size"/>
           <ion-route url="/deck/extra" component="app-deck-extra-features"/>
           <ion-route url="/deck/events" component="app-deck-events"/>
+
+          <ion-route url="/misc" component="app-deck-navigation"/>
+          <ion-route url="/misc/collections" component="app-misc-collections"/>
+          <ion-route url="/misc/logo" component="app-misc-logo"/>
+          <ion-route url="/misc/backstory" component="app-misc-backstory"/>
         </ion-router>
 
         <ion-split-pane when="lg">
@@ -165,6 +170,13 @@ export class AppRoot {
                     <ion-item href="/deck/size" routerDirection="forward"><ion-label>Size</ion-label></ion-item>
                     <ion-item href="/deck/extra" routerDirection="forward"><ion-label>Extra</ion-label></ion-item>
                     <ion-item href="/deck/events" routerDirection="forward"><ion-label>Events</ion-label></ion-item>
+
+                    <ion-item-divider>
+                      <ion-label>Miscellaneous</ion-label>
+                    </ion-item-divider>
+                    <ion-item href="/misc/collections" routerDirection="forward"><ion-label>Collections</ion-label></ion-item>
+                    <ion-item href="/misc/logo" routerDirection="forward"><ion-label>Logo</ion-label></ion-item>
+                    <ion-item href="/misc/backstory" routerDirection="forward"><ion-label>Backstory</ion-label></ion-item>
 
                   </ion-item-group>
                 </ion-list>
