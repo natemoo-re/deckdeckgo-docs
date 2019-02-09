@@ -61,6 +61,15 @@ export namespace Components {
   interface AppComponentsYoutube {}
   interface AppComponentsYoutubeAttributes extends StencilHTMLAttributes {}
 
+  interface AppDeckNavigation {}
+  interface AppDeckNavigationAttributes extends StencilHTMLAttributes {}
+
+  interface AppDeckPager {}
+  interface AppDeckPagerAttributes extends StencilHTMLAttributes {}
+
+  interface AppDeckSize {}
+  interface AppDeckSizeAttributes extends StencilHTMLAttributes {}
+
   interface AppEditDefault {}
   interface AppEditDefaultAttributes extends StencilHTMLAttributes {}
 
@@ -121,6 +130,9 @@ declare global {
     'AppComponentsQrcode': Components.AppComponentsQrcode;
     'AppComponentsSocial': Components.AppComponentsSocial;
     'AppComponentsYoutube': Components.AppComponentsYoutube;
+    'AppDeckNavigation': Components.AppDeckNavigation;
+    'AppDeckPager': Components.AppDeckPager;
+    'AppDeckSize': Components.AppDeckSize;
     'AppEditDefault': Components.AppEditDefault;
     'AppEditMarkdown': Components.AppEditMarkdown;
     'AppInstallation': Components.AppInstallation;
@@ -151,6 +163,9 @@ declare global {
     'app-components-qrcode': Components.AppComponentsQrcodeAttributes;
     'app-components-social': Components.AppComponentsSocialAttributes;
     'app-components-youtube': Components.AppComponentsYoutubeAttributes;
+    'app-deck-navigation': Components.AppDeckNavigationAttributes;
+    'app-deck-pager': Components.AppDeckPagerAttributes;
+    'app-deck-size': Components.AppDeckSizeAttributes;
     'app-edit-default': Components.AppEditDefaultAttributes;
     'app-edit-markdown': Components.AppEditMarkdownAttributes;
     'app-installation': Components.AppInstallationAttributes;
@@ -239,6 +254,24 @@ declare global {
   var HTMLAppComponentsYoutubeElement: {
     prototype: HTMLAppComponentsYoutubeElement;
     new (): HTMLAppComponentsYoutubeElement;
+  };
+
+  interface HTMLAppDeckNavigationElement extends Components.AppDeckNavigation, HTMLStencilElement {}
+  var HTMLAppDeckNavigationElement: {
+    prototype: HTMLAppDeckNavigationElement;
+    new (): HTMLAppDeckNavigationElement;
+  };
+
+  interface HTMLAppDeckPagerElement extends Components.AppDeckPager, HTMLStencilElement {}
+  var HTMLAppDeckPagerElement: {
+    prototype: HTMLAppDeckPagerElement;
+    new (): HTMLAppDeckPagerElement;
+  };
+
+  interface HTMLAppDeckSizeElement extends Components.AppDeckSize, HTMLStencilElement {}
+  var HTMLAppDeckSizeElement: {
+    prototype: HTMLAppDeckSizeElement;
+    new (): HTMLAppDeckSizeElement;
   };
 
   interface HTMLAppEditDefaultElement extends Components.AppEditDefault, HTMLStencilElement {}
@@ -344,6 +377,9 @@ declare global {
     'app-components-qrcode': HTMLAppComponentsQrcodeElement
     'app-components-social': HTMLAppComponentsSocialElement
     'app-components-youtube': HTMLAppComponentsYoutubeElement
+    'app-deck-navigation': HTMLAppDeckNavigationElement
+    'app-deck-pager': HTMLAppDeckPagerElement
+    'app-deck-size': HTMLAppDeckSizeElement
     'app-edit-default': HTMLAppEditDefaultElement
     'app-edit-markdown': HTMLAppEditMarkdownElement
     'app-installation': HTMLAppInstallationElement
@@ -374,6 +410,9 @@ declare global {
     'app-components-qrcode': HTMLAppComponentsQrcodeElement;
     'app-components-social': HTMLAppComponentsSocialElement;
     'app-components-youtube': HTMLAppComponentsYoutubeElement;
+    'app-deck-navigation': HTMLAppDeckNavigationElement;
+    'app-deck-pager': HTMLAppDeckPagerElement;
+    'app-deck-size': HTMLAppDeckSizeElement;
     'app-edit-default': HTMLAppEditDefaultElement;
     'app-edit-markdown': HTMLAppEditMarkdownElement;
     'app-installation': HTMLAppInstallationElement;

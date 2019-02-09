@@ -98,6 +98,11 @@ export class AppRoot {
           <ion-route url="/components/qrcode" component="app-components-qrcode"/>
           <ion-route url="/components/social" component="app-components-social"/>
           <ion-route url="/components/youtube" component="app-components-youtube"/>
+
+          <ion-route url="/deck" component="app-deck-navigation"/>
+          <ion-route url="/deck/navigation" component="app-deck-navigation"/>
+          <ion-route url="/deck/pager" component="app-deck-pager"/>
+          <ion-route url="/deck/size" component="app-deck-size"/>
         </ion-router>
 
         <ion-split-pane when="lg">
@@ -143,6 +148,14 @@ export class AppRoot {
                     <ion-item href="/components/qrcode" routerDirection="forward"><ion-label>QR Code</ion-label></ion-item>
                     <ion-item href="/components/social" routerDirection="forward"><ion-label>Social</ion-label></ion-item>
                     <ion-item href="/components/youtube" routerDirection="forward"><ion-label>Youtube</ion-label></ion-item>
+
+                    <ion-item-divider>
+                      <ion-label>Deck</ion-label>
+                    </ion-item-divider>
+                    <ion-item href="/deck/navigation" routerDirection="forward"><ion-label>Navigation</ion-label></ion-item>
+                    <ion-item href="/deck/pager" routerDirection="forward"><ion-label>Pager</ion-label></ion-item>
+                    <ion-item href="/deck/size" routerDirection="forward"><ion-label>Size</ion-label></ion-item>
+
                   </ion-item-group>
                 </ion-list>
               </ion-menu-toggle>
