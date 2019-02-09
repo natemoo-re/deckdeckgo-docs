@@ -58,6 +58,9 @@ export namespace Components {
   interface AppComponentsSocial {}
   interface AppComponentsSocialAttributes extends StencilHTMLAttributes {}
 
+  interface AppComponentsYoutube {}
+  interface AppComponentsYoutubeAttributes extends StencilHTMLAttributes {}
+
   interface AppInstallation {}
   interface AppInstallationAttributes extends StencilHTMLAttributes {}
 
@@ -111,6 +114,7 @@ declare global {
     'AppComponentsHighlightCode': Components.AppComponentsHighlightCode;
     'AppComponentsQrcode': Components.AppComponentsQrcode;
     'AppComponentsSocial': Components.AppComponentsSocial;
+    'AppComponentsYoutube': Components.AppComponentsYoutube;
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
     'AppSlideAuthor': Components.AppSlideAuthor;
@@ -138,6 +142,7 @@ declare global {
     'app-components-highlight-code': Components.AppComponentsHighlightCodeAttributes;
     'app-components-qrcode': Components.AppComponentsQrcodeAttributes;
     'app-components-social': Components.AppComponentsSocialAttributes;
+    'app-components-youtube': Components.AppComponentsYoutubeAttributes;
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
     'app-slide-author': Components.AppSlideAuthorAttributes;
@@ -218,6 +223,12 @@ declare global {
   var HTMLAppComponentsSocialElement: {
     prototype: HTMLAppComponentsSocialElement;
     new (): HTMLAppComponentsSocialElement;
+  };
+
+  interface HTMLAppComponentsYoutubeElement extends Components.AppComponentsYoutube, HTMLStencilElement {}
+  var HTMLAppComponentsYoutubeElement: {
+    prototype: HTMLAppComponentsYoutubeElement;
+    new (): HTMLAppComponentsYoutubeElement;
   };
 
   interface HTMLAppInstallationElement extends Components.AppInstallation, HTMLStencilElement {}
@@ -310,6 +321,7 @@ declare global {
     'app-components-highlight-code': HTMLAppComponentsHighlightCodeElement
     'app-components-qrcode': HTMLAppComponentsQrcodeElement
     'app-components-social': HTMLAppComponentsSocialElement
+    'app-components-youtube': HTMLAppComponentsYoutubeElement
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
     'app-slide-author': HTMLAppSlideAuthorElement
@@ -337,6 +349,7 @@ declare global {
     'app-components-highlight-code': HTMLAppComponentsHighlightCodeElement;
     'app-components-qrcode': HTMLAppComponentsQrcodeElement;
     'app-components-social': HTMLAppComponentsSocialElement;
+    'app-components-youtube': HTMLAppComponentsYoutubeElement;
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
     'app-slide-author': HTMLAppSlideAuthorElement;
