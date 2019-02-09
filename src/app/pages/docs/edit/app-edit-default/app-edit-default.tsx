@@ -28,6 +28,8 @@ export class AppEditDefault {
 <p>If you use the starter kit and use HTML as language for the edition, you could begin to edit the <code>index.html</code> of your project as displayed in the chapter <a href="/slides/concept">Concept</a>.</p>
 <p>If you wish to edit your talk using <strong>Markdown</strong> have a look to <a href="/edit/markdown">the next chapter</a>.</p>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

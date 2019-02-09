@@ -47,6 +47,8 @@ export class AppDeckExtraFeatures {
 <deckgo-highlight-code language="javascript">
       <code slot="code">await deck.isMobile(); &#47;&#47; resolve a boolean</code>
     </deckgo-highlight-code></main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

@@ -630,6 +630,8 @@ export class AppComponentsChart {
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;deckgo-bar-chart width=&#123;500&#125; {'\n'}                  height=&#123;400&#125;{'\n'}                   src=&quot;https:&#47;&#47;raw.githubusercontent.com&#47;fluster&#47;deckdeckgo-charts&#47;master&#47;showcase&#47;data-pie-chart.csv&quot;{'\n'}                   style=&quot;--deckgo-chart-fill-color-bar1: #3880ff;&quot;&gt;{'\n'}&lt;&#47;deckgo-bar-chart&gt;</code>
     </deckgo-highlight-code></main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

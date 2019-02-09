@@ -73,6 +73,8 @@ export class AppEditMarkdown {
     </deckgo-highlight-code><h2 id="app-edit-markdown-summary">Summary</h2>
 <p>When you choose Markdown, you edit your slides in <code>index.md</code> and use standard Markdown except the extra tags <code>---</code> to declare your slides and <code>***</code> if you wish to add notes. </p>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

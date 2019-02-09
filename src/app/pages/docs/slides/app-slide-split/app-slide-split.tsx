@@ -199,6 +199,8 @@ export class AppSlideContent {
 </tr>
 </tbody></table>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

@@ -39,6 +39,8 @@ export class AppIntroduction {
       <code slot="code">Cool, let&#039;s kick start a new DeckDeckGo presentation{'\n'}{'\n'}? What&#039;s your project name (will be use to create a new folder)? (deckdeckgo){'\n'}? What&#039;s your presentation name (max. 45 characters, will be use for meta tags and manifest information)? (DeckDeckGo){'\n'}? What&#039;s your presentation about (its description)? (Create a lightweight presentation using Web Components 🚀){'\n'}? What&#039;s your name (will be use for the author meta information)? (David){'\n'}? What method do you want to use to edit your presentation? (Use arrow keys){'\n'}  ❯ HTML {'\n'}    Markdown</code>
     </deckgo-highlight-code><p>Once your presentation created, go to your new project&#39;s folder and start editing your slides and content for your talk 😉</p>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

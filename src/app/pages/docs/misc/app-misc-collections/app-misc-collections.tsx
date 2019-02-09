@@ -66,6 +66,8 @@ export class AppMiscCollections {
 <h2 id="app-misc-collections-send-me-your-slides">Send me your slides</h2>
 <p>If you would publish online a presentation or talk you would have built with <a href="https://deckdeckgo.com">DeckDeckGo</a>, reach me out, I would be super duper happy to add it to the list of talks and presentations ❤️</p>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

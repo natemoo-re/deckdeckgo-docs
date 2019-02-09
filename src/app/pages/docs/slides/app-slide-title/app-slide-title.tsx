@@ -143,6 +143,8 @@ export class AppSlideTitle {
 </tr>
 </tbody></table>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

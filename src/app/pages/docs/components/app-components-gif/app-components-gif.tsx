@@ -147,6 +147,8 @@ export class AppComponentsGif {
 <h2 id="app-components-gif-note">Note</h2>
 <p>Of course, as other images added to a presentation build with <a href="https://deckdeckgo.com">DeckDeckGo</a>, gifs are lazy loaded too. </p>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

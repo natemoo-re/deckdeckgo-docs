@@ -28,6 +28,8 @@ export class AppEditLazyLoading {
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;img data-src=&quot;https:&#47;&#47;deckdeckgo.com&#47;assets&#47;img&#47;deckdeckgo.png&quot;&#47;&gt;</code>
     </deckgo-highlight-code></main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

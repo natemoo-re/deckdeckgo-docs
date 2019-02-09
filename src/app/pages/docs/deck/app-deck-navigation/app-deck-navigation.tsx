@@ -158,6 +158,8 @@ export class AppDeckNavigation {
 <deckgo-highlight-code language="javascript">
       <code slot="code">await deck.getLength(); &#47;&#47; resolve a number</code>
     </deckgo-highlight-code></main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

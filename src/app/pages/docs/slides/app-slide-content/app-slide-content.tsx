@@ -141,6 +141,8 @@ export class AppConcept {
 </tr>
 </tbody></table>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

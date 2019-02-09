@@ -49,6 +49,8 @@ export class AppInstallation {
     </deckgo-highlight-code><h2 id="app-installation-framework-integration">Framework integration</h2>
 <p>The <a href="https://stenciljs.com/docs/overview">Stencil documentation</a> provide examples of framework integration for <a href="https://stenciljs.com/docs/angular">Angular</a>, <a href="https://stenciljs.com/docs/react">React</a>, <a href="https://stenciljs.com/docs/vue">Vue</a> and <a href="https://stenciljs.com/docs/ember">Ember</a>.</p>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

@@ -37,6 +37,8 @@ export class AppSlidesBackground {
 <deckgo-highlight-code language="javascript">
       <code slot="code">div.circle &#123;{'\n'}  position: absolute;{'\n'}  left: 50%;{'\n'}  transform: translate(-50%, 0);{'\n'}{'\n'}  bottom: -10vh;{'\n'}  width: 800vw;{'\n'}  height: 100vh;{'\n'}{'\n'}  border-radius: 50%;{'\n'}  background: yellow;{'\n'}  opacity: 0.3;{'\n'}&#125;</code>
     </deckgo-highlight-code></main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

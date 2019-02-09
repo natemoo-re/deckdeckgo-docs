@@ -70,6 +70,8 @@ export class AppDeckEvents {
 </tr>
 </tbody></table>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

@@ -129,6 +129,8 @@ export class AppSlideCode {
 </tbody></table>
 <p>Furthermore, this slide component offers the exact same CSS4 variables as the <a href="https://deckdeckgo.com">DeckDeckGo</a> - Highlight code Web Component, see its <a href="https://github.com/deckgo/deckdeckgo-highlight-code">documentation</a> for the details.</p>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

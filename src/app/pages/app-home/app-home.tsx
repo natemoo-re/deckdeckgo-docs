@@ -80,7 +80,7 @@ export class AppHome {
           </section>
         </main>
 
-        <app-footer></app-footer>
+        <app-footer start={true}></app-footer>
       </ion-content>
     ];
   }

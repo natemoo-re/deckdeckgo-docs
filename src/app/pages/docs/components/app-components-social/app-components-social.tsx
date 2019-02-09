@@ -105,6 +105,8 @@ export class AppComponentsSocial {
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;deckgo-social twitter=&quot;daviddalbusco&quot;&gt;{'\n'}  &lt;ion-icon slot=&quot;icon&quot; name=&quot;logo-twitter&quot;&gt;&lt;&#47;ion-icon&gt;{'\n'}  Twitter{'\n'}&lt;&#47;deckgo-social&gt;{'\n'}{'\n'}&lt;deckgo-social github=&quot;fluster&#47;deckdeckgo&quot;&gt;{'\n'}  &lt;ion-icon slot=&quot;icon&quot; name=&quot;logo-github&quot;&gt;&lt;&#47;ion-icon&gt;{'\n'}  DeckDeckGo on Github{'\n'}&lt;&#47;deckgo-social&gt;</code>
     </deckgo-highlight-code></main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

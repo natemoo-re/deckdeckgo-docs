@@ -167,6 +167,8 @@ export class AppSlidesConcept {
 <h2 id="app-slides-concept-note">Note</h2>
 <p>If you would miss or need further templates, don&#39;t hesitate to open an issue and/or submit a PR, it would be my pleasure to add more options.</p>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

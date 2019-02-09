@@ -163,6 +163,8 @@ export class AppSlideChart {
 </tbody></table>
 <p>Furthermore, this slide component offers the exact same CSS4 variables as the <a href="https://deckdeckgo.com">DeckDeckGo</a> charts Web Component, see its <a href="https://github.com/deckgo/deckdeckgo-charts">documentation</a> for the details.</p>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

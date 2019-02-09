@@ -26,6 +26,8 @@ export class AppMiscLogo {
 <p>The <a href="https://deckdeckgo.com">DeckDeckGo</a> logo was designed and offered by <a href="hello@skinque.com">Anita</a> from <a href="http://skinque.com">Skinque.com</a>, a great online marketplace for tattoos 🤘</p>
 <p>Reach her out if you are looking for a cool custom tattoo or a nice logo 😃</p>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

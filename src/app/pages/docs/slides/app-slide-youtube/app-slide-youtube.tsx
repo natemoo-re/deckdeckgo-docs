@@ -153,6 +153,8 @@ export class AppSlideYoutube {
 <deckgo-highlight-code language="javascript">
       <code slot="code">const slide = deck.getElementsByTagName(&#039;deckgo-slide-youtube&#039;);{'\n'}await slide.pause();</code>
     </deckgo-highlight-code></main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

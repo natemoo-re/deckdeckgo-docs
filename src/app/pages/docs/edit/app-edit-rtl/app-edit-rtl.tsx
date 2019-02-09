@@ -28,6 +28,8 @@ export class AppEditRtl {
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;!DOCTYPE html&gt;{'\n'}&lt;html dir=&quot;rtl&quot;&gt;{'\n'}&lt;body&gt;{'\n'}  &lt;deckgo-deck&gt;{'\n'}  &lt;&#47;deckgo-deck&gt;{'\n'}&lt;&#47;body&gt;{'\n'}&lt;&#47;html&gt;  </code>
     </deckgo-highlight-code></main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

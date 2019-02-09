@@ -28,6 +28,8 @@ export class AppMiscBackstory {
 <p>To infinity and beyond 🖖</p>
 <p><a href="https://twitter.com/daviddalbusco">David</a></p>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

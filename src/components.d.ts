@@ -20,8 +20,12 @@ export namespace Components {
   interface AppRoot {}
   interface AppRootAttributes extends StencilHTMLAttributes {}
 
-  interface AppFooter {}
-  interface AppFooterAttributes extends StencilHTMLAttributes {}
+  interface AppFooter {
+    'start': boolean;
+  }
+  interface AppFooterAttributes extends StencilHTMLAttributes {
+    'start'?: boolean;
+  }
 
   interface AppLogo {}
   interface AppLogoAttributes extends StencilHTMLAttributes {}

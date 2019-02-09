@@ -34,6 +34,8 @@ export class AppDeckSize {
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;div style=&quot;width: 500px; height: 400px;&quot;&gt;{'\n'}  &lt;deckgo-deck embedded=&quot;true&quot;&gt;{'\n'}    &lt;deckgo-slide-title&gt;{'\n'}      &lt;h1 slot=&quot;title&quot;&gt;My presentation title&lt;&#47;h1&gt;{'\n'}      &lt;p slot=&quot;content&quot;&gt;{'\n'}        Hello World 🚀{'\n'}      &lt;&#47;p&gt;{'\n'}    &lt;&#47;deckgo-slide-title&gt;{'\n'}  &lt;&#47;deckgo-deck&gt;{'\n'}&lt;&#47;div&gt;</code>
     </deckgo-highlight-code></main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

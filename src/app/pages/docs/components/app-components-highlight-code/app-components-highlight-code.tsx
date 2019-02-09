@@ -257,6 +257,8 @@ export class AppComponentsHighlightCode {
 <deckgo-highlight-code language="javascript">
       <code slot="code">&lt;deckgo-highlight-code src=&quot;https:&#47;&#47;domain.com&#47;yourfile.js&quot;&gt;{'\n'}&lt;&#47;deckgo-highlight-code&gt;{'\n'}{'\n'}&lt;deckgo-highlight-code language=&quot;java&quot; highlight-lines=&quot;2,2&quot;&gt;{'\n'}  &lt;code slot=&quot;code&quot;&gt;public static void main(String args[]) &#123;{'\n'}{'\n'}  System.out.println(&quot;Hello World&quot;);{'\n'}&#125;&lt;&#47;code&gt;{'\n'}&lt;&#47;deckgo-highlight-code&gt;</code>
     </deckgo-highlight-code></main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }

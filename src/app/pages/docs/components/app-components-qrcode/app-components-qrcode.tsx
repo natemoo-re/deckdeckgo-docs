@@ -221,6 +221,8 @@ export class AppComponentsQRCode {
 <p>It&#39;s possible to display a logo over your QR Code as the code generated with this Web Component have a correction level set to high meaning, if I understand correctly, that your content is encoded and displayed multiple times inside the QR code. Therefore, even if the logo cover a part of it, it will be still possible for a reader to read the content from &quot;somewhere else&quot; in the code.</p>
 <p>However, test it carefully and play with the colours, cell-size and size of your code to ensure its readability.</p>
 </main>
+
+        <app-footer></app-footer>
       </ion-content>
     ];
   }
