@@ -4,10 +4,10 @@ The "Youtube" component allows you to easily add a [Youtube](https://youtube.com
 
 ## Table of contents
 
-- [Showcase](#showcase)
-- [Usage](#usage)
-  - [Slots](#slots)
-  - [Attributes](#attributes)
+- [Showcase](#app-components-youtube-showcase)
+- [Usage](#app-components-youtube-usage)
+  - [Slots](#app-components-youtube-slots)
+  - [Attributes](#app-components-youtube-attributes)
 
 ## Showcase
 

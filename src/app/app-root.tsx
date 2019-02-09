@@ -74,6 +74,10 @@ export class AppRoot {
           <ion-route url="/docs/introduction" component="app-introduction"/>
           <ion-route url="/docs/installation" component="app-installation"/>
 
+          <ion-route url="/edit" component="app-concept"/>
+          <ion-route url="/edit/default" component="app-edit-default"/>
+          <ion-route url="/edit/markdown" component="app-edit-markdown"/>
+
           <ion-route url="/slides" component="app-concept"/>
           <ion-route url="/slides/concept" component="app-slides-concept"/>
           <ion-route url="/slides/title" component="app-slide-title"/>
@@ -108,6 +112,12 @@ export class AppRoot {
                     </ion-item-divider>
                     <ion-item href="/docs/introduction" routerDirection="forward"><ion-label>Getting started</ion-label></ion-item>
                     <ion-item href="/docs/installation" routerDirection="forward"><ion-label>Installation</ion-label></ion-item>
+
+                    <ion-item-divider>
+                      <ion-label>Edit</ion-label>
+                    </ion-item-divider>
+                    <ion-item href="/edit/default" routerDirection="forward"><ion-label>HTML</ion-label></ion-item>
+                    <ion-item href="/edit/markdown" routerDirection="forward"><ion-label>Markdown</ion-label></ion-item>
 
                     <ion-item-divider>
                       <ion-label>Slides</ion-label>

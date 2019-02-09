@@ -32,10 +32,10 @@ export class AppComponentsYoutube {
 <p>The &quot;Youtube&quot; component allows you to easily add a <a href="https://youtube.com">Youtube</a> video in almost any slide of your presentation.</p>
 <h2 id="app-components-youtube-table-of-contents">Table of contents</h2>
 <ul>
-<li><a href="#showcase">Showcase</a></li>
-<li><a href="#usage">Usage</a><ul>
-<li><a href="#slots">Slots</a></li>
-<li><a href="#attributes">Attributes</a></li>
+<li><a href="#app-components-youtube-showcase">Showcase</a></li>
+<li><a href="#app-components-youtube-usage">Usage</a><ul>
+<li><a href="#app-components-youtube-slots">Slots</a></li>
+<li><a href="#app-components-youtube-attributes">Attributes</a></li>
 </ul>
 </li>
 </ul>

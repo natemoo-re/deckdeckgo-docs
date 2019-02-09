@@ -61,6 +61,12 @@ export namespace Components {
   interface AppComponentsYoutube {}
   interface AppComponentsYoutubeAttributes extends StencilHTMLAttributes {}
 
+  interface AppEditDefault {}
+  interface AppEditDefaultAttributes extends StencilHTMLAttributes {}
+
+  interface AppEditMarkdown {}
+  interface AppEditMarkdownAttributes extends StencilHTMLAttributes {}
+
   interface AppInstallation {}
   interface AppInstallationAttributes extends StencilHTMLAttributes {}
 
@@ -115,6 +121,8 @@ declare global {
     'AppComponentsQrcode': Components.AppComponentsQrcode;
     'AppComponentsSocial': Components.AppComponentsSocial;
     'AppComponentsYoutube': Components.AppComponentsYoutube;
+    'AppEditDefault': Components.AppEditDefault;
+    'AppEditMarkdown': Components.AppEditMarkdown;
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
     'AppSlideAuthor': Components.AppSlideAuthor;
@@ -143,6 +151,8 @@ declare global {
     'app-components-qrcode': Components.AppComponentsQrcodeAttributes;
     'app-components-social': Components.AppComponentsSocialAttributes;
     'app-components-youtube': Components.AppComponentsYoutubeAttributes;
+    'app-edit-default': Components.AppEditDefaultAttributes;
+    'app-edit-markdown': Components.AppEditMarkdownAttributes;
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
     'app-slide-author': Components.AppSlideAuthorAttributes;
@@ -229,6 +239,18 @@ declare global {
   var HTMLAppComponentsYoutubeElement: {
     prototype: HTMLAppComponentsYoutubeElement;
     new (): HTMLAppComponentsYoutubeElement;
+  };
+
+  interface HTMLAppEditDefaultElement extends Components.AppEditDefault, HTMLStencilElement {}
+  var HTMLAppEditDefaultElement: {
+    prototype: HTMLAppEditDefaultElement;
+    new (): HTMLAppEditDefaultElement;
+  };
+
+  interface HTMLAppEditMarkdownElement extends Components.AppEditMarkdown, HTMLStencilElement {}
+  var HTMLAppEditMarkdownElement: {
+    prototype: HTMLAppEditMarkdownElement;
+    new (): HTMLAppEditMarkdownElement;
   };
 
   interface HTMLAppInstallationElement extends Components.AppInstallation, HTMLStencilElement {}
@@ -322,6 +344,8 @@ declare global {
     'app-components-qrcode': HTMLAppComponentsQrcodeElement
     'app-components-social': HTMLAppComponentsSocialElement
     'app-components-youtube': HTMLAppComponentsYoutubeElement
+    'app-edit-default': HTMLAppEditDefaultElement
+    'app-edit-markdown': HTMLAppEditMarkdownElement
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
     'app-slide-author': HTMLAppSlideAuthorElement
@@ -350,6 +374,8 @@ declare global {
     'app-components-qrcode': HTMLAppComponentsQrcodeElement;
     'app-components-social': HTMLAppComponentsSocialElement;
     'app-components-youtube': HTMLAppComponentsYoutubeElement;
+    'app-edit-default': HTMLAppEditDefaultElement;
+    'app-edit-markdown': HTMLAppEditMarkdownElement;
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
     'app-slide-author': HTMLAppSlideAuthorElement;
