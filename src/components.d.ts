@@ -85,6 +85,12 @@ export namespace Components {
   interface AppEditMarkdown {}
   interface AppEditMarkdownAttributes extends StencilHTMLAttributes {}
 
+  interface AppEditRtl {}
+  interface AppEditRtlAttributes extends StencilHTMLAttributes {}
+
+  interface AppEditTheming {}
+  interface AppEditThemingAttributes extends StencilHTMLAttributes {}
+
   interface AppInstallation {}
   interface AppInstallationAttributes extends StencilHTMLAttributes {}
 
@@ -147,6 +153,8 @@ declare global {
     'AppEditDefault': Components.AppEditDefault;
     'AppEditLazyLoading': Components.AppEditLazyLoading;
     'AppEditMarkdown': Components.AppEditMarkdown;
+    'AppEditRtl': Components.AppEditRtl;
+    'AppEditTheming': Components.AppEditTheming;
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
     'AppSlideAuthor': Components.AppSlideAuthor;
@@ -183,6 +191,8 @@ declare global {
     'app-edit-default': Components.AppEditDefaultAttributes;
     'app-edit-lazy-loading': Components.AppEditLazyLoadingAttributes;
     'app-edit-markdown': Components.AppEditMarkdownAttributes;
+    'app-edit-rtl': Components.AppEditRtlAttributes;
+    'app-edit-theming': Components.AppEditThemingAttributes;
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
     'app-slide-author': Components.AppSlideAuthorAttributes;
@@ -319,6 +329,18 @@ declare global {
     new (): HTMLAppEditMarkdownElement;
   };
 
+  interface HTMLAppEditRtlElement extends Components.AppEditRtl, HTMLStencilElement {}
+  var HTMLAppEditRtlElement: {
+    prototype: HTMLAppEditRtlElement;
+    new (): HTMLAppEditRtlElement;
+  };
+
+  interface HTMLAppEditThemingElement extends Components.AppEditTheming, HTMLStencilElement {}
+  var HTMLAppEditThemingElement: {
+    prototype: HTMLAppEditThemingElement;
+    new (): HTMLAppEditThemingElement;
+  };
+
   interface HTMLAppInstallationElement extends Components.AppInstallation, HTMLStencilElement {}
   var HTMLAppInstallationElement: {
     prototype: HTMLAppInstallationElement;
@@ -418,6 +440,8 @@ declare global {
     'app-edit-default': HTMLAppEditDefaultElement
     'app-edit-lazy-loading': HTMLAppEditLazyLoadingElement
     'app-edit-markdown': HTMLAppEditMarkdownElement
+    'app-edit-rtl': HTMLAppEditRtlElement
+    'app-edit-theming': HTMLAppEditThemingElement
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
     'app-slide-author': HTMLAppSlideAuthorElement
@@ -454,6 +478,8 @@ declare global {
     'app-edit-default': HTMLAppEditDefaultElement;
     'app-edit-lazy-loading': HTMLAppEditLazyLoadingElement;
     'app-edit-markdown': HTMLAppEditMarkdownElement;
+    'app-edit-rtl': HTMLAppEditRtlElement;
+    'app-edit-theming': HTMLAppEditThemingElement;
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
     'app-slide-author': HTMLAppSlideAuthorElement;
