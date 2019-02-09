@@ -79,6 +79,9 @@ export namespace Components {
   interface AppEditDefault {}
   interface AppEditDefaultAttributes extends StencilHTMLAttributes {}
 
+  interface AppEditLazyLoading {}
+  interface AppEditLazyLoadingAttributes extends StencilHTMLAttributes {}
+
   interface AppEditMarkdown {}
   interface AppEditMarkdownAttributes extends StencilHTMLAttributes {}
 
@@ -142,6 +145,7 @@ declare global {
     'AppDeckPager': Components.AppDeckPager;
     'AppDeckSize': Components.AppDeckSize;
     'AppEditDefault': Components.AppEditDefault;
+    'AppEditLazyLoading': Components.AppEditLazyLoading;
     'AppEditMarkdown': Components.AppEditMarkdown;
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
@@ -177,6 +181,7 @@ declare global {
     'app-deck-pager': Components.AppDeckPagerAttributes;
     'app-deck-size': Components.AppDeckSizeAttributes;
     'app-edit-default': Components.AppEditDefaultAttributes;
+    'app-edit-lazy-loading': Components.AppEditLazyLoadingAttributes;
     'app-edit-markdown': Components.AppEditMarkdownAttributes;
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
@@ -302,6 +307,12 @@ declare global {
     new (): HTMLAppEditDefaultElement;
   };
 
+  interface HTMLAppEditLazyLoadingElement extends Components.AppEditLazyLoading, HTMLStencilElement {}
+  var HTMLAppEditLazyLoadingElement: {
+    prototype: HTMLAppEditLazyLoadingElement;
+    new (): HTMLAppEditLazyLoadingElement;
+  };
+
   interface HTMLAppEditMarkdownElement extends Components.AppEditMarkdown, HTMLStencilElement {}
   var HTMLAppEditMarkdownElement: {
     prototype: HTMLAppEditMarkdownElement;
@@ -405,6 +416,7 @@ declare global {
     'app-deck-pager': HTMLAppDeckPagerElement
     'app-deck-size': HTMLAppDeckSizeElement
     'app-edit-default': HTMLAppEditDefaultElement
+    'app-edit-lazy-loading': HTMLAppEditLazyLoadingElement
     'app-edit-markdown': HTMLAppEditMarkdownElement
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
@@ -440,6 +452,7 @@ declare global {
     'app-deck-pager': HTMLAppDeckPagerElement;
     'app-deck-size': HTMLAppDeckSizeElement;
     'app-edit-default': HTMLAppEditDefaultElement;
+    'app-edit-lazy-loading': HTMLAppEditLazyLoadingElement;
     'app-edit-markdown': HTMLAppEditMarkdownElement;
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
