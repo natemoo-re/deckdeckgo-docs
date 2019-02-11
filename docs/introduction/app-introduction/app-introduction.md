@@ -2,7 +2,7 @@
 
 [DeckDeckGo] provides a [CLI](https://github.com/deckgo/create-deckdeckgo) and a [starter kit](https://github.com/deckgo/deckdeckgo-starter).
 
-To get started and **to create a new presentation**, run the following command:
+Run the following command in a terminal to **create a new presentation**:
 
 ```bash
 npm init deckdeckgo
@@ -14,9 +14,13 @@ After running init you will be provided with a prompt so that you can set the ba
 Cool, let's kick start a new DeckDeckGo presentation
 
 ? What's your project name (will be use to create a new folder)? (deckdeckgo)
+
 ? What's your presentation name (max. 45 characters, will be use for meta tags and manifest information)? (DeckDeckGo)
+
 ? What's your presentation about (its description)? (Create a lightweight presentation using Web Components 🚀)
+
 ? What's your name (will be use for the author meta information)? (David)
+
 ? What method do you want to use to edit your presentation? (Use arrow keys)
   ❯ HTML 
     Markdown
