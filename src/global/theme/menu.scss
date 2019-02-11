@@ -7,9 +7,14 @@ ion-split-pane {
 
       --deckgo-logo-url: url('/assets/img/deckdeckgo-logo-invert.svg');
 
+      ion-item-divider {
+        background: var(--ion-color-primary);
+      }
+
       ion-header {
         ion-toolbar {
           --color: white;
+          --border-color: transparent;
         }
       }
 

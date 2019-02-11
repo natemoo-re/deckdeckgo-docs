@@ -44,6 +44,9 @@ export namespace Components {
     'navigation'?: boolean;
   }
 
+  interface AppNavigationModal {}
+  interface AppNavigationModalAttributes extends StencilHTMLAttributes {}
+
   interface AppHome {}
   interface AppHomeAttributes extends StencilHTMLAttributes {}
 
@@ -151,6 +154,7 @@ declare global {
     'AppLogo': Components.AppLogo;
     'AppMenuFooter': Components.AppMenuFooter;
     'AppNavigation': Components.AppNavigation;
+    'AppNavigationModal': Components.AppNavigationModal;
     'AppHome': Components.AppHome;
     'AppComponentsChart': Components.AppComponentsChart;
     'AppComponentsGif': Components.AppComponentsGif;
@@ -192,6 +196,7 @@ declare global {
     'app-logo': Components.AppLogoAttributes;
     'app-menu-footer': Components.AppMenuFooterAttributes;
     'app-navigation': Components.AppNavigationAttributes;
+    'app-navigation-modal': Components.AppNavigationModalAttributes;
     'app-home': Components.AppHomeAttributes;
     'app-components-chart': Components.AppComponentsChartAttributes;
     'app-components-gif': Components.AppComponentsGifAttributes;
@@ -256,6 +261,12 @@ declare global {
   var HTMLAppNavigationElement: {
     prototype: HTMLAppNavigationElement;
     new (): HTMLAppNavigationElement;
+  };
+
+  interface HTMLAppNavigationModalElement extends Components.AppNavigationModal, HTMLStencilElement {}
+  var HTMLAppNavigationModalElement: {
+    prototype: HTMLAppNavigationModalElement;
+    new (): HTMLAppNavigationModalElement;
   };
 
   interface HTMLAppHomeElement extends Components.AppHome, HTMLStencilElement {}
@@ -462,6 +473,7 @@ declare global {
     'app-logo': HTMLAppLogoElement
     'app-menu-footer': HTMLAppMenuFooterElement
     'app-navigation': HTMLAppNavigationElement
+    'app-navigation-modal': HTMLAppNavigationModalElement
     'app-home': HTMLAppHomeElement
     'app-components-chart': HTMLAppComponentsChartElement
     'app-components-gif': HTMLAppComponentsGifElement
@@ -503,6 +515,7 @@ declare global {
     'app-logo': HTMLAppLogoElement;
     'app-menu-footer': HTMLAppMenuFooterElement;
     'app-navigation': HTMLAppNavigationElement;
+    'app-navigation-modal': HTMLAppNavigationModalElement;
     'app-home': HTMLAppHomeElement;
     'app-components-chart': HTMLAppComponentsChartElement;
     'app-components-gif': HTMLAppComponentsGifElement;
