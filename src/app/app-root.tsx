@@ -116,7 +116,7 @@ export class AppRoot {
         </ion-router>
 
         <ion-split-pane when="lg">
-          <ion-menu side="start" swipeGesture={false} disabled={true} onIonDidClose={() => this.enableMenuOnClose()}>
+          <ion-menu side="start" type="push" swipeGesture={false} disabled={true} onIonDidClose={() => this.enableMenuOnClose()}>
             <app-navigation logo={true} menuToggle={false} navigation={false}></app-navigation>
             <ion-content>
               <ion-menu-toggle autoHide={false}>
