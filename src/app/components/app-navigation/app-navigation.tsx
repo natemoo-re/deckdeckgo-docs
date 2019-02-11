@@ -29,7 +29,7 @@ export class AppNavigation {
       return <ion-title slot="start">
         <a href="/">
           <app-logo></app-logo>
-          <ion-label>DeckDeckGo</ion-label>
+          <span>DeckDeckGo</span>
         </a>
       </ion-title>;
     } else {
