@@ -27,6 +27,8 @@ ion-split-pane {
 
           ion-item {
             --color: white;
+
+            --background-activated: var(--ion-color-primary);
           }
         }
 
