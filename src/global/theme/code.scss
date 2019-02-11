@@ -9,8 +9,18 @@ deckgo-highlight-code {
 }
 
 deckgo-highlight-code, deckgo-deck {
-  --deckgo-highlight-code-token-atrule: black;
+  --deckgo-highlight-code-token-atrule: var(--ion-color-dark);
   --deckgo-highlight-code-token-function: var(--ion-color-primary);
   --deckgo-highlight-code-token-selector:  var(--ion-color-primary);
   --deckgo-highlight-code-token-property:  var(--ion-color-primary);
+}
+
+@media (prefers-color-scheme: dark) {
+  deckgo-highlight-code {
+    --deckgo-highlight-code-background: var(--ion-color-dark);
+  }
+
+  deckgo-highlight-code, deckgo-deck {
+    --deckgo-highlight-code-token-atrule: var(--ion-color-light);
+  }
 }

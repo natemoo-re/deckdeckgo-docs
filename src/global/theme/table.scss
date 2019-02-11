@@ -24,7 +24,20 @@ table {
   }
 
   tr td:hover {
-    background: var(--ion-color-medium);
+    background: var(--ion-color-secondary);
     color: white;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  table {
+    tr:nth-child(even) td {
+      background: var(--ion-color-dark);
+    }
+
+    tr td:hover {
+      background: var(--ion-color-secondary);
+      color: white;
+    }
   }
 }

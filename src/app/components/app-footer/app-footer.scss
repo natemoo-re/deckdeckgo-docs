@@ -32,3 +32,17 @@ footer {
     }
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  footer {
+    div.container {
+      div.end {
+        a {
+          ion-icon {
+            color: var(--ion-color-light);
+          }
+        }
+      }
+    }
+  }
+}

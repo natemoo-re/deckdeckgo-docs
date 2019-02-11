@@ -106,3 +106,32 @@ ion-split-pane {
     }
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  ion-split-pane {
+    &.split-pane-visible {
+      ion-menu {
+        ion-content {
+          app-menu-footer {
+            --deckgo-menu-footer-color: var(--ion-color-light);
+          }
+        }
+      }
+    }
+
+    ion-menu {
+
+      ion-content {
+        ion-list {
+          ion-item-divider {
+            --color: var(--ion-color-light);
+          }
+
+          ion-item {
+            --color: var(--ion-color-light);
+          }
+        }
+      }
+    }
+  }
+}
