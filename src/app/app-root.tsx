@@ -9,14 +9,6 @@ import {Subscription} from 'rxjs';
 })
 export class AppRoot {
 
-  // @ts-ignore
-  private treeShakeWorkaroundComponents: any = [
-    <deckgo-pie-chart/>,
-    <deckgo-line-chart/>,
-    <deckgo-bar-chart/>,
-    <deckgo-qrcode/>
-  ];
-
   @Prop({connect: 'ion-menu-controller'}) lazyMenuController!: HTMLIonMenuControllerElement;
 
   private subscription: Subscription;
