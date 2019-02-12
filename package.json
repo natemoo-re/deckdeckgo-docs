@@ -1,7 +1,7 @@
 {
   "name": "deckdeckgo-docs",
-  "version": "1.0.0-alpha.0",
-  "description": "Add a lightweight presentation to your web project using HTML and Web Components",
+  "version": "1.0.0-alpha.1",
+  "description": "The Progressive Web App alternative for simple presentations",
   "license": "MIT",
   "files": [
     "dist/"
