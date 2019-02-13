@@ -1,6 +1,6 @@
-# Chart
+# Charts
 
-The "Chart" component is an extra component which let you draw charts easily.
+The "Charts" component is an extra component which let you draw charts easily.
 
 To create and draw the charts, this project is using [D3js](https://d3js.org).
 

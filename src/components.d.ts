@@ -50,8 +50,8 @@ export namespace Components {
   interface AppHome {}
   interface AppHomeAttributes extends StencilHTMLAttributes {}
 
-  interface AppComponentsChart {}
-  interface AppComponentsChartAttributes extends StencilHTMLAttributes {}
+  interface AppComponentsCharts {}
+  interface AppComponentsChartsAttributes extends StencilHTMLAttributes {}
 
   interface AppComponentsGif {}
   interface AppComponentsGifAttributes extends StencilHTMLAttributes {}
@@ -156,7 +156,7 @@ declare global {
     'AppNavigation': Components.AppNavigation;
     'AppNavigationModal': Components.AppNavigationModal;
     'AppHome': Components.AppHome;
-    'AppComponentsChart': Components.AppComponentsChart;
+    'AppComponentsCharts': Components.AppComponentsCharts;
     'AppComponentsGif': Components.AppComponentsGif;
     'AppComponentsHighlightCode': Components.AppComponentsHighlightCode;
     'AppComponentsQrcode': Components.AppComponentsQrcode;
@@ -198,7 +198,7 @@ declare global {
     'app-navigation': Components.AppNavigationAttributes;
     'app-navigation-modal': Components.AppNavigationModalAttributes;
     'app-home': Components.AppHomeAttributes;
-    'app-components-chart': Components.AppComponentsChartAttributes;
+    'app-components-charts': Components.AppComponentsChartsAttributes;
     'app-components-gif': Components.AppComponentsGifAttributes;
     'app-components-highlight-code': Components.AppComponentsHighlightCodeAttributes;
     'app-components-qrcode': Components.AppComponentsQrcodeAttributes;
@@ -275,10 +275,10 @@ declare global {
     new (): HTMLAppHomeElement;
   };
 
-  interface HTMLAppComponentsChartElement extends Components.AppComponentsChart, HTMLStencilElement {}
-  var HTMLAppComponentsChartElement: {
-    prototype: HTMLAppComponentsChartElement;
-    new (): HTMLAppComponentsChartElement;
+  interface HTMLAppComponentsChartsElement extends Components.AppComponentsCharts, HTMLStencilElement {}
+  var HTMLAppComponentsChartsElement: {
+    prototype: HTMLAppComponentsChartsElement;
+    new (): HTMLAppComponentsChartsElement;
   };
 
   interface HTMLAppComponentsGifElement extends Components.AppComponentsGif, HTMLStencilElement {}
@@ -475,7 +475,7 @@ declare global {
     'app-navigation': HTMLAppNavigationElement
     'app-navigation-modal': HTMLAppNavigationModalElement
     'app-home': HTMLAppHomeElement
-    'app-components-chart': HTMLAppComponentsChartElement
+    'app-components-charts': HTMLAppComponentsChartsElement
     'app-components-gif': HTMLAppComponentsGifElement
     'app-components-highlight-code': HTMLAppComponentsHighlightCodeElement
     'app-components-qrcode': HTMLAppComponentsQrcodeElement
@@ -517,7 +517,7 @@ declare global {
     'app-navigation': HTMLAppNavigationElement;
     'app-navigation-modal': HTMLAppNavigationModalElement;
     'app-home': HTMLAppHomeElement;
-    'app-components-chart': HTMLAppComponentsChartElement;
+    'app-components-charts': HTMLAppComponentsChartsElement;
     'app-components-gif': HTMLAppComponentsGifElement;
     'app-components-highlight-code': HTMLAppComponentsHighlightCodeElement;
     'app-components-qrcode': HTMLAppComponentsQrcodeElement;

@@ -87,7 +87,7 @@ export class AppRoot {
           <ion-route url="/slides/background" component="app-slides-background"/>
 
           <ion-route url="/components" component="app-concept"/>
-          <ion-route url="/components/chart" component="app-components-chart"/>
+          <ion-route url="/components/charts" component="app-components-charts"/>
           <ion-route url="/components/gif" component="app-components-gif"/>
           <ion-route url="/components/code" component="app-components-highlight-code"/>
           <ion-route url="/components/qrcode" component="app-components-qrcode"/>
@@ -147,7 +147,7 @@ export class AppRoot {
                     <ion-item-divider>
                       <ion-label>Components</ion-label>
                     </ion-item-divider>
-                    <ion-item href="/components/chart" routerDirection="forward"><ion-label>Chart</ion-label></ion-item>
+                    <ion-item href="/components/charts" routerDirection="forward"><ion-label>Charts</ion-label></ion-item>
                     <ion-item href="/components/gif" routerDirection="forward"><ion-label>Gif</ion-label></ion-item>
                     <ion-item href="/components/code" routerDirection="forward"><ion-label>Highlight Code</ion-label></ion-item>
                     <ion-item href="/components/qrcode" routerDirection="forward"><ion-label>QR Code</ion-label></ion-item>
