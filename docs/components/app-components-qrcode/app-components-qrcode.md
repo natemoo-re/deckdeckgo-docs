@@ -1,13 +1,13 @@
 # QR Code
 
-The "QR Code" component is an extra component which let you add QR code in your slides, useful for example to display links and url and if you wish your audience to easily access them. This Web Component could be use with or without [DeckDeckGo] respectively could be use as a plotter library in any web projects.
+The "QR Code" component is an extra component which let you add QR code in your slides, useful for example to display links and url and if you wish your audience to easily access them.
 
 To generate the QR code, the project [qrcode-generator](https://github.com/kazuhikoarase/qrcode-generator) from [Kazuhiko Arase](https://github.com/kazuhikoarase) is used.
 
 ## Table of contents
 
 - [Showcase](#app-components-qrcode-showcase)
-- [Getting Started](#app-components-qrcode-getting-started)
+- [Getting started](#app-components-qrcode-getting-started)
 	- [Using DeckDeckGo QR Code from a CDN](#app-components-qrcode-using-deckdeckgo-qr-code-from-a-cdn)
 	- [Install DeckDeckGo QR Code from NPM](#app-components-qrcode-install-deckdeckgo-qr-code-from-npm)
 	- [Framework integration](#app-components-qrcode-framework-integration)
@@ -37,9 +37,13 @@ Optionally you could also display a logo over your QR code:
   </deckgo-qrcode>
 </div>
 
-## Getting Started
+## Getting started
 
-The [DeckDeckGo] - QR Code Web Component could be use directly in your project from a CDN, using a simple script include, or could be installed from [npm](https://www.npmjs.com/package/deckdeckgo-qrcode).
+To create easily your PWA presentation and to enjoy all the options, I suggest you to create your slides using the CLI as described in the [Getting started chapter](/docs/introduction).
+
+Doing so you will use the [DeckDeckGo] starter kit which already includes this Web Component.
+
+However, if you are looking to use this Web Component as a standalone component, to add a QR codes to your web applications, it could be use directly in your project from a CDN, using a simple script include, or could be installed from [npm](https://www.npmjs.com/package/deckdeckgo-qrcode).
 
 ### Using DeckDeckGo QR Code from a CDN
 

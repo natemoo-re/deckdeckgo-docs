@@ -29,7 +29,7 @@ export class AppComponentsChart {
 
       <ion-content padding>
         <main><h1 id="app-components-chart-chart">Chart</h1>
-<p>The &quot;Chart&quot; component is an extra component which let you draw charts easily. This Web Component could be use with or without <a href="https://deckdeckgo.com">DeckDeckGo</a> respectively could be use as a plotter library in any web projects.</p>
+<p>The &quot;Chart&quot; component is an extra component which let you draw charts easily.</p>
 <p>To create and draw the charts, this project is using <a href="https://d3js.org">D3js</a>.</p>
 <h2 id="app-components-chart-table-of-contents">Table of contents</h2>
 <ul>
@@ -44,7 +44,7 @@ export class AppComponentsChart {
 <li><a href="#app-components-chart-compare-multiple-bars">Compare multiple bars</a></li>
 </ul>
 </li>
-<li><a href="#app-components-chart-getting-started">Getting Started</a><ul>
+<li><a href="#app-components-chart-getting-started">Getting started</a><ul>
 <li><a href="#app-components-chart-using-deckdeckgo-charts-from-a-cdn">Using DeckDeckGo charts from a CDN</a></li>
 <li><a href="#app-components-chart-install-deckdeckgo-charts-from-npm">Install DeckDeckGo charts from NPM</a></li>
 <li><a href="#app-components-chart-framework-integration">Framework integration</a></li>
@@ -126,8 +126,10 @@ export class AppComponentsChart {
                     style={{'--deckgo-chart-fill-color-bar1': 'var(--ion-color-primary)'}}></deckgo-bar-chart>
 </div>
 
-<h2 id="app-components-chart-getting-started">Getting Started</h2>
-<p>The <a href="https://deckdeckgo.com">DeckDeckGo</a> charts Web Component could be use directly in your project from a CDN, using a simple script include, or could be installed from <a href="https://www.npmjs.com/package/deckdeckgo-charts">npm</a>.</p>
+<h2 id="app-components-chart-getting-started">Getting started</h2>
+<p>To create easily your PWA presentation and to enjoy all the options, I suggest you to create your slides using the CLI as described in the <a href="/docs/introduction">Getting started chapter</a>.</p>
+<p>Doing so you will use the <a href="https://deckdeckgo.com">DeckDeckGo</a> starter kit which already includes this Web Component.</p>
+<p>However, if you are looking to use this Web Component as a standalone component, to add a charts to your web applications, it could be use directly in your project from a CDN, using a simple script include, or could be installed from <a href="https://www.npmjs.com/package/deckdeckgo-charts">npm</a>.</p>
 <h3 id="app-components-chart-using-deckdeckgo-charts-from-a-cdn">Using DeckDeckGo charts from a CDN</h3>
 <p>It&#39;s recommended to use <a href="https://unpkg.com/">unpkg</a> to use the <a href="https://deckdeckgo.com">DeckDeckGo</a> charts from a CDN. To do so, add the following include script in the main HTML file of your project:</p>
 <deckgo-highlight-code language="javascript">

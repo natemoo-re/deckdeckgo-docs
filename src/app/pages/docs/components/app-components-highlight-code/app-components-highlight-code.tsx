@@ -29,12 +29,12 @@ export class AppComponentsHighlightCode {
 
       <ion-content padding>
         <main><h1 id="app-components-highlight-code-highlight-code">Highlight Code</h1>
-<p>The &quot;Highlight Code&quot; component is an extra component which let you highlight code easily. This Web Component could be use with or without <a href="https://deckdeckgo.com">DeckDeckGo</a> respectively could be use as a plotter library in any web projects.</p>
+<p>The &quot;Highlight Code&quot; component is an extra component which let you highlight code easily.</p>
 <p>To highlight your code, this component is using <a href="https://prismjs.com">Prism.js</a> from <a href="https://twitter.com/jamesdigioia">James DiGioia</a>.</p>
 <h2 id="app-components-highlight-code-table-of-contents">Table of contents</h2>
 <ul>
 <li><a href="#app-components-highlight-code-showcase">Showcase</a></li>
-<li><a href="#app-components-highlight-code-getting-started">Getting Started</a><ul>
+<li><a href="#app-components-highlight-code-getting-started">Getting started</a><ul>
 <li><a href="#app-components-highlight-code-using-deckdeckgo-highlight-code-from-a-cdn">Using DeckDeckGo Highlight Code from a CDN</a></li>
 <li><a href="#app-components-highlight-code-install-deckdeckgo-highlight-code-from-npm">Install DeckDeckGo Highlight Code from NPM</a></li>
 <li><a href="#app-components-highlight-code-framework-integration">Framework integration</a></li>
@@ -56,8 +56,10 @@ export class AppComponentsHighlightCode {
 <h2 id="app-components-highlight-code-showcase">Showcase</h2>
 <deckgo-highlight-code language="java">
       <code slot="code">public static void main(String args[]) &#123; {'\n'}  System.out.println(&quot;Hello World&quot;);{'\n'}&#125;</code>
-    </deckgo-highlight-code><h2 id="app-components-highlight-code-getting-started">Getting Started</h2>
-<p>The <a href="https://deckdeckgo.com">DeckDeckGo</a> - Highlight Code Web Component could be use directly in your project from a CDN, using a simple script include, or could be installed from <a href="https://www.npmjs.com/package/deckdeckgo-highlight-code">npm</a>.</p>
+    </deckgo-highlight-code><h2 id="app-components-highlight-code-getting-started">Getting started</h2>
+<p>To create easily your PWA presentation and to enjoy all the options, I suggest you to create your slides using the CLI as described in the <a href="/docs/introduction">Getting started chapter</a>.</p>
+<p>Doing so you will use the <a href="https://deckdeckgo.com">DeckDeckGo</a> starter kit which already includes this Web Component.</p>
+<p>However, if you are looking to use this Web Component as a standalone component, to add a code highlighter feature to your web applications, it could be use directly in your project from a CDN, using a simple script include, or could be installed from <a href="https://www.npmjs.com/package/deckdeckgo-highlight-code">npm</a>.</p>
 <h3 id="app-components-highlight-code-using-deckdeckgo-highlight-code-from-a-cdn">Using DeckDeckGo Highlight Code from a CDN</h3>
 <p>It&#39;s recommended to use <a href="https://unpkg.com/">unpkg</a> to use the <a href="https://deckdeckgo.com">DeckDeckGo</a> Code from a CDN. To do so, add the following include script in the main HTML file of your project:</p>
 <deckgo-highlight-code language="javascript">

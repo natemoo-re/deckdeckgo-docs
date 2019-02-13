@@ -29,7 +29,7 @@ export class AppIntroduction {
       <app-navigation></app-navigation>,
 
       <ion-content padding>
-        <main><h1 id="app-introduction-getting-started">Getting Started</h1>
+        <main><h1 id="app-introduction-getting-started">Getting started</h1>
 <p><a href="https://deckdeckgo.com">DeckDeckGo</a> provides a <a href="https://github.com/deckgo/create-deckdeckgo">CLI</a> and a <a href="https://github.com/deckgo/deckdeckgo-starter">starter kit</a>.</p>
 <p>Run the following command in a terminal to <strong>create a new presentation</strong>:</p>
 <deckgo-highlight-code language="bash">

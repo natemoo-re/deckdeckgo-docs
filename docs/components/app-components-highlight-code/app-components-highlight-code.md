@@ -1,13 +1,13 @@
 # Highlight Code
 
-The "Highlight Code" component is an extra component which let you highlight code easily. This Web Component could be use with or without [DeckDeckGo] respectively could be use as a plotter library in any web projects.
+The "Highlight Code" component is an extra component which let you highlight code easily.
 
 To highlight your code, this component is using [Prism.js](https://prismjs.com) from [James DiGioia](https://twitter.com/jamesdigioia).
 
 ## Table of contents
 
 - [Showcase](#app-components-highlight-code-showcase)
-- [Getting Started](#app-components-highlight-code-getting-started)
+- [Getting started](#app-components-highlight-code-getting-started)
   - [Using DeckDeckGo Highlight Code from a CDN](#app-components-highlight-code-using-deckdeckgo-highlight-code-from-a-cdn)
   - [Install DeckDeckGo Highlight Code from NPM](#app-components-highlight-code-install-deckdeckgo-highlight-code-from-npm)
   - [Framework integration](#app-components-highlight-code-framework-integration)
@@ -28,9 +28,13 @@ public static void main(String args[]) {
 }
 ```
 
-## Getting Started
+## Getting started
 
-The [DeckDeckGo] - Highlight Code Web Component could be use directly in your project from a CDN, using a simple script include, or could be installed from [npm](https://www.npmjs.com/package/deckdeckgo-highlight-code).
+To create easily your PWA presentation and to enjoy all the options, I suggest you to create your slides using the CLI as described in the [Getting started chapter](/docs/introduction).
+
+Doing so you will use the [DeckDeckGo] starter kit which already includes this Web Component.
+
+However, if you are looking to use this Web Component as a standalone component, to add a code highlighter feature to your web applications, it could be use directly in your project from a CDN, using a simple script include, or could be installed from [npm](https://www.npmjs.com/package/deckdeckgo-highlight-code).
 
 ### Using DeckDeckGo Highlight Code from a CDN
 
