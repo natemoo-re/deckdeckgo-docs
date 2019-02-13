@@ -8,6 +8,8 @@ Cherry on the cake 🍒🎂 [DeckDeckGo] comes with a [Progressive Web App](http
 
 - [Documentation](#documentation)
 - [Getting Started](#getting-started)
+- [Example](#example)
+- [Develop](#develop)
 - [License](#license)
 
 ## Documentation
@@ -18,7 +20,15 @@ The documentation is written in markdown and developed with the [Ionic PWA Toolk
 
 ## Getting Started
 
-If you wish to run this documentation locally, proceed as following:
+Start you new presentation by following the quick  👉 [Getting Started guide](https://docs.deckdeckgo.com/docs) 👈 
+
+## Example
+   
+The [DeckDeckGo website](https://github.com/deckgo/deckdeckgo-website) is a full featured presentation developed with [DeckDeckGo]. 
+
+## Develop
+
+If you wish to develop and run this documentation locally, proceed as following:
 
 ```
 git clone https://github.com/deckgo/deckdeckgo-docs
