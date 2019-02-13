@@ -28,7 +28,7 @@ The [DeckDeckGo website](https://github.com/deckgo/deckdeckgo-website) is a full
 
 ## Develop
 
-If you wish to develop and run this documentation locally, proceed as following:
+To develop and run this documentation locally, proceed as following:
 
 ```
 git clone https://github.com/deckgo/deckdeckgo-docs
