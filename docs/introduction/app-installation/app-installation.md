@@ -1,6 +1,8 @@
 # Installation
 
-The [DeckDeckGo] presentation tool, without any tooling and features offered by its starter kit, could be installed in any project too.
+To create easily your PWA presentation and to enjoy all the options, I suggest you to create your slides using the CLI and the starter kit as described in the [previous chapter](/docs/introduction).
+
+However, the [DeckDeckGo] core component, could be installed in any project too.
 
 If you wish to do so, use it directly in your project from a CDN, using a simple script include, or install it from [npm](https://www.npmjs.com/package/deckdeckgo).
 

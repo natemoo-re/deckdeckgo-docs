@@ -30,7 +30,8 @@ export class AppInstallation {
 
       <ion-content padding>
         <main><h1 id="app-installation-installation">Installation</h1>
-<p>The <a href="https://deckdeckgo.com">DeckDeckGo</a> presentation tool, without any tooling and features offered by its starter kit, could be installed in any project too.</p>
+<p>To create easily your PWA presentation and to enjoy all the options, I suggest you to create your slides using the CLI and the starter kit as described in the <a href="/docs/introduction">previous chapter</a>.</p>
+<p>However, the <a href="https://deckdeckgo.com">DeckDeckGo</a> core component, could be installed in any project too.</p>
 <p>If you wish to do so, use it directly in your project from a CDN, using a simple script include, or install it from <a href="https://www.npmjs.com/package/deckdeckgo">npm</a>.</p>
 <h2 id="app-installation-table-of-contents">Table of contents</h2>
 <ul>
