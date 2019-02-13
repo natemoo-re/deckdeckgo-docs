@@ -1,6 +1,6 @@
 # DeckDeckGo - Docs
 
-Create a PWA presentation using Web Components, HTML or Markdown and [Ionic](http://ionicframework.com) components 🚀
+Create a PWA presentation using Web Components, [Ionic](http://ionicframework.com) components and HTML or Markdown 🚀
 
 Cherry on the cake 🍒🎂 [DeckDeckGo] comes with a [Progressive Web App](https://deckdeckgo.app) to remote control your slides 📱
 
