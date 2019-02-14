@@ -49,7 +49,7 @@ export class AppRemoteControl {
 <p>Better than a description, the DeckDeckGo website implement a deck and receiver to let you interact with this application, just give it a try:</p>
 <ol>
 <li>Open the DeckDeckGo website 👉 <a href="https://deckdeckgo.com">https://deckdeckgo.com</a></li>
-<li>Start this Progressive Web App 👉 <a href="https://deckdeckgo.app">https://deckdeckgo.app</a></li>
+<li>Start the <a href="https://deckdeckgo.app">remote control</a> PWA 👉 <a href="https://deckdeckgo.app">https://deckdeckgo.app</a></li>
 <li>Have fun 🎉</li>
 </ol>
 <h2 id="app-remote-control-control-your-slides">Control your slides</h2>

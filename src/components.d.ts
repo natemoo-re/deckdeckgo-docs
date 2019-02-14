@@ -122,6 +122,9 @@ export namespace Components {
   interface AppMiscLogo {}
   interface AppMiscLogoAttributes extends StencilHTMLAttributes {}
 
+  interface AppMiscOpenSource {}
+  interface AppMiscOpenSourceAttributes extends StencilHTMLAttributes {}
+
   interface AppSlideAuthor {}
   interface AppSlideAuthorAttributes extends StencilHTMLAttributes {}
 
@@ -189,6 +192,7 @@ declare global {
     'AppMiscBackstory': Components.AppMiscBackstory;
     'AppMiscCollections': Components.AppMiscCollections;
     'AppMiscLogo': Components.AppMiscLogo;
+    'AppMiscOpenSource': Components.AppMiscOpenSource;
     'AppSlideAuthor': Components.AppSlideAuthor;
     'AppSlideChart': Components.AppSlideChart;
     'AppSlideCode': Components.AppSlideCode;
@@ -234,6 +238,7 @@ declare global {
     'app-misc-backstory': Components.AppMiscBackstoryAttributes;
     'app-misc-collections': Components.AppMiscCollectionsAttributes;
     'app-misc-logo': Components.AppMiscLogoAttributes;
+    'app-misc-open-source': Components.AppMiscOpenSourceAttributes;
     'app-slide-author': Components.AppSlideAuthorAttributes;
     'app-slide-chart': Components.AppSlideChartAttributes;
     'app-slide-code': Components.AppSlideCodeAttributes;
@@ -434,6 +439,12 @@ declare global {
     new (): HTMLAppMiscLogoElement;
   };
 
+  interface HTMLAppMiscOpenSourceElement extends Components.AppMiscOpenSource, HTMLStencilElement {}
+  var HTMLAppMiscOpenSourceElement: {
+    prototype: HTMLAppMiscOpenSourceElement;
+    new (): HTMLAppMiscOpenSourceElement;
+  };
+
   interface HTMLAppSlideAuthorElement extends Components.AppSlideAuthor, HTMLStencilElement {}
   var HTMLAppSlideAuthorElement: {
     prototype: HTMLAppSlideAuthorElement;
@@ -532,6 +543,7 @@ declare global {
     'app-misc-backstory': HTMLAppMiscBackstoryElement
     'app-misc-collections': HTMLAppMiscCollectionsElement
     'app-misc-logo': HTMLAppMiscLogoElement
+    'app-misc-open-source': HTMLAppMiscOpenSourceElement
     'app-slide-author': HTMLAppSlideAuthorElement
     'app-slide-chart': HTMLAppSlideChartElement
     'app-slide-code': HTMLAppSlideCodeElement
@@ -577,6 +589,7 @@ declare global {
     'app-misc-backstory': HTMLAppMiscBackstoryElement;
     'app-misc-collections': HTMLAppMiscCollectionsElement;
     'app-misc-logo': HTMLAppMiscLogoElement;
+    'app-misc-open-source': HTMLAppMiscOpenSourceElement;
     'app-slide-author': HTMLAppSlideAuthorElement;
     'app-slide-chart': HTMLAppSlideChartElement;
     'app-slide-code': HTMLAppSlideCodeElement;
