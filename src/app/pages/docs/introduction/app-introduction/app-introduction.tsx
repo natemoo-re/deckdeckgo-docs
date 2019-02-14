@@ -31,7 +31,13 @@ export class AppIntroduction {
       <ion-content padding>
         <main><h1 id="app-introduction-getting-started">Getting started</h1>
 <p><a href="https://deckdeckgo.com">DeckDeckGo</a> provides a <a href="https://github.com/deckgo/create-deckdeckgo">CLI</a> and a <a href="https://github.com/deckgo/deckdeckgo-starter">starter kit</a>.</p>
-<p>Run the following command in a terminal to <strong>create a new presentation</strong>:</p>
+<h2 id="app-introduction-prerequisites">Prerequisites</h2>
+<p><a href="https://deckdeckgo.com">DeckDeckGo</a> requires a recent LTS version of <a href="https://nodejs.org">NodeJS</a> and npm. Make sure you&#39;ve installed and/or updated Node before continuing.</p>
+<blockquote>
+<p>Note that you will need to use npm 6 or higher</p>
+</blockquote>
+<h2 id="app-introduction-starting-a-new-presentation">Starting a new presentation</h2>
+<p>Run the following command in a terminal to create a new deck:</p>
 <deckgo-highlight-code language="bash">
       <code slot="code">npm init deckdeckgo</code>
     </deckgo-highlight-code><p>After running init you will be provided with a prompt so that you can set the base information for your new deck and choose if you rather like to edit it in <strong>HTML</strong> or <strong>markdown</strong>:</p>

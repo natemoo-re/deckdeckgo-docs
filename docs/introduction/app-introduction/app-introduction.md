@@ -2,7 +2,15 @@
 
 [DeckDeckGo] provides a [CLI](https://github.com/deckgo/create-deckdeckgo) and a [starter kit](https://github.com/deckgo/deckdeckgo-starter).
 
-Run the following command in a terminal to **create a new presentation**:
+## Prerequisites
+
+[DeckDeckGo] requires a recent LTS version of [NodeJS](https://nodejs.org) and npm. Make sure you've installed and/or updated Node before continuing.
+
+> Note that you will need to use npm 6 or higher
+
+## Starting a new presentation
+
+Run the following command in a terminal to create a new deck:
 
 ```bash
 npm init deckdeckgo
