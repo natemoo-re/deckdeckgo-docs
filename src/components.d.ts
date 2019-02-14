@@ -107,6 +107,9 @@ export namespace Components {
   interface AppPublishing {}
   interface AppPublishingAttributes extends StencilHTMLAttributes {}
 
+  interface AppRemoteControl {}
+  interface AppRemoteControlAttributes extends StencilHTMLAttributes {}
+
   interface AppRunning {}
   interface AppRunningAttributes extends StencilHTMLAttributes {}
 
@@ -181,6 +184,7 @@ declare global {
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
     'AppPublishing': Components.AppPublishing;
+    'AppRemoteControl': Components.AppRemoteControl;
     'AppRunning': Components.AppRunning;
     'AppMiscBackstory': Components.AppMiscBackstory;
     'AppMiscCollections': Components.AppMiscCollections;
@@ -225,6 +229,7 @@ declare global {
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
     'app-publishing': Components.AppPublishingAttributes;
+    'app-remote-control': Components.AppRemoteControlAttributes;
     'app-running': Components.AppRunningAttributes;
     'app-misc-backstory': Components.AppMiscBackstoryAttributes;
     'app-misc-collections': Components.AppMiscCollectionsAttributes;
@@ -399,6 +404,12 @@ declare global {
     new (): HTMLAppPublishingElement;
   };
 
+  interface HTMLAppRemoteControlElement extends Components.AppRemoteControl, HTMLStencilElement {}
+  var HTMLAppRemoteControlElement: {
+    prototype: HTMLAppRemoteControlElement;
+    new (): HTMLAppRemoteControlElement;
+  };
+
   interface HTMLAppRunningElement extends Components.AppRunning, HTMLStencilElement {}
   var HTMLAppRunningElement: {
     prototype: HTMLAppRunningElement;
@@ -516,6 +527,7 @@ declare global {
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
     'app-publishing': HTMLAppPublishingElement
+    'app-remote-control': HTMLAppRemoteControlElement
     'app-running': HTMLAppRunningElement
     'app-misc-backstory': HTMLAppMiscBackstoryElement
     'app-misc-collections': HTMLAppMiscCollectionsElement
@@ -560,6 +572,7 @@ declare global {
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
     'app-publishing': HTMLAppPublishingElement;
+    'app-remote-control': HTMLAppRemoteControlElement;
     'app-running': HTMLAppRunningElement;
     'app-misc-backstory': HTMLAppMiscBackstoryElement;
     'app-misc-collections': HTMLAppMiscCollectionsElement;
