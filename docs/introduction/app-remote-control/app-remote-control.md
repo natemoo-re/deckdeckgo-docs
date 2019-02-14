@@ -23,7 +23,7 @@ One a presentation would be linked with the [remote control], the communication 
 Better than a description, the DeckDeckGo website implement a deck and receiver to let you interact with this application, just give it a try:
 
 1. Open the DeckDeckGo website 👉 https://deckdeckgo.com
-2. Start this Progressive Web App 👉 https://deckdeckgo.app
+2. Start the [remote control] PWA 👉 https://deckdeckgo.app
 3. Have fun 🎉
 
 ## Control your slides
