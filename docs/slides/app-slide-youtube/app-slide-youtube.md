@@ -91,4 +91,13 @@ const slide = deck.getElementsByTagName('deckgo-slide-youtube');
 await slide.pause();
 ```
 
+### Toggle the video
+
+Toggle will take care to pause or play the video according its current state.
+
+```
+const slide = deck.getElementsByTagName('deckgo-slide-youtube');
+await slide.toggle();
+```
+
 [DeckDeckGo]: https://deckdeckgo.com

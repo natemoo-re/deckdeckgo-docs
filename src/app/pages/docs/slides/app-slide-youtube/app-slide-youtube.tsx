@@ -152,6 +152,10 @@ export class AppSlideYoutube {
     </deckgo-highlight-code><h3 id="app-slide-youtube-pause-the-video">Pause the video</h3>
 <deckgo-highlight-code language="javascript">
       <code slot="code">const slide = deck.getElementsByTagName(&#039;deckgo-slide-youtube&#039;);{'\n'}await slide.pause();</code>
+    </deckgo-highlight-code><h3 id="app-slide-youtube-toggle-the-video">Toggle the video</h3>
+<p>Toggle will take care to pause or play the video according its current state.</p>
+<deckgo-highlight-code language="javascript">
+      <code slot="code">const slide = deck.getElementsByTagName(&#039;deckgo-slide-youtube&#039;);{'\n'}await slide.toggle();</code>
     </deckgo-highlight-code></main>
 
         <app-footer></app-footer>
