@@ -104,6 +104,9 @@ export namespace Components {
   interface AppIntroduction {}
   interface AppIntroductionAttributes extends StencilHTMLAttributes {}
 
+  interface AppPublishing {}
+  interface AppPublishingAttributes extends StencilHTMLAttributes {}
+
   interface AppMiscBackstory {}
   interface AppMiscBackstoryAttributes extends StencilHTMLAttributes {}
 
@@ -174,6 +177,7 @@ declare global {
     'AppEditTheming': Components.AppEditTheming;
     'AppInstallation': Components.AppInstallation;
     'AppIntroduction': Components.AppIntroduction;
+    'AppPublishing': Components.AppPublishing;
     'AppMiscBackstory': Components.AppMiscBackstory;
     'AppMiscCollections': Components.AppMiscCollections;
     'AppMiscLogo': Components.AppMiscLogo;
@@ -216,6 +220,7 @@ declare global {
     'app-edit-theming': Components.AppEditThemingAttributes;
     'app-installation': Components.AppInstallationAttributes;
     'app-introduction': Components.AppIntroductionAttributes;
+    'app-publishing': Components.AppPublishingAttributes;
     'app-misc-backstory': Components.AppMiscBackstoryAttributes;
     'app-misc-collections': Components.AppMiscCollectionsAttributes;
     'app-misc-logo': Components.AppMiscLogoAttributes;
@@ -383,6 +388,12 @@ declare global {
     new (): HTMLAppIntroductionElement;
   };
 
+  interface HTMLAppPublishingElement extends Components.AppPublishing, HTMLStencilElement {}
+  var HTMLAppPublishingElement: {
+    prototype: HTMLAppPublishingElement;
+    new (): HTMLAppPublishingElement;
+  };
+
   interface HTMLAppMiscBackstoryElement extends Components.AppMiscBackstory, HTMLStencilElement {}
   var HTMLAppMiscBackstoryElement: {
     prototype: HTMLAppMiscBackstoryElement;
@@ -493,6 +504,7 @@ declare global {
     'app-edit-theming': HTMLAppEditThemingElement
     'app-installation': HTMLAppInstallationElement
     'app-introduction': HTMLAppIntroductionElement
+    'app-publishing': HTMLAppPublishingElement
     'app-misc-backstory': HTMLAppMiscBackstoryElement
     'app-misc-collections': HTMLAppMiscCollectionsElement
     'app-misc-logo': HTMLAppMiscLogoElement
@@ -535,6 +547,7 @@ declare global {
     'app-edit-theming': HTMLAppEditThemingElement;
     'app-installation': HTMLAppInstallationElement;
     'app-introduction': HTMLAppIntroductionElement;
+    'app-publishing': HTMLAppPublishingElement;
     'app-misc-backstory': HTMLAppMiscBackstoryElement;
     'app-misc-collections': HTMLAppMiscCollectionsElement;
     'app-misc-logo': HTMLAppMiscLogoElement;
