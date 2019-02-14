@@ -20,6 +20,8 @@ If you wish to develop your presentation without adding it to the list of availa
 npm run start-no-remote
 ```
 
+> Furthermore to serve your deck, both above commands are watching your presentation's source files for changes and will trigger a new build and reload in case of modifications
+
 [lite-server](https://github.com/johnpapa/lite-server) is use as integrated dev server.
 
 ## Online

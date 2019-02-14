@@ -39,7 +39,10 @@ export class AppRunning {
     </deckgo-highlight-code><p>If you wish to develop your presentation without adding it to the list of available deck of the remote control, run the following command instead:</p>
 <deckgo-highlight-code language="bash">
       <code slot="code">npm run start-no-remote</code>
-    </deckgo-highlight-code><p><a href="https://github.com/johnpapa/lite-server">lite-server</a> is use as integrated dev server.</p>
+    </deckgo-highlight-code><blockquote>
+<p>Furthermore to serve your deck, both above commands are watching your presentation&#39;s source files for changes and will trigger a new build and reload in case of modifications</p>
+</blockquote>
+<p><a href="https://github.com/johnpapa/lite-server">lite-server</a> is use as integrated dev server.</p>
 <h2 id="app-running-online">Online</h2>
 <p>If you are looking to showcase your presentation from an online URL, have a look to the next chapter <a href="/docs/publishing">publishing</a> before deploying your deck on your hosting solution.</p>
 </main>
